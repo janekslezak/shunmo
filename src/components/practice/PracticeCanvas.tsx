@@ -32,6 +32,8 @@ interface PracticeCanvasProps {
   reducedMotion: boolean;
   /** drill mode: corner toggles are hidden (grid + outline forced off) */
   lockToggles?: boolean;
+  /** quiz mode: hide the outline toggle (drills force the outline per stage) */
+  lockOutline?: boolean;
   onGridToggle: () => void;
   onOutlineToggle: () => void;
   onLoopToggle: () => void;
@@ -72,6 +74,7 @@ const PracticeCanvas = forwardRef<PracticeCanvasHandle, PracticeCanvasProps>(fun
     outlineOn,
     reducedMotion,
     lockToggles = false,
+    lockOutline = false,
     onGridToggle,
     onOutlineToggle,
     onLoopToggle,
@@ -427,7 +430,7 @@ const PracticeCanvas = forwardRef<PracticeCanvasHandle, PracticeCanvasProps>(fun
               >
                 <Grid2x2 size={18} />
               </button>
-              {mode === "quiz" && (
+              {mode === "quiz" && !lockOutline && (
                 <button
                   type="button"
                   aria-label="Toggle character outline"

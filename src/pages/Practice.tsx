@@ -31,7 +31,8 @@ import { useProgress } from "@/hooks/useProgress";
 import { useSpeech } from "@/hooks/useSpeech";
 import { getSettings } from "@/components/settings/settings";
 import DrillCompleteCard from "@/components/drills/DrillCompleteCard";
-import { getDialogue, getDrillChars, getNextDrillDialogue } from "@/components/drills/drill";
+import DrillStageTransition from "@/components/drills/DrillStageTransition";
+import { getDialogue, getDrillChars, getNextDrillDialogue, shuffleDrillChars } from "@/components/drills/drill";
 
 const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number];
 const SPEEDS = [0.5, 1, 2] as const;
@@ -77,8 +78,15 @@ interface DrillState {
   id: string;
   title: string;
   titleZh: string;
+  /** stage-1 guided order (dialogue order) */
   chars: string[];
+  /** stage-2 test order (shuffled when the test starts) */
+  testChars: string[];
+  /** 1 = guided (outline + grid), 2 = test (no outline) */
+  stage: 1 | 2;
   index: number;
+  /** stage 1 finished — interstitial "Take the test?" card is showing */
+  awaitingTest: boolean;
   complete: boolean;
 }
 
@@ -212,13 +220,23 @@ export default function Practice() {
     if (!d || drillRef.current?.id === d.id) return;
     const chars = getDrillChars(d);
     if (chars.length === 0) return;
-    const next: DrillState = { id: d.id, title: d.title, titleZh: d.titleZh, chars, index: 0, complete: false };
+    const next: DrillState = {
+      id: d.id,
+      title: d.title,
+      titleZh: d.titleZh,
+      chars,
+      testChars: chars,
+      stage: 1,
+      index: 0,
+      awaitingTest: false,
+      complete: false,
+    };
     drillRef.current = next;
     setDrill(next);
-    /* drill = advanced challenge: quiz only, outline + grid forced hidden */
+    /* drill stage 1 = guided: quiz with outline + grid visible */
     setMode("quiz");
-    setGridOn(false);
-    setOutlineOn(false);
+    setGridOn(true);
+    setOutlineOn(true);
     ghostKeyRef.current += 1;
     setGhost({ char: charRef.current, key: ghostKeyRef.current });
     charRef.current = chars[0];
@@ -307,37 +325,46 @@ export default function Practice() {
     const c = charRef.current;
     setQuiz((q) => ({ ...q, complete: true, done: totalStrokes }));
     stats.recordQuiz(c, mistakes, assistedRef.current);
-    touchStreak();
 
     const d = drillRef.current;
     if (d) {
-      /* drill: outline + grid are forced hidden, so every completion masters the
-         character, then the drill auto-advances after a brief jade flash */
-      markMastered(c);
+      /* two-stage drill: stage 1 (guided) records practice stats only; stage 2
+         (test, outline hidden) masters the character. Auto-advance after a
+         brief jade flash. */
+      if (d.stage === 2) markMastered(c);
       if (advanceTimerRef.current !== null) window.clearTimeout(advanceTimerRef.current);
       advanceTimerRef.current = window.setTimeout(
         () => {
           advanceTimerRef.current = null;
           const cur = drillRef.current;
-          if (!cur || cur.complete) return;
+          if (!cur || cur.complete || cur.awaitingTest) return;
+          const seq = cur.stage === 1 ? cur.chars : cur.testChars;
           const nextIndex = cur.index + 1;
-          if (nextIndex >= cur.chars.length) {
-            const fin = { ...cur, complete: true };
-            drillRef.current = fin;
-            setDrill(fin);
-            touchStreak();
+          if (nextIndex >= seq.length) {
+            if (cur.stage === 1) {
+              /* guided round done — show the "Take the test?" interstitial */
+              const wait: DrillState = { ...cur, awaitingTest: true };
+              drillRef.current = wait;
+              setDrill(wait);
+            } else {
+              const fin: DrillState = { ...cur, complete: true };
+              drillRef.current = fin;
+              setDrill(fin);
+              touchStreak();
+            }
             return;
           }
-          const adv = { ...cur, index: nextIndex };
+          const adv: DrillState = { ...cur, index: nextIndex };
           drillRef.current = adv;
           setDrill(adv);
-          changeChar(cur.chars[nextIndex]);
+          changeChar(seq[nextIndex]);
         },
         reducedMotion ? 400 : 900
       );
       return;
     }
 
+    touchStreak();
     /* mastery gating: only an outline-less + grid-less quiz counts as mastered */
     if (!outlineOn && !gridOn) {
       markMastered(c);
@@ -345,6 +372,44 @@ export default function Practice() {
     } else {
       setToast(`Great practice! Turn off outline + grid to master ${c}`);
     }
+  };
+
+  /** move to a drill character; if it's already on canvas, just restart its quiz */
+  const gotoDrillChar = (next: string) => {
+    if (!next) return;
+    if (next === charRef.current) {
+      setStep(1);
+      setQuiz({ done: 0, mistakes: 0, complete: false });
+      assistedRef.current = false;
+      /* restart after the outline/grid state for the new stage has applied */
+      window.setTimeout(() => canvasRef.current?.restartQuiz(), 0);
+      return;
+    }
+    changeChar(next);
+  };
+
+  /** stage transition: begin the no-outline test on a shuffled order */
+  const takeTest = () => {
+    const cur = drillRef.current;
+    if (!cur || cur.complete || !cur.awaitingTest) return;
+    const testChars = shuffleDrillChars(cur.chars);
+    const next: DrillState = { ...cur, testChars, stage: 2, index: 0, awaitingTest: false };
+    drillRef.current = next;
+    setDrill(next);
+    setOutlineOn(false);
+    gotoDrillChar(testChars[0]);
+  };
+
+  /** interstitial ghost action: restart stage 1 (guided) from the top */
+  const practiceAgain = () => {
+    const cur = drillRef.current;
+    if (!cur || cur.complete) return;
+    const next: DrillState = { ...cur, stage: 1, index: 0, awaitingTest: false };
+    drillRef.current = next;
+    setDrill(next);
+    setOutlineOn(true);
+    setGridOn(true);
+    gotoDrillChar(cur.chars[0]);
   };
 
   const onOutlineToggle = () => {
@@ -384,8 +449,16 @@ export default function Practice() {
   const levelChipCls =
     info?.level === 2 ? "bg-gold/10 text-gold" : "bg-jade/10 text-jade";
 
-  const drillDoneCount = drill ? (drill.complete ? drill.chars.length : drill.index) : 0;
   const nextDrill = drill && drill.complete ? getNextDrillDialogue(drill.id) : null;
+
+  /** drill header progress line, e.g. "Stage 1 · Guided — 3 / 12" */
+  const drillProgress = drill
+    ? drill.complete
+      ? `${drill.chars.length} / ${drill.chars.length} mastered`
+      : drill.stage === 1
+        ? `Stage 1 · Guided — ${drill.awaitingTest ? drill.chars.length : drill.index + 1} / ${drill.chars.length}`
+        : `Stage 2 · Test — ${drill.index + 1} / ${drill.testChars.length}`
+    : "";
 
   /** 44px wash-blue speaker button with animated sound-bars while speaking */
   const speakerButton = (
@@ -415,9 +488,7 @@ export default function Practice() {
             <p className="truncate text-[13px] font-bold text-ink">
               <span lang="zh" className="font-cjk">{drill.titleZh}</span> · {drill.title}
             </p>
-            <p className="text-[12px] font-semibold text-jade">
-              {drillDoneCount} / {drill.chars.length} mastered
-            </p>
+            <p className="text-[12px] font-semibold text-jade">{drillProgress}</p>
           </div>
           {speakerButton}
         </motion.section>
@@ -464,12 +535,14 @@ export default function Practice() {
       )}
 
       {/* drill explainer (shown at drill start) */}
-      {drill && !drill.complete && drill.index === 0 && !quiz.complete && (
+      {drill && !drill.complete && drill.stage === 1 && !drill.awaitingTest && drill.index === 0 && !quiz.complete && (
         <motion.p
           variants={sectionVariants}
           className="rounded-2xl border border-jade/30 bg-jade/5 px-4 py-2.5 text-[13px] font-semibold text-ink-soft"
         >
-          Advanced drill — write each character from this dialogue. Outline and grid are hidden.
+          Two-stage drill — <span className="font-cjk">学习</span> first: practice each character with the
+          outline and grid. Then <span className="font-cjk">测试</span>: the test hides the outline (grid
+          optional) and masters each character you write.
         </motion.p>
       )}
 
@@ -514,7 +587,9 @@ export default function Practice() {
               gridOn={gridOn}
               outlineOn={outlineOn}
               reducedMotion={reducedMotion ?? false}
-              lockToggles={drill !== null}
+              /* drills lock the outline per stage (on in guided, off in test);
+                 the grid toggle stays available in both stages */
+              lockOutline={drill !== null}
               onGridToggle={() => setGridOn((v) => !v)}
               onOutlineToggle={onOutlineToggle}
               onLoopToggle={() => setLoopOn((v) => !v)}
@@ -743,7 +818,13 @@ export default function Practice() {
               >
                 <motion.p variants={helperItem} className="flex-1 text-[13px] font-bold text-jade">
                   <BadgeCheck size={15} className="mr-1 inline-block -mt-0.5" />
-                  {drill.complete ? "Drill complete!" : "Correct — next up…"}
+                  {drill.complete
+                    ? "Guided + test complete!"
+                    : drill.awaitingTest
+                      ? "Guided round complete!"
+                      : drill.stage === 1
+                        ? "Nicely traced — next up…"
+                        : "Correct — mastered! Next up…"}
                 </motion.p>
               </motion.div>
             )}
@@ -832,6 +913,17 @@ export default function Practice() {
           <Chip label="HSK-2" tone="gold" selected={levelFilter === 2} onClick={() => changeFilter(2)} />
         </div>
       </motion.section>
+      )}
+
+      {/* ── Stage transition: guided round done → take the test ─────── */}
+      {drill?.awaitingTest && !drill.complete && (
+        <motion.section variants={sectionVariants} className="pb-2">
+          <DrillStageTransition
+            count={drill.chars.length}
+            onTakeTest={takeTest}
+            onPracticeAgain={practiceAgain}
+          />
+        </motion.section>
       )}
 
       {/* ── Drill completion card ───────────────────────────────────── */}

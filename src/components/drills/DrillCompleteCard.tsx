@@ -52,12 +52,12 @@ export default function DrillCompleteCard({ count, onBackToDialogue, onNextDrill
         />
       </svg>
 
-      <h3 className="relative mt-4 font-display text-[20px] font-bold text-ink">Drill complete!</h3>
+      <h3 className="relative mt-4 font-display text-[20px] font-bold text-ink">Guided + test complete!</h3>
       <p className="relative mt-1 text-[15px] text-ink-soft">
         <span className="font-bold text-jade">{count}</span> character{count === 1 ? "" : "s"} mastered
       </p>
       <p lang="zh" className="relative mt-0.5 font-cjk text-[13px] text-ink-faint">
-        写得真好。<span className="font-sans not-italic"> Written from memory — no outline, no grid.</span>
+        写得真好。<span className="font-sans not-italic"> Guided practice, then tested from memory — no outline.</span>
       </p>
 
       <div className="relative mt-6 flex flex-col gap-2.5">

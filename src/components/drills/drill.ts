@@ -22,6 +22,16 @@ export function getDrillChars(dialogue: Dialogue, cap = DRILL_CAP): string[] {
   return out;
 }
 
+/** Fisher–Yates shuffled copy (used for the stage-2 test order) */
+export function shuffleDrillChars(chars: string[]): string[] {
+  const out = [...chars];
+  for (let i = out.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
 export function getDialogue(id: string | null | undefined): Dialogue | undefined {
   if (!id) return undefined;
   return dialogues.find((d) => d.id === id);
