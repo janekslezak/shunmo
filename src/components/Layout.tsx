@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Github } from "lucide-react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import InstallPrompt from "./InstallPrompt";
 
 const TAB_ORDER = ["/", "/practice", "/review", "/dialogues", "/words"];
 
@@ -92,6 +93,7 @@ export default function Layout() {
       </footer>
 
       <Footer />
+      <InstallPrompt />
     </div>
   );
 }
