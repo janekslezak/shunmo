@@ -31,6 +31,18 @@ const GRADES: Array<{ grade: Grade; label: string; cls: string }> = [
 
 const wordById = new Map(words.map((w) => [w.word, w]));
 
+/** Front-face sizing for multi-character words: one TianGrid cell per character, keyed by Math.min(count, 4). */
+const MULTI_CELL_SIZE: Record<number, string> = {
+  2: "h-[132px] w-[132px]",
+  3: "h-[96px] w-[96px]",
+  4: "h-[76px] w-[76px]",
+};
+const MULTI_CELL_FONT: Record<number, string> = {
+  2: "text-[96px]",
+  3: "text-[72px]",
+  4: "text-[56px]",
+};
+
 interface DialogueHit {
   dialogueId: string;
   zh: string;
@@ -260,6 +272,10 @@ export default function Review() {
   /* ------------------------------ card state ----------------------------- */
   if (!current) return null;
   const state = getCardState(current.word);
+  const chars = Array.from(current.word);
+  const charCount = chars.length;
+  const multiCell = MULTI_CELL_SIZE[Math.min(charCount, 4)] ?? "h-[64px] w-[64px]";
+  const multiFont = MULTI_CELL_FONT[Math.min(charCount, 4)] ?? "text-[48px]";
 
   return (
     <div className="pt-6">
@@ -300,11 +316,31 @@ export default function Review() {
             >
               {/* front */}
               <div className="absolute inset-0 overflow-hidden rounded-[20px] bg-paper-raised shadow-soft [backface-visibility:hidden]">
-                <TianGrid className="absolute inset-0 m-auto h-[280px] w-[280px] opacity-60" strokeWidth={0.9} />
+                {charCount === 1 && (
+                  <TianGrid className="absolute inset-0 m-auto h-[280px] w-[280px] opacity-60" strokeWidth={0.9} />
+                )}
                 <div className="relative flex h-full flex-col items-center justify-center">
-                  <span className="font-cjk text-[120px] leading-none text-ink">
-                    {current.word}
-                  </span>
+                  {charCount === 1 ? (
+                    <span className="font-cjk text-[120px] leading-none text-ink">
+                      {current.word}
+                    </span>
+                  ) : (
+                    <div
+                      className={`flex max-w-full items-center justify-center gap-2 ${
+                        charCount > 4 ? "flex-wrap" : ""
+                      }`}
+                    >
+                      {chars.map((ch, i) => (
+                        <div
+                          key={`${ch}-${i}`}
+                          className={`relative flex aspect-square items-center justify-center font-cjk leading-none text-ink ${multiCell} ${multiFont}`}
+                        >
+                          <TianGrid className="absolute inset-0 h-full w-full opacity-60" strokeWidth={0.9} />
+                          {ch}
+                        </div>
+                      ))}
+                    </div>
+                  )}
                   <button
                     type="button"
                     onClick={(e) => {
@@ -335,7 +371,13 @@ export default function Review() {
                   </span>
                   {/* back = answer: pinyin always shown, regardless of global toggle */}
                   <p className="text-[17px] font-semibold italic text-wash-blue">{current.pinyin}</p>
-                  <p className="font-cjk text-[44px] leading-tight text-ink">{current.word}</p>
+                  <p
+                    className={`whitespace-nowrap font-cjk leading-tight text-ink ${
+                      charCount >= 4 ? "text-[34px]" : "text-[44px]"
+                    }`}
+                  >
+                    {current.word}
+                  </p>
                   <p className="text-[16px] font-bold text-ink">{current.gloss}</p>
 
                   {example && (
