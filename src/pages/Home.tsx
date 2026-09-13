@@ -201,14 +201,14 @@ export default function Home() {
           alt=""
           aria-hidden="true"
           style={reduced ? undefined : { y: brushY }}
-          className="pointer-events-none absolute top-12 left-1/2 w-full max-w-[400px] -translate-x-1/2 opacity-30 dark:opacity-40 [mask-image:linear-gradient(to_bottom,transparent,black_55%)]"
+          className="pointer-events-none absolute left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 opacity-25 dark:opacity-30"
         />
         <div className="relative">
           <motion.h2
             initial={{ clipPath: "inset(0 100% 0 0)" }}
             animate={{ clipPath: "inset(0 0% 0 0)" }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="font-display text-[34px] font-bold leading-[40px] text-ink [text-shadow:0_0_14px_#F6F1E5,0_1px_3px_#F6F1E5] dark:[text-shadow:0_0_14px_#17150F,0_1px_3px_#17150F]"
+            className="font-display text-[34px] font-bold leading-[40px] text-vermilion [text-shadow:0_0_14px_#F6F1E5,0_1px_3px_#F6F1E5] dark:[text-shadow:0_0_14px_#17150F,0_1px_3px_#17150F]"
           >
             <span className="font-brush text-[38px]">
               {g.zh.replace("，", "")}

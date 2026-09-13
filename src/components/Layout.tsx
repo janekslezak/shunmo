@@ -1,6 +1,6 @@
 import { Outlet, useLocation } from "react-router";
 import { motion } from "framer-motion";
-import { Github } from "lucide-react";
+import { Github, Coffee } from "lucide-react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import InstallPrompt from "./InstallPrompt";
@@ -88,6 +88,16 @@ export default function Layout() {
             className="inline-flex items-center gap-1 font-semibold text-ink-faint transition-colors hover:text-ink"
           >
             Code of Conduct
+          </a>
+          <a
+            href="https://buycoffee.to/zhishui"
+            target="_blank"
+            rel="noopener"
+            className="inline-flex items-center gap-1 text-ink-faint/80 transition-colors hover:text-gold"
+            aria-label="Buy me a coffee"
+            title="Buy me a coffee"
+          >
+            <Coffee size={13} />
           </a>
         </p>
       </footer>
