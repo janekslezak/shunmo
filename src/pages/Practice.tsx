@@ -347,8 +347,15 @@ export default function Practice() {
     const d = drillRef.current;
     if (d) {
       /* two-stage drill: stage 1 (guided) records practice stats only; stage 2
-         (test, outline hidden) masters the character. Auto-advance after a
-         brief jade flash. */
+         (test, outline hidden) masters the character only on a clean run.
+         Auto-advance after a brief jade flash — a flawed test stays put so the
+         learner can retry the same character. */
+      if (d.stage === 2 && mistakes > 0) {
+        if (advanceTimerRef.current !== null) window.clearTimeout(advanceTimerRef.current);
+        advanceTimerRef.current = null;
+        setToast(`${c}: ${mistakes} mistake${mistakes === 1 ? "" : "s"} — Retry to master`);
+        return;
+      }
       if (d.stage === 2) markMastered(c);
       if (advanceTimerRef.current !== null) window.clearTimeout(advanceTimerRef.current);
       advanceTimerRef.current = window.setTimeout(
@@ -383,12 +390,14 @@ export default function Practice() {
     }
 
     touchStreak();
-    /* mastery gating: only an outline-less + grid-less quiz counts as mastered */
-    if (!outlineOn && !gridOn) {
+    /* mastery gating: only a clean, outline-less + grid-less quiz counts as mastered */
+    if (mistakes === 0 && !outlineOn && !gridOn) {
       markMastered(c);
       setToast(`${c} mastered! +1`);
-    } else {
+    } else if (mistakes === 0) {
       setToast(`Great practice! Turn off outline + grid to master ${c}`);
+    } else {
+      setToast(`${mistakes} mistake${mistakes === 1 ? "" : "s"} — Retry with no mistakes to master ${c}`);
     }
   };
 
@@ -447,7 +456,12 @@ export default function Practice() {
     setQuiz((q) => ({ ...q, done: Math.min(q.done + 1, totalStrokes) }));
   };
 
+  /** retry the current quiz from stroke 1; cancels any pending drill auto-advance */
   const onRestartQuiz = () => {
+    if (advanceTimerRef.current !== null) {
+      window.clearTimeout(advanceTimerRef.current);
+      advanceTimerRef.current = null;
+    }
     setQuiz({ done: 0, mistakes: 0, complete: false });
     assistedRef.current = false;
     canvasRef.current?.restartQuiz();
@@ -468,6 +482,10 @@ export default function Practice() {
     info?.level === 2 ? "bg-gold/10 text-gold" : "bg-jade/10 text-jade";
 
   const nextDrill = drill && drill.complete ? getNextDrillDialogue(drill.id) : null;
+
+  /** stage-2 test finished with mistakes — no mastery, no auto-advance; retry */
+  const failedTest =
+    drill !== null && !drill.complete && !drill.awaitingTest && drill.stage === 2 && quiz.complete && quiz.mistakes > 0;
 
   /** drill header progress line, e.g. "Stage 1 · Guided — 3 / 12" */
   const drillProgress = drill
@@ -843,10 +861,11 @@ export default function Practice() {
                   variants={helperItem}
                   type="button"
                   onClick={onRestartQuiz}
-                  className="flex h-11 items-center gap-1.5 rounded-2xl border border-ink/20 bg-transparent px-4 text-[13px] font-extrabold text-ink transition-colors hover:border-vermilion/50 hover:text-vermilion active:scale-95"
+                  aria-label="Retry quiz from stroke 1"
+                  className="flex h-11 items-center gap-1.5 rounded-full border border-ink-faint/40 bg-transparent px-4 text-[13px] font-bold text-ink transition-colors hover:border-vermilion/50 hover:text-vermilion active:scale-95"
                 >
                   <RotateCcw size={15} />
-                  Restart
+                  Retry
                 </motion.button>
               </motion.div>
             )}
@@ -860,16 +879,31 @@ export default function Practice() {
                 exit={{ opacity: 0, transition: { duration: 0.15 } }}
                 className="flex items-center gap-2"
               >
-                <motion.p variants={helperItem} className="flex-1 text-[13px] font-bold text-jade">
-                  <BadgeCheck size={15} className="mr-1 inline-block -mt-0.5" />
+                <motion.p
+                  variants={helperItem}
+                  className={`flex-1 text-[13px] font-bold ${failedTest ? "text-error" : "text-jade"}`}
+                >
+                  {!failedTest && <BadgeCheck size={15} className="mr-1 inline-block -mt-0.5" />}
                   {drill.complete
                     ? "Guided + test complete!"
                     : drill.awaitingTest
                       ? "Guided round complete!"
                       : drill.stage === 1
                         ? "Nicely traced — next up…"
-                        : "Correct — mastered! Next up…"}
+                        : failedTest
+                          ? `${quiz.mistakes} mistake${quiz.mistakes === 1 ? "" : "s"} — Retry to master`
+                          : "Correct — mastered! Next up…"}
                 </motion.p>
+                <motion.button
+                  variants={helperItem}
+                  type="button"
+                  onClick={onRestartQuiz}
+                  aria-label="Retry quiz from stroke 1"
+                  className="flex h-11 items-center gap-1.5 rounded-full border border-ink-faint/40 bg-transparent px-4 text-[13px] font-bold text-ink transition-colors hover:border-vermilion/50 hover:text-vermilion active:scale-95"
+                >
+                  <RotateCcw size={15} />
+                  Retry
+                </motion.button>
               </motion.div>
             )}
 
@@ -882,6 +916,16 @@ export default function Practice() {
                 exit={{ opacity: 0, transition: { duration: 0.15 } }}
                 className="flex items-center gap-2"
               >
+                <motion.button
+                  variants={helperItem}
+                  type="button"
+                  onClick={onRestartQuiz}
+                  aria-label="Retry quiz from stroke 1"
+                  className="flex h-12 items-center gap-1.5 rounded-full border border-ink-faint/40 bg-transparent px-4 text-[13px] font-bold text-ink transition-colors hover:border-vermilion/50 hover:text-vermilion active:scale-95"
+                >
+                  <RotateCcw size={15} />
+                  Retry
+                </motion.button>
                 <motion.button
                   variants={helperItem}
                   type="button"
