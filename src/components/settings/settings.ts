@@ -40,7 +40,7 @@ export const DEFAULT_SETTINGS: AppSettings = {
   speechRate: 0.85,
   voiceURI: null,
   autoplayStrokes: true,
-  theme: "auto",
+  theme: "light",
   showGrid: true,
 };
 

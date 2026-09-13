@@ -261,8 +261,19 @@ export default function Practice() {
   const week = stats.last7Days(char);
   const mastered = isMastered(char);
 
-  const changeChar = (next: string) => {
-    if (!next || next === charRef.current) return;
+  /**
+   * Load a character. `fresh` (post-mastery "Next character" / "Random"):
+   * return to the animation pane with the canvas defaults restored
+   * (grid on, outline on) so the new character auto-plays its animation.
+   */
+  const changeChar = (next: string, opts?: { fresh?: boolean }) => {
+    if (!next) return;
+    if (opts?.fresh) {
+      setMode("animate");
+      setGridOn(true);
+      setOutlineOn(true);
+    }
+    if (next === charRef.current) return;
     ghostKeyRef.current += 1;
     setGhost({ char: charRef.current, key: ghostKeyRef.current });
     charRef.current = next;
@@ -286,15 +297,22 @@ export default function Practice() {
     changeChar(pool[(i + 1) % pool.length].char);
   };
 
+  /** quiz-completion "Next character": fresh load → animate pane, grid + outline restored */
+  const goNextFresh = () => {
+    if (pool.length === 0) return;
+    const i = Math.max(0, pool.findIndex((c) => c.char === charRef.current));
+    changeChar(pool[(i + 1) % pool.length].char, { fresh: true });
+  };
+
   /** random with slot-machine quick cycle (3 flashes, 80ms each, then settle) */
-  const runRandom = (source?: typeof characters) => {
+  const runRandom = (source?: typeof characters, opts?: { fresh?: boolean }) => {
     const base = source ?? pool;
     const list = base.length > 1 ? base.filter((c) => c.char !== charRef.current) : base;
     if (list.length === 0) return;
     setWiggle((w) => w + 1);
     const final = list[Math.floor(Math.random() * list.length)].char;
     if (reducedMotion || list.length === 1) {
-      changeChar(final);
+      changeChar(final, opts);
       return;
     }
     let n = 0;
@@ -306,7 +324,7 @@ export default function Practice() {
         if (slotTimerRef.current !== null) window.clearInterval(slotTimerRef.current);
         slotTimerRef.current = null;
         setSlotChar(null);
-        changeChar(final);
+        changeChar(final, opts);
       } else {
         setSlotChar(list[Math.floor(Math.random() * list.length)].char);
       }
@@ -476,7 +494,7 @@ export default function Practice() {
     <motion.div initial="hidden" animate="visible" variants={pageVariants} className="space-y-4 pt-2">
       {/* ── Section 1: practice top bar (drill header while drilling) ── */}
       {drill ? (
-        <motion.section variants={sectionVariants} className="flex h-12 items-center gap-2">
+        <motion.section variants={sectionVariants} className="flex min-h-12 items-center gap-2">
           <Link
             to={`/dialogues/${drill.id}`}
             aria-label={`Back to dialogue ${drill.title}`}
@@ -488,8 +506,34 @@ export default function Practice() {
             <p className="truncate text-[13px] font-bold text-ink">
               <span lang="zh" className="font-cjk">{drill.titleZh}</span> · {drill.title}
             </p>
+            <AnimatePresence initial={false}>
+              {showPinyin && (
+                <motion.span
+                  initial={{ height: 0, opacity: 0 }}
+                  animate={{ height: "auto", opacity: 1 }}
+                  exit={{ height: 0, opacity: 0 }}
+                  transition={{ duration: 0.25 }}
+                  className="block overflow-hidden text-[16px] font-semibold italic leading-6 text-wash-blue"
+                >
+                  {info?.pinyin ?? ""}
+                </motion.span>
+              )}
+            </AnimatePresence>
             <p className="text-[12px] font-semibold text-jade">{drillProgress}</p>
           </div>
+          <button
+            type="button"
+            onClick={togglePinyin}
+            aria-pressed={showPinyin}
+            aria-label="Toggle pinyin in this drill"
+            className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full border text-[13px] font-extrabold transition-all active:scale-95 ${
+              showPinyin
+                ? "border-wash-blue/60 bg-wash-blue/10 text-wash-blue"
+                : "border-ink-faint/40 bg-transparent text-ink-faint"
+            }`}
+          >
+            拼
+          </button>
           {speakerButton}
         </motion.section>
       ) : (
@@ -841,7 +885,7 @@ export default function Practice() {
                 <motion.button
                   variants={helperItem}
                   type="button"
-                  onClick={goNext}
+                  onClick={goNextFresh}
                   className="flex h-12 flex-1 items-center justify-center gap-1.5 rounded-2xl bg-vermilion text-[14px] font-extrabold text-paper-raised shadow-soft transition-transform active:scale-95"
                 >
                   Next character
@@ -850,7 +894,7 @@ export default function Practice() {
                 <motion.button
                   variants={helperItem}
                   type="button"
-                  onClick={() => runRandom()}
+                  onClick={() => runRandom(undefined, { fresh: true })}
                   className="flex h-12 items-center gap-1.5 rounded-2xl border border-ink/20 bg-transparent px-5 text-[14px] font-extrabold text-ink transition-colors hover:border-gold/60 hover:text-gold active:scale-95"
                 >
                   <Dices size={16} />
