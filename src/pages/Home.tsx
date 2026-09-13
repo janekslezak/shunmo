@@ -197,14 +197,14 @@ export default function Home() {
           alt=""
           aria-hidden="true"
           style={reduced ? undefined : { y: brushY }}
-          className="pointer-events-none absolute -top-4 left-1/2 w-[120%] max-w-none -translate-x-1/2 opacity-90"
+          className="pointer-events-none absolute top-12 left-1/2 w-[130%] max-w-none -translate-x-1/2 opacity-40 dark:opacity-55 [mask-image:linear-gradient(to_bottom,transparent,black_55%)]"
         />
         <div className="relative">
           <motion.h2
             initial={{ clipPath: "inset(0 100% 0 0)" }}
             animate={{ clipPath: "inset(0 0% 0 0)" }}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="font-display text-[34px] font-bold leading-[40px] text-ink"
+            className="font-display text-[34px] font-bold leading-[40px] text-ink [text-shadow:0_0_14px_#F6F1E5,0_1px_3px_#F6F1E5] dark:[text-shadow:0_0_14px_#17150F,0_1px_3px_#17150F]"
           >
             <span className="font-brush text-[38px]">
               {g.zh.replace("，", "")}
@@ -216,7 +216,7 @@ export default function Home() {
             initial={{ y: 12, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.4, delay: 0.3, ease: EASE }}
-            className="mt-2 text-[15px] font-semibold text-ink-soft"
+            className="mt-2 text-[15px] font-semibold text-ink [text-shadow:0_0_12px_#F6F1E5,0_1px_2px_#F6F1E5] dark:text-ink-soft dark:[text-shadow:0_0_12px_#17150F,0_1px_2px_#17150F]"
           >
             {motivation}
           </motion.p>
