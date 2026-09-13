@@ -197,11 +197,11 @@ export default function Home() {
       {/* ── Section 2: Greeting hero ── */}
       <section ref={heroRef} className="relative overflow-hidden">
         <motion.img
-          src="/hero-brush.png"
+          src="/hero-brush.svg"
           alt=""
           aria-hidden="true"
           style={reduced ? undefined : { y: brushY }}
-          className="pointer-events-none absolute left-1/2 top-1/2 w-full -translate-x-1/2 -translate-y-1/2 opacity-25 dark:opacity-30"
+          className="pointer-events-none absolute inset-0 h-full w-full object-fill opacity-[0.22] dark:opacity-30"
         />
         <div className="relative">
           <motion.h2

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+  <defs>
+    <filter id="drybrush" x="-10%" y="-30%" width="120%" height="160%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.008 0.18" numOctaves="5" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="70" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="drybrush2" x="-10%" y="-30%" width="120%" height="160%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015 0.25" numOctaves="4" seed="21" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="45" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <linearGradient id="inkfade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#26221B" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#26221B" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#26221B" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <path filter="url(#drybrush)" fill="url(#inkfade)" d="M30,180
+    C140,105 300,90 470,110
+    C660,132 830,150 990,158
+    C1080,162 1150,156 1195,148
+    C1150,180 1080,198 970,208
+    C770,225 580,228 410,242
+    C240,256 100,245 30,180 Z"/>
+  <path filter="url(#drybrush2)" fill="#26221B" fill-opacity="0.4" d="M500,92
+    C680,72 870,80 1030,92
+    C1100,97 1150,95 1180,88
+    C1130,110 1020,118 890,116
+    C720,112 580,108 500,92 Z"/>
+  <path filter="url(#drybrush2)" fill="#26221B" fill-opacity="0.3" d="M180,268
+    C380,258 620,262 830,272
+    C920,276 980,276 1010,270
+    C950,288 820,292 680,290
+    C480,286 280,282 180,268 Z"/>
+  <circle cx="1152" cy="208" r="15" fill="#C8442C" filter="url(#drybrush2)"/>
+</svg>
