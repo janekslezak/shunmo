@@ -1,0 +1,2770 @@
+[
+ {
+  "char": "一",
+  "pinyin": "yī",
+  "gloss": "one",
+  "level": 1,
+  "radical": "一",
+  "strokeCount": 1
+ },
+ {
+  "char": "八",
+  "pinyin": "bā",
+  "gloss": "eight",
+  "level": 1,
+  "radical": "八",
+  "strokeCount": 2
+ },
+ {
+  "char": "儿",
+  "pinyin": "ér",
+  "gloss": "child; son",
+  "level": 1,
+  "radical": "儿",
+  "strokeCount": 2
+ },
+ {
+  "char": "二",
+  "pinyin": "èr",
+  "gloss": "two",
+  "level": 1,
+  "radical": "二",
+  "strokeCount": 2
+ },
+ {
+  "char": "几",
+  "pinyin": "jǐ",
+  "gloss": "how many",
+  "level": 1,
+  "radical": "几",
+  "strokeCount": 2
+ },
+ {
+  "char": "九",
+  "pinyin": "jiǔ",
+  "gloss": "nine",
+  "level": 1,
+  "radical": "乙",
+  "strokeCount": 2
+ },
+ {
+  "char": "了",
+  "pinyin": "le",
+  "gloss": "(aspect)",
+  "level": 1,
+  "radical": "乙",
+  "strokeCount": 2
+ },
+ {
+  "char": "七",
+  "pinyin": "qī",
+  "gloss": "seven",
+  "level": 1,
+  "radical": "一",
+  "strokeCount": 2
+ },
+ {
+  "char": "人",
+  "pinyin": "rén",
+  "gloss": "person; people",
+  "level": 1,
+  "radical": "人",
+  "strokeCount": 2
+ },
+ {
+  "char": "十",
+  "pinyin": "shí",
+  "gloss": "ten",
+  "level": 1,
+  "radical": "十",
+  "strokeCount": 2
+ },
+ {
+  "char": "子",
+  "pinyin": "zi",
+  "gloss": "cup; glass",
+  "level": 1,
+  "radical": "子",
+  "strokeCount": 3
+ },
+ {
+  "char": "大",
+  "pinyin": "dà",
+  "gloss": "big",
+  "level": 1,
+  "radical": "大",
+  "strokeCount": 3
+ },
+ {
+  "char": "飞",
+  "pinyin": "fēi",
+  "gloss": "to fly",
+  "level": 1,
+  "radical": "飞",
+  "strokeCount": 3
+ },
+ {
+  "char": "个",
+  "pinyin": "gè",
+  "gloss": "(measure word)",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 3
+ },
+ {
+  "char": "工",
+  "pinyin": "gōng",
+  "gloss": "to work; job",
+  "level": 1,
+  "radical": "工",
+  "strokeCount": 3
+ },
+ {
+  "char": "女",
+  "pinyin": "nǚ",
+  "gloss": "daughter",
+  "level": 1,
+  "radical": "女",
+  "strokeCount": 3
+ },
+ {
+  "char": "三",
+  "pinyin": "sān",
+  "gloss": "three",
+  "level": 1,
+  "radical": "三",
+  "strokeCount": 3
+ },
+ {
+  "char": "上",
+  "pinyin": "shàng",
+  "gloss": "up; on; to go to",
+  "level": 1,
+  "radical": "一",
+  "strokeCount": 3
+ },
+ {
+  "char": "么",
+  "pinyin": "me",
+  "gloss": "(suffix)",
+  "level": 1,
+  "radical": "丿",
+  "strokeCount": 3
+ },
+ {
+  "char": "下",
+  "pinyin": "xià",
+  "gloss": "down; below; next",
+  "level": 1,
+  "radical": "一",
+  "strokeCount": 3
+ },
+ {
+  "char": "小",
+  "pinyin": "xiǎo",
+  "gloss": "small",
+  "level": 1,
+  "radical": "小",
+  "strokeCount": 3
+ },
+ {
+  "char": "习",
+  "pinyin": "xí",
+  "gloss": "to study; to learn",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 3
+ },
+ {
+  "char": "不",
+  "pinyin": "bù",
+  "gloss": "not",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 4
+ },
+ {
+  "char": "气",
+  "pinyin": "qì",
+  "gloss": "air; qi",
+  "level": 1,
+  "radical": "气",
+  "strokeCount": 4
+ },
+ {
+  "char": "车",
+  "pinyin": "chē",
+  "gloss": "vehicle",
+  "level": 1,
+  "radical": "车",
+  "strokeCount": 4
+ },
+ {
+  "char": "少",
+  "pinyin": "shǎo",
+  "gloss": "few",
+  "level": 1,
+  "radical": "小",
+  "strokeCount": 4
+ },
+ {
+  "char": "分",
+  "pinyin": "fēn",
+  "gloss": "minute; to divide",
+  "level": 1,
+  "radical": "刀",
+  "strokeCount": 4
+ },
+ {
+  "char": "今",
+  "pinyin": "jīn",
+  "gloss": "now; today",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 4
+ },
+ {
+  "char": "天",
+  "pinyin": "tiān",
+  "gloss": "today",
+  "level": 1,
+  "radical": "大",
+  "strokeCount": 4
+ },
+ {
+  "char": "开",
+  "pinyin": "kāi",
+  "gloss": "to open",
+  "level": 1,
+  "radical": "廾",
+  "strokeCount": 4
+ },
+ {
+  "char": "见",
+  "pinyin": "jiàn",
+  "gloss": "to see",
+  "level": 1,
+  "radical": "见",
+  "strokeCount": 4
+ },
+ {
+  "char": "六",
+  "pinyin": "liù",
+  "gloss": "six",
+  "level": 1,
+  "radical": "八",
+  "strokeCount": 4
+ },
+ {
+  "char": "友",
+  "pinyin": "yǒu",
+  "gloss": "friend",
+  "level": 1,
+  "radical": "又",
+  "strokeCount": 4
+ },
+ {
+  "char": "认",
+  "pinyin": "rèn",
+  "gloss": "to recognize",
+  "level": 1,
+  "radical": "讠",
+  "strokeCount": 4
+ },
+ {
+  "char": "午",
+  "pinyin": "wǔ",
+  "gloss": "noon",
+  "level": 1,
+  "radical": "十",
+  "strokeCount": 4
+ },
+ {
+  "char": "什",
+  "pinyin": "shén",
+  "gloss": "what",
+  "level": 1,
+  "radical": "亻",
+  "strokeCount": 4
+ },
+ {
+  "char": "书",
+  "pinyin": "shū",
+  "gloss": "book",
+  "level": 1,
+  "radical": "乙",
+  "strokeCount": 4
+ },
+ {
+  "char": "水",
+  "pinyin": "shuǐ",
+  "gloss": "water",
+  "level": 1,
+  "radical": "水",
+  "strokeCount": 4
+ },
+ {
+  "char": "太",
+  "pinyin": "tài",
+  "gloss": "too",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 4
+ },
+ {
+  "char": "五",
+  "pinyin": "wǔ",
+  "gloss": "five",
+  "level": 1,
+  "radical": "一",
+  "strokeCount": 4
+ },
+ {
+  "char": "月",
+  "pinyin": "yuè",
+  "gloss": "month; moon",
+  "level": 1,
+  "radical": "月",
+  "strokeCount": 4
+ },
+ {
+  "char": "中",
+  "pinyin": "zhōng",
+  "gloss": "middle; China",
+  "level": 1,
+  "radical": "丨",
+  "strokeCount": 4
+ },
+ {
+  "char": "北",
+  "pinyin": "běi",
+  "gloss": "north",
+  "level": 1,
+  "radical": "匕",
+  "strokeCount": 5
+ },
+ {
+  "char": "本",
+  "pinyin": "běn",
+  "gloss": "(measure word)",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 5
+ },
+ {
+  "char": "出",
+  "pinyin": "chū",
+  "gloss": "to go out",
+  "level": 1,
+  "radical": "凵",
+  "strokeCount": 5
+ },
+ {
+  "char": "打",
+  "pinyin": "dǎ",
+  "gloss": "to hit; to play",
+  "level": 1,
+  "radical": "扌",
+  "strokeCount": 5
+ },
+ {
+  "char": "电",
+  "pinyin": "diàn",
+  "gloss": "electricity",
+  "level": 1,
+  "radical": "田",
+  "strokeCount": 5
+ },
+ {
+  "char": "东",
+  "pinyin": "dōng",
+  "gloss": "east",
+  "level": 1,
+  "radical": "一",
+  "strokeCount": 5
+ },
+ {
+  "char": "对",
+  "pinyin": "duì",
+  "gloss": "to; towards",
+  "level": 1,
+  "radical": "寸",
+  "strokeCount": 5
+ },
+ {
+  "char": "汉",
+  "pinyin": "hàn",
+  "gloss": "Han (dynasty/people)",
+  "level": 1,
+  "radical": "氵",
+  "strokeCount": 5
+ },
+ {
+  "char": "号",
+  "pinyin": "hào",
+  "gloss": "number; date",
+  "level": 1,
+  "radical": "口",
+  "strokeCount": 5
+ },
+ {
+  "char": "叫",
+  "pinyin": "jiào",
+  "gloss": "to be called",
+  "level": 1,
+  "radical": "口",
+  "strokeCount": 5
+ },
+ {
+  "char": "去",
+  "pinyin": "qù",
+  "gloss": "to go",
+  "level": 1,
+  "radical": "厶",
+  "strokeCount": 5
+ },
+ {
+  "char": "四",
+  "pinyin": "sì",
+  "gloss": "four",
+  "level": 1,
+  "radical": "囗",
+  "strokeCount": 5
+ },
+ {
+  "char": "他",
+  "pinyin": "tā",
+  "gloss": "he",
+  "level": 1,
+  "radical": "亻",
+  "strokeCount": 5
+ },
+ {
+  "char": "们",
+  "pinyin": "men",
+  "gloss": "(plural)",
+  "level": 1,
+  "radical": "亻",
+  "strokeCount": 5
+ },
+ {
+  "char": "生",
+  "pinyin": "shēng",
+  "gloss": "to be born; student",
+  "level": 1,
+  "radical": "生",
+  "strokeCount": 5
+ },
+ {
+  "char": "写",
+  "pinyin": "xiě",
+  "gloss": "to write",
+  "level": 1,
+  "radical": "冖",
+  "strokeCount": 5
+ },
+ {
+  "char": "吃",
+  "pinyin": "chī",
+  "gloss": "to eat",
+  "level": 1,
+  "radical": "口",
+  "strokeCount": 6
+ },
+ {
+  "char": "西",
+  "pinyin": "xī",
+  "gloss": "west",
+  "level": 1,
+  "radical": "覀",
+  "strokeCount": 6
+ },
+ {
+  "char": "多",
+  "pinyin": "duō",
+  "gloss": "many",
+  "level": 1,
+  "radical": "夕",
+  "strokeCount": 6
+ },
+ {
+  "char": "机",
+  "pinyin": "jī",
+  "gloss": "machine",
+  "level": 1,
+  "radical": "木",
+  "strokeCount": 6
+ },
+ {
+  "char": "兴",
+  "pinyin": "xìng",
+  "gloss": "to rise",
+  "level": 1,
+  "radical": "八",
+  "strokeCount": 6
+ },
+ {
+  "char": "好",
+  "pinyin": "hǎo",
+  "gloss": "good",
+  "level": 1,
+  "radical": "女",
+  "strokeCount": 6
+ },
+ {
+  "char": "后",
+  "pinyin": "hòu",
+  "gloss": "back; after",
+  "level": 1,
+  "radical": "口",
+  "strokeCount": 6
+ },
+ {
+  "char": "回",
+  "pinyin": "huí",
+  "gloss": "to return",
+  "level": 1,
+  "radical": "囗",
+  "strokeCount": 6
+ },
+ {
+  "char": "会",
+  "pinyin": "huì",
+  "gloss": "can; meeting",
+  "level": 1,
+  "radical": "人",
+  "strokeCount": 6
+ },
+ {
+  "char": "老",
+  "pinyin": "lǎo",
+  "gloss": "teacher",
+  "level": 1,
+  "radical": "老",
+  "strokeCount": 6
+ },
+ {
+  "char": "师",
+  "pinyin": "shī",
+  "gloss": "teacher; master",
+  "level": 1,
+  "radical": "巾",
+  "strokeCount": 6
+ },
+ {
+  "char": "妈",
+  "pinyin": "mā",
+  "gloss": "mother",
+  "level": 1,
+  "radical": "女",
+  "strokeCount": 6
+ },
+ {
+  "char": "吗",
+  "pinyin": "ma",
+  "gloss": "(yes-no question)",
+  "level": 1,
+  "radical": "口",
+  "strokeCount": 6
+ },
+ {
+  "char": "买",
+  "pinyin": "mǎi",
+  "gloss": "to buy",
+  "level": 1,
+  "radical": "乙",
+  "strokeCount": 6
+ },
+ {
+  "char": "关",
+  "pinyin": "guān",
+  "gloss": "to close",
+  "level": 1,
+  "radical": "丷",
+  "strokeCount": 6
+ },
+ {
+  "char": "有",
+  "pinyin": "yǒu",
+  "gloss": "to have",
+  "level": 1,
+  "radical": "月",
+  "strokeCount": 6
+ },
+ {
+  "char": "米",
+  "pinyin": "mǐ",
+  "gloss": "cooked rice",
+  "level": 1,
+  "radical": "米",
+  "strokeCount": 6
+ },
+ {
+  "char": "名",
+  "pinyin": "míng",
+  "gloss": "name",
+  "level": 1,
+  "radical": "口",
+  "strokeCount": 6
+ },
+ {
+  "char": "字",
+  "pinyin": "zì",
+  "gloss": "name",
+  "level": 1,
+  "radical": "宀",
+  "strokeCount": 6
+ },
+ {
+  "char": "那",
+  "pinyin": "nà",
+  "gloss": "that",
+  "level": 1,
+  "radical": "阝",
+  "strokeCount": 6
+ },
+ {
+  "char": "年",
+  "pinyin": "nián",
+  "gloss": "year",
+  "level": 1,
+  "radical": "干",
+  "strokeCount": 6
+ },
+ {
+  "char": "岁",
+  "pinyin": "suì",
+  "gloss": "years old",
+  "level": 1,
+  "radical": "山",
+  "strokeCount": 6
+ },
+ {
+  "char": "她",
+  "pinyin": "tā",
+  "gloss": "she",
+  "level": 1,
+  "radical": "女",
+  "strokeCount": 6
+ },
+ {
+  "char": "同",
+  "pinyin": "tóng",
+  "gloss": "classmate",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 6
+ },
+ {
+  "char": "欢",
+  "pinyin": "huān",
+  "gloss": "joyous",
+  "level": 1,
+  "radical": "欠",
+  "strokeCount": 6
+ },
+ {
+  "char": "先",
+  "pinyin": "xiān",
+  "gloss": "Mr.; sir",
+  "level": 1,
+  "radical": "儿",
+  "strokeCount": 6
+ },
+ {
+  "char": "在",
+  "pinyin": "zài",
+  "gloss": "(progressive)",
+  "level": 1,
+  "radical": "土",
+  "strokeCount": 6
+ },
+ {
+  "char": "衣",
+  "pinyin": "yī",
+  "gloss": "clothing",
+  "level": 1,
+  "radical": "衣",
+  "strokeCount": 6
+ },
+ {
+  "char": "再",
+  "pinyin": "zài",
+  "gloss": "again",
+  "level": 1,
+  "radical": "冂",
+  "strokeCount": 6
+ },
+ {
+  "char": "饭",
+  "pinyin": "fàn",
+  "gloss": "restaurant; hotel",
+  "level": 1,
+  "radical": "饣",
+  "strokeCount": 7
+ },
+ {
+  "char": "作",
+  "pinyin": "zuò",
+  "gloss": "work",
+  "level": 1,
+  "radical": "亻",
+  "strokeCount": 7
+ },
+ {
+  "char": "块",
+  "pinyin": "kuài",
+  "gloss": "piece; yuan",
+  "level": 1,
+  "radical": "土",
+  "strokeCount": 7
+ },
+ {
+  "char": "来",
+  "pinyin": "lái",
+  "gloss": "to come",
+  "level": 1,
+  "radical": "木",
+  "strokeCount": 7
+ },
+ {
+  "char": "冷",
+  "pinyin": "lěng",
+  "gloss": "cold",
+  "level": 1,
+  "radical": "冫",
+  "strokeCount": 7
+ },
+ {
+  "char": "里",
+  "pinyin": "lǐ",
+  "gloss": "inside",
+  "level": 1,
+  "radical": "里",
+  "strokeCount": 7
+ },
+ {
+  "char": "没",
+  "pinyin": "méi",
+  "gloss": "not",
+  "level": 1,
+  "radical": "氵",
+  "strokeCount": 7
+ },
+ {
+  "char": "系",
+  "pinyin": "xì",
+  "gloss": "it doesn't matter",
+  "level": 1,
+  "radical": "丿",
+  "strokeCount": 7
+ },
+ {
+  "char": "你",
+  "pinyin": "nǐ",
+  "gloss": "you",
+  "level": 1,
+  "radical": "亻",
+  "strokeCount": 7
+ },
+ {
+  "char": "识",
+  "pinyin": "shí",
+  "gloss": "to know",
+  "level": 1,
+  "radical": "讠",
+  "strokeCount": 7
+ },
+ {
+  "char": "时",
+  "pinyin": "shí",
+  "gloss": "time",
+  "level": 1,
+  "radical": "日",
+  "strokeCount": 7
+ },
+ {
+  "char": "听",
+  "pinyin": "tīng",
+  "gloss": "to listen",
+  "level": 1,
+  "radical": "口",
+  "strokeCount": 7
+ },
+ {
+  "char": "我",
+  "pinyin": "wǒ",
+  "gloss": "I; me",
+  "level": 1,
+  "radical": "戈",
+  "strokeCount": 7
+ },
+ {
+  "char": "医",
+  "pinyin": "yī",
+  "gloss": "medicine",
+  "level": 1,
+  "radical": "匚",
+  "strokeCount": 7
+ },
+ {
+  "char": "这",
+  "pinyin": "zhè",
+  "gloss": "this",
+  "level": 1,
+  "radical": "辶",
+  "strokeCount": 7
+ },
+ {
+  "char": "住",
+  "pinyin": "zhù",
+  "gloss": "to live",
+  "level": 1,
+  "radical": "亻",
+  "strokeCount": 7
+ },
+ {
+  "char": "坐",
+  "pinyin": "zuò",
+  "gloss": "to sit",
+  "level": 1,
+  "radical": "土",
+  "strokeCount": 7
+ },
+ {
+  "char": "爸",
+  "pinyin": "bà",
+  "gloss": "father",
+  "level": 1,
+  "radical": "父",
+  "strokeCount": 8
+ },
+ {
+  "char": "杯",
+  "pinyin": "bēi",
+  "gloss": "cup",
+  "level": 1,
+  "radical": "木",
+  "strokeCount": 8
+ },
+ {
+  "char": "京",
+  "pinyin": "jīng",
+  "gloss": "capital",
+  "level": 1,
+  "radical": "亠",
+  "strokeCount": 8
+ },
+ {
+  "char": "话",
+  "pinyin": "huà",
+  "gloss": "talk",
+  "level": 1,
+  "radical": "讠",
+  "strokeCount": 8
+ },
+ {
+  "char": "的",
+  "pinyin": "de",
+  "gloss": "(possessive)",
+  "level": 1,
+  "radical": "白",
+  "strokeCount": 8
+ },
+ {
+  "char": "视",
+  "pinyin": "shì",
+  "gloss": "to watch",
+  "level": 1,
+  "radical": "礻",
+  "strokeCount": 8
+ },
+ {
+  "char": "店",
+  "pinyin": "diàn",
+  "gloss": "shop",
+  "level": 1,
+  "radical": "广",
+  "strokeCount": 8
+ },
+ {
+  "char": "狗",
+  "pinyin": "gǒu",
+  "gloss": "dog",
+  "level": 1,
+  "radical": "犭",
+  "strokeCount": 8
+ },
+ {
+  "char": "和",
+  "pinyin": "hé",
+  "gloss": "and",
+  "level": 1,
+  "radical": "口",
+  "strokeCount": 8
+ },
+ {
+  "char": "明",
+  "pinyin": "míng",
+  "gloss": "bright; tomorrow",
+  "level": 1,
+  "radical": "日",
+  "strokeCount": 8
+ },
+ {
+  "char": "呢",
+  "pinyin": "ne",
+  "gloss": "(question)",
+  "level": 1,
+  "radical": "口",
+  "strokeCount": 8
+ },
+ {
+  "char": "朋",
+  "pinyin": "péng",
+  "gloss": "friend",
+  "level": 1,
+  "radical": "月",
+  "strokeCount": 8
+ },
+ {
+  "char": "苹",
+  "pinyin": "píng",
+  "gloss": "(apple)",
+  "level": 1,
+  "radical": "艹",
+  "strokeCount": 8
+ },
+ {
+  "char": "果",
+  "pinyin": "guǒ",
+  "gloss": "fruit",
+  "level": 1,
+  "radical": "木",
+  "strokeCount": 8
+ },
+ {
+  "char": "学",
+  "pinyin": "xué",
+  "gloss": "to study",
+  "level": 1,
+  "radical": "子",
+  "strokeCount": 8
+ },
+ {
+  "char": "雨",
+  "pinyin": "yǔ",
+  "gloss": "rain",
+  "level": 1,
+  "radical": "雨",
+  "strokeCount": 8
+ },
+ {
+  "char": "现",
+  "pinyin": "xiàn",
+  "gloss": "present",
+  "level": 1,
+  "radical": "王",
+  "strokeCount": 8
+ },
+ {
+  "char": "姐",
+  "pinyin": "jiě",
+  "gloss": "older sister",
+  "level": 1,
+  "radical": "女",
+  "strokeCount": 8
+ },
+ {
+  "char": "些",
+  "pinyin": "xiē",
+  "gloss": "some",
+  "level": 1,
+  "radical": "止",
+  "strokeCount": 8
+ },
+ {
+  "char": "服",
+  "pinyin": "fú",
+  "gloss": "clothes; to serve",
+  "level": 1,
+  "radical": "月",
+  "strokeCount": 8
+ },
+ {
+  "char": "国",
+  "pinyin": "guó",
+  "gloss": "country",
+  "level": 1,
+  "radical": "囗",
+  "strokeCount": 8
+ },
+ {
+  "char": "客",
+  "pinyin": "kè",
+  "gloss": "you're welcome",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 9
+ },
+ {
+  "char": "茶",
+  "pinyin": "chá",
+  "gloss": "tea",
+  "level": 1,
+  "radical": "艹",
+  "strokeCount": 9
+ },
+ {
+  "char": "点",
+  "pinyin": "diǎn",
+  "gloss": "point; o'clock",
+  "level": 1,
+  "radical": "灬",
+  "strokeCount": 9
+ },
+ {
+  "char": "钟",
+  "pinyin": "zhōng",
+  "gloss": "minute",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 9
+ },
+ {
+  "char": "语",
+  "pinyin": "yǔ",
+  "gloss": "language",
+  "level": 1,
+  "radical": "讠",
+  "strokeCount": 9
+ },
+ {
+  "char": "很",
+  "pinyin": "hěn",
+  "gloss": "very",
+  "level": 1,
+  "radical": "彳",
+  "strokeCount": 9
+ },
+ {
+  "char": "面",
+  "pinyin": "miàn",
+  "gloss": "behind",
+  "level": 1,
+  "radical": "面",
+  "strokeCount": 9
+ },
+ {
+  "char": "看",
+  "pinyin": "kàn",
+  "gloss": "to look",
+  "level": 1,
+  "radical": "目",
+  "strokeCount": 9
+ },
+ {
+  "char": "哪",
+  "pinyin": "nǎ",
+  "gloss": "which",
+  "level": 1,
+  "radical": "口",
+  "strokeCount": 9
+ },
+ {
+  "char": "亮",
+  "pinyin": "liàng",
+  "gloss": "bright",
+  "level": 1,
+  "radical": "亠",
+  "strokeCount": 9
+ },
+ {
+  "char": "前",
+  "pinyin": "qián",
+  "gloss": "front; before",
+  "level": 1,
+  "radical": "刂",
+  "strokeCount": 9
+ },
+ {
+  "char": "是",
+  "pinyin": "shì",
+  "gloss": "to be",
+  "level": 1,
+  "radical": "日",
+  "strokeCount": 9
+ },
+ {
+  "char": "觉",
+  "pinyin": "jiào",
+  "gloss": "to feel",
+  "level": 1,
+  "radical": "见",
+  "strokeCount": 9
+ },
+ {
+  "char": "说",
+  "pinyin": "shuō",
+  "gloss": "to speak",
+  "level": 1,
+  "radical": "讠",
+  "strokeCount": 9
+ },
+ {
+  "char": "星",
+  "pinyin": "xīng",
+  "gloss": "star",
+  "level": 1,
+  "radical": "日",
+  "strokeCount": 9
+ },
+ {
+  "char": "院",
+  "pinyin": "yuàn",
+  "gloss": "courtyard; institution",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 9
+ },
+ {
+  "char": "怎",
+  "pinyin": "zěn",
+  "gloss": "how",
+  "level": 1,
+  "radical": "心",
+  "strokeCount": 9
+ },
+ {
+  "char": "昨",
+  "pinyin": "zuó",
+  "gloss": "yesterday",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 9
+ },
+ {
+  "char": "爱",
+  "pinyin": "ài",
+  "gloss": "to love",
+  "level": 1,
+  "radical": "爫",
+  "strokeCount": 10
+ },
+ {
+  "char": "租",
+  "pinyin": "zū",
+  "gloss": "to rent",
+  "level": 1,
+  "radical": "禾",
+  "strokeCount": 10
+ },
+ {
+  "char": "脑",
+  "pinyin": "nǎo",
+  "gloss": "brain",
+  "level": 1,
+  "radical": "月",
+  "strokeCount": 10
+ },
+ {
+  "char": "都",
+  "pinyin": "dōu",
+  "gloss": "all",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 10
+ },
+ {
+  "char": "读",
+  "pinyin": "dú",
+  "gloss": "to read",
+  "level": 1,
+  "radical": "讠",
+  "strokeCount": 10
+ },
+ {
+  "char": "起",
+  "pinyin": "qǐ",
+  "gloss": "to rise",
+  "level": 1,
+  "radical": "走",
+  "strokeCount": 10
+ },
+ {
+  "char": "高",
+  "pinyin": "gāo",
+  "gloss": "tall",
+  "level": 1,
+  "radical": "高",
+  "strokeCount": 10
+ },
+ {
+  "char": "家",
+  "pinyin": "jiā",
+  "gloss": "home; family",
+  "level": 1,
+  "radical": "宀",
+  "strokeCount": 10
+ },
+ {
+  "char": "能",
+  "pinyin": "néng",
+  "gloss": "can; ability",
+  "level": 1,
+  "radical": "厶",
+  "strokeCount": 10
+ },
+ {
+  "char": "钱",
+  "pinyin": "qián",
+  "gloss": "money",
+  "level": 1,
+  "radical": "钅",
+  "strokeCount": 10
+ },
+ {
+  "char": "请",
+  "pinyin": "qǐng",
+  "gloss": "please; to invite",
+  "level": 1,
+  "radical": "讠",
+  "strokeCount": 10
+ },
+ {
+  "char": "热",
+  "pinyin": "rè",
+  "gloss": "hot",
+  "level": 1,
+  "radical": "灬",
+  "strokeCount": 10
+ },
+ {
+  "char": "谁",
+  "pinyin": "shuí",
+  "gloss": "who",
+  "level": 1,
+  "radical": "讠",
+  "strokeCount": 10
+ },
+ {
+  "char": "候",
+  "pinyin": "hòu",
+  "gloss": "to wait",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 10
+ },
+ {
+  "char": "校",
+  "pinyin": "xiào",
+  "gloss": "school",
+  "level": 1,
+  "radical": "木",
+  "strokeCount": 10
+ },
+ {
+  "char": "样",
+  "pinyin": "yàng",
+  "gloss": "how is it; how about",
+  "level": 1,
+  "radical": "木",
+  "strokeCount": 10
+ },
+ {
+  "char": "桌",
+  "pinyin": "zhuō",
+  "gloss": "table",
+  "level": 1,
+  "radical": "木",
+  "strokeCount": 10
+ },
+ {
+  "char": "菜",
+  "pinyin": "cài",
+  "gloss": "vegetable; dish",
+  "level": 1,
+  "radical": "艹",
+  "strokeCount": 11
+ },
+ {
+  "char": "猫",
+  "pinyin": "māo",
+  "gloss": "cat",
+  "level": 1,
+  "radical": "犭",
+  "strokeCount": 11
+ },
+ {
+  "char": "商",
+  "pinyin": "shāng",
+  "gloss": "shop; store",
+  "level": 1,
+  "radical": "亠",
+  "strokeCount": 11
+ },
+ {
+  "char": "做",
+  "pinyin": "zuò",
+  "gloss": "to do",
+  "level": 1,
+  "radical": "亻",
+  "strokeCount": 11
+ },
+ {
+  "char": "喝",
+  "pinyin": "hē",
+  "gloss": "to drink",
+  "level": 1,
+  "radical": "口",
+  "strokeCount": 12
+ },
+ {
+  "char": "喂",
+  "pinyin": "wèi",
+  "gloss": "hello",
+  "level": 1,
+  "radical": "口",
+  "strokeCount": 12
+ },
+ {
+  "char": "喜",
+  "pinyin": "xǐ",
+  "gloss": "to like",
+  "level": 1,
+  "radical": "士",
+  "strokeCount": 12
+ },
+ {
+  "char": "谢",
+  "pinyin": "xiè",
+  "gloss": "to thank",
+  "level": 1,
+  "radical": "讠",
+  "strokeCount": 12
+ },
+ {
+  "char": "期",
+  "pinyin": "qī",
+  "gloss": "period",
+  "level": 1,
+  "radical": "",
+  "strokeCount": 12
+ },
+ {
+  "char": "椅",
+  "pinyin": "yǐ",
+  "gloss": "chair",
+  "level": 1,
+  "radical": "木",
+  "strokeCount": 12
+ },
+ {
+  "char": "睡",
+  "pinyin": "shuì",
+  "gloss": "to sleep",
+  "level": 1,
+  "radical": "目",
+  "strokeCount": 13
+ },
+ {
+  "char": "想",
+  "pinyin": "xiǎng",
+  "gloss": "to think",
+  "level": 1,
+  "radical": "心",
+  "strokeCount": 13
+ },
+ {
+  "char": "漂",
+  "pinyin": "piào",
+  "gloss": "to float",
+  "level": 1,
+  "radical": "氵",
+  "strokeCount": 14
+ },
+ {
+  "char": "影",
+  "pinyin": "yǐng",
+  "gloss": "shadow; film",
+  "level": 1,
+  "radical": "彡",
+  "strokeCount": 15
+ },
+ {
+  "char": "门",
+  "pinyin": "mén",
+  "gloss": "door; gate",
+  "level": 2,
+  "radical": "门",
+  "strokeCount": 3
+ },
+ {
+  "char": "千",
+  "pinyin": "qiān",
+  "gloss": "thousand",
+  "level": 2,
+  "radical": "十",
+  "strokeCount": 3
+ },
+ {
+  "char": "也",
+  "pinyin": "yě",
+  "gloss": "also",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 3
+ },
+ {
+  "char": "已",
+  "pinyin": "yǐ",
+  "gloss": "already",
+  "level": 2,
+  "radical": "己",
+  "strokeCount": 3
+ },
+ {
+  "char": "丈",
+  "pinyin": "zhàng",
+  "gloss": "unit of length (zhang)",
+  "level": 2,
+  "radical": "一",
+  "strokeCount": 3
+ },
+ {
+  "char": "比",
+  "pinyin": "bǐ",
+  "gloss": "to compare",
+  "level": 2,
+  "radical": "比",
+  "strokeCount": 4
+ },
+ {
+  "char": "长",
+  "pinyin": "zhǎng",
+  "gloss": "long",
+  "level": 2,
+  "radical": "长",
+  "strokeCount": 4
+ },
+ {
+  "char": "从",
+  "pinyin": "cóng",
+  "gloss": "from",
+  "level": 2,
+  "radical": "人",
+  "strokeCount": 4
+ },
+ {
+  "char": "公",
+  "pinyin": "gōng",
+  "gloss": "public",
+  "level": 2,
+  "radical": "八",
+  "strokeCount": 4
+ },
+ {
+  "char": "火",
+  "pinyin": "huǒ",
+  "gloss": "fire",
+  "level": 2,
+  "radical": "火",
+  "strokeCount": 4
+ },
+ {
+  "char": "介",
+  "pinyin": "jiè",
+  "gloss": "to introduce",
+  "level": 2,
+  "radical": "人",
+  "strokeCount": 4
+ },
+ {
+  "char": "以",
+  "pinyin": "yǐ",
+  "gloss": "with; so as",
+  "level": 2,
+  "radical": "人",
+  "strokeCount": 4
+ },
+ {
+  "char": "牛",
+  "pinyin": "niú",
+  "gloss": "cow; ox",
+  "level": 2,
+  "radical": "牛",
+  "strokeCount": 4
+ },
+ {
+  "char": "日",
+  "pinyin": "rì",
+  "gloss": "day; sun",
+  "level": 2,
+  "radical": "日",
+  "strokeCount": 4
+ },
+ {
+  "char": "手",
+  "pinyin": "shǒu",
+  "gloss": "wristwatch",
+  "level": 2,
+  "radical": "手",
+  "strokeCount": 4
+ },
+ {
+  "char": "为",
+  "pinyin": "wèi",
+  "gloss": "for",
+  "level": 2,
+  "radical": "丶",
+  "strokeCount": 4
+ },
+ {
+  "char": "夫",
+  "pinyin": "fū",
+  "gloss": "husband; man",
+  "level": 2,
+  "radical": "大",
+  "strokeCount": 4
+ },
+ {
+  "char": "白",
+  "pinyin": "bái",
+  "gloss": "white",
+  "level": 2,
+  "radical": "白",
+  "strokeCount": 5
+ },
+ {
+  "char": "务",
+  "pinyin": "wù",
+  "gloss": "waiter; attendant",
+  "level": 2,
+  "radical": "夂",
+  "strokeCount": 5
+ },
+ {
+  "char": "司",
+  "pinyin": "sī",
+  "gloss": "company",
+  "level": 2,
+  "radical": "口",
+  "strokeCount": 5
+ },
+ {
+  "char": "可",
+  "pinyin": "kě",
+  "gloss": "but; can",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 5
+ },
+ {
+  "char": "乐",
+  "pinyin": "lè",
+  "gloss": "happy; joyful",
+  "level": 2,
+  "radical": "丿",
+  "strokeCount": 5
+ },
+ {
+  "char": "奶",
+  "pinyin": "nǎi",
+  "gloss": "milk",
+  "level": 2,
+  "radical": "女",
+  "strokeCount": 5
+ },
+ {
+  "char": "边",
+  "pinyin": "biān",
+  "gloss": "beside; next to",
+  "level": 2,
+  "radical": "辶",
+  "strokeCount": 5
+ },
+ {
+  "char": "让",
+  "pinyin": "ràng",
+  "gloss": "by; to let",
+  "level": 2,
+  "radical": "讠",
+  "strokeCount": 5
+ },
+ {
+  "char": "它",
+  "pinyin": "tā",
+  "gloss": "it",
+  "level": 2,
+  "radical": "宀",
+  "strokeCount": 5
+ },
+ {
+  "char": "外",
+  "pinyin": "wài",
+  "gloss": "outside",
+  "level": 2,
+  "radical": "夕",
+  "strokeCount": 5
+ },
+ {
+  "char": "瓜",
+  "pinyin": "guā",
+  "gloss": "melon",
+  "level": 2,
+  "radical": "瓜",
+  "strokeCount": 5
+ },
+ {
+  "char": "右",
+  "pinyin": "yòu",
+  "gloss": "right side",
+  "level": 2,
+  "radical": "口",
+  "strokeCount": 5
+ },
+ {
+  "char": "正",
+  "pinyin": "zhèng",
+  "gloss": "just; upright",
+  "level": 2,
+  "radical": "止",
+  "strokeCount": 5
+ },
+ {
+  "char": "左",
+  "pinyin": "zuǒ",
+  "gloss": "left side",
+  "level": 2,
+  "radical": "工",
+  "strokeCount": 5
+ },
+ {
+  "char": "百",
+  "pinyin": "bǎi",
+  "gloss": "hundred",
+  "level": 2,
+  "radical": "白",
+  "strokeCount": 6
+ },
+ {
+  "char": "次",
+  "pinyin": "cì",
+  "gloss": "(measure word)",
+  "level": 2,
+  "radical": "冫",
+  "strokeCount": 6
+ },
+ {
+  "char": "共",
+  "pinyin": "gòng",
+  "gloss": "common; together",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 6
+ },
+ {
+  "char": "过",
+  "pinyin": "guò",
+  "gloss": "(experiential)",
+  "level": 2,
+  "radical": "辶",
+  "strokeCount": 6
+ },
+ {
+  "char": "红",
+  "pinyin": "hóng",
+  "gloss": "red",
+  "level": 2,
+  "radical": "纟",
+  "strokeCount": 6
+ },
+ {
+  "char": "场",
+  "pinyin": "chǎng",
+  "gloss": "field; venue",
+  "level": 2,
+  "radical": "土",
+  "strokeCount": 6
+ },
+ {
+  "char": "件",
+  "pinyin": "jiàn",
+  "gloss": "(measure word)",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 6
+ },
+ {
+  "char": "考",
+  "pinyin": "kǎo",
+  "gloss": "to test",
+  "level": 2,
+  "radical": "耂",
+  "strokeCount": 6
+ },
+ {
+  "char": "忙",
+  "pinyin": "máng",
+  "gloss": "busy",
+  "level": 2,
+  "radical": "忄",
+  "strokeCount": 6
+ },
+ {
+  "char": "问",
+  "pinyin": "wèn",
+  "gloss": "to ask",
+  "level": 2,
+  "radical": "门",
+  "strokeCount": 6
+ },
+ {
+  "char": "休",
+  "pinyin": "xiū",
+  "gloss": "to rest",
+  "level": 2,
+  "radical": "亻",
+  "strokeCount": 6
+ },
+ {
+  "char": "色",
+  "pinyin": "sè",
+  "gloss": "color",
+  "level": 2,
+  "radical": "色",
+  "strokeCount": 6
+ },
+ {
+  "char": "羊",
+  "pinyin": "yáng",
+  "gloss": "sheep; goat",
+  "level": 2,
+  "radical": "羊",
+  "strokeCount": 6
+ },
+ {
+  "char": "肉",
+  "pinyin": "ròu",
+  "gloss": "meat",
+  "level": 2,
+  "radical": "肉",
+  "strokeCount": 6
+ },
+ {
+  "char": "因",
+  "pinyin": "yīn",
+  "gloss": "because",
+  "level": 2,
+  "radical": "囗",
+  "strokeCount": 6
+ },
+ {
+  "char": "阴",
+  "pinyin": "yīn",
+  "gloss": "overcast",
+  "level": 2,
+  "radical": "阝",
+  "strokeCount": 6
+ },
+ {
+  "char": "动",
+  "pinyin": "dòng",
+  "gloss": "sports; exercise",
+  "level": 2,
+  "radical": "力",
+  "strokeCount": 6
+ },
+ {
+  "char": "早",
+  "pinyin": "zǎo",
+  "gloss": "early",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 6
+ },
+ {
+  "char": "吧",
+  "pinyin": "ba",
+  "gloss": "(suggestion)",
+  "level": 2,
+  "radical": "口",
+  "strokeCount": 7
+ },
+ {
+  "char": "助",
+  "pinyin": "zhù",
+  "gloss": "to assist",
+  "level": 2,
+  "radical": "力",
+  "strokeCount": 7
+ },
+ {
+  "char": "报",
+  "pinyin": "bào",
+  "gloss": "newspaper; report",
+  "level": 2,
+  "radical": "扌",
+  "strokeCount": 7
+ },
+ {
+  "char": "纸",
+  "pinyin": "zhǐ",
+  "gloss": "paper",
+  "level": 2,
+  "radical": "纟",
+  "strokeCount": 7
+ },
+ {
+  "char": "别",
+  "pinyin": "bié",
+  "gloss": "don't",
+  "level": 2,
+  "radical": "刂",
+  "strokeCount": 7
+ },
+ {
+  "char": "但",
+  "pinyin": "dàn",
+  "gloss": "but",
+  "level": 2,
+  "radical": "亻",
+  "strokeCount": 7
+ },
+ {
+  "char": "弟",
+  "pinyin": "dì",
+  "gloss": "younger brother",
+  "level": 2,
+  "radical": "丷",
+  "strokeCount": 7
+ },
+ {
+  "char": "间",
+  "pinyin": "jiān",
+  "gloss": "room",
+  "level": 2,
+  "radical": "门",
+  "strokeCount": 7
+ },
+ {
+  "char": "员",
+  "pinyin": "yuán",
+  "gloss": "waiter; attendant",
+  "level": 2,
+  "radical": "口",
+  "strokeCount": 7
+ },
+ {
+  "char": "告",
+  "pinyin": "gào",
+  "gloss": "to tell",
+  "level": 2,
+  "radical": "口",
+  "strokeCount": 7
+ },
+ {
+  "char": "诉",
+  "pinyin": "sù",
+  "gloss": "to tell",
+  "level": 2,
+  "radical": "讠",
+  "strokeCount": 7
+ },
+ {
+  "char": "汽",
+  "pinyin": "qì",
+  "gloss": "steam; vapor",
+  "level": 2,
+  "radical": "氵",
+  "strokeCount": 7
+ },
+ {
+  "char": "鸡",
+  "pinyin": "jī",
+  "gloss": "chicken",
+  "level": 2,
+  "radical": "又",
+  "strokeCount": 7
+ },
+ {
+  "char": "近",
+  "pinyin": "jìn",
+  "gloss": "near; close",
+  "level": 2,
+  "radical": "辶",
+  "strokeCount": 7
+ },
+ {
+  "char": "进",
+  "pinyin": "jìn",
+  "gloss": "to enter",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 7
+ },
+ {
+  "char": "快",
+  "pinyin": "kuài",
+  "gloss": "fast",
+  "level": 2,
+  "radical": "忄",
+  "strokeCount": 7
+ },
+ {
+  "char": "两",
+  "pinyin": "liǎng",
+  "gloss": "two (of)",
+  "level": 2,
+  "radical": "一",
+  "strokeCount": 7
+ },
+ {
+  "char": "每",
+  "pinyin": "měi",
+  "gloss": "every",
+  "level": 2,
+  "radical": "母",
+  "strokeCount": 7
+ },
+ {
+  "char": "条",
+  "pinyin": "tiáo",
+  "gloss": "noodles",
+  "level": 2,
+  "radical": "夂",
+  "strokeCount": 7
+ },
+ {
+  "char": "男",
+  "pinyin": "nán",
+  "gloss": "male; man",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 7
+ },
+ {
+  "char": "步",
+  "pinyin": "bù",
+  "gloss": "step",
+  "level": 2,
+  "radical": "止",
+  "strokeCount": 7
+ },
+ {
+  "char": "床",
+  "pinyin": "chuáng",
+  "gloss": "bed",
+  "level": 2,
+  "radical": "广",
+  "strokeCount": 7
+ },
+ {
+  "char": "身",
+  "pinyin": "shēn",
+  "gloss": "body; health",
+  "level": 2,
+  "radical": "身",
+  "strokeCount": 7
+ },
+ {
+  "char": "体",
+  "pinyin": "tǐ",
+  "gloss": "body; health",
+  "level": 2,
+  "radical": "亻",
+  "strokeCount": 7
+ },
+ {
+  "char": "足",
+  "pinyin": "zú",
+  "gloss": "foot",
+  "level": 2,
+  "radical": "足",
+  "strokeCount": 7
+ },
+ {
+  "char": "完",
+  "pinyin": "wán",
+  "gloss": "finished",
+  "level": 2,
+  "radical": "宀",
+  "strokeCount": 7
+ },
+ {
+  "char": "希",
+  "pinyin": "xī",
+  "gloss": "to hope",
+  "level": 2,
+  "radical": "巾",
+  "strokeCount": 7
+ },
+ {
+  "char": "远",
+  "pinyin": "yuǎn",
+  "gloss": "far",
+  "level": 2,
+  "radical": "辶",
+  "strokeCount": 7
+ },
+ {
+  "char": "运",
+  "pinyin": "yùn",
+  "gloss": "sports; exercise",
+  "level": 2,
+  "radical": "辶",
+  "strokeCount": 7
+ },
+ {
+  "char": "找",
+  "pinyin": "zhǎo",
+  "gloss": "to look for",
+  "level": 2,
+  "radical": "扌",
+  "strokeCount": 7
+ },
+ {
+  "char": "走",
+  "pinyin": "zǒu",
+  "gloss": "to walk",
+  "level": 2,
+  "radical": "走",
+  "strokeCount": 7
+ },
+ {
+  "char": "到",
+  "pinyin": "dào",
+  "gloss": "to arrive",
+  "level": 2,
+  "radical": "刂",
+  "strokeCount": 8
+ },
+ {
+  "char": "房",
+  "pinyin": "fáng",
+  "gloss": "house; room",
+  "level": 2,
+  "radical": "户",
+  "strokeCount": 8
+ },
+ {
+  "char": "非",
+  "pinyin": "fēi",
+  "gloss": "very; extremely",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 8
+ },
+ {
+  "char": "绍",
+  "pinyin": "shào",
+  "gloss": "to connect",
+  "level": 2,
+  "radical": "纟",
+  "strokeCount": 8
+ },
+ {
+  "char": "咖",
+  "pinyin": "kā",
+  "gloss": "coffee",
+  "level": 2,
+  "radical": "口",
+  "strokeCount": 8
+ },
+ {
+  "char": "始",
+  "pinyin": "shǐ",
+  "gloss": "to begin; to start",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 8
+ },
+ {
+  "char": "试",
+  "pinyin": "shì",
+  "gloss": "test",
+  "level": 2,
+  "radical": "讠",
+  "strokeCount": 8
+ },
+ {
+  "char": "卖",
+  "pinyin": "mài",
+  "gloss": "to sell",
+  "level": 2,
+  "radical": "十",
+  "strokeCount": 8
+ },
+ {
+  "char": "妹",
+  "pinyin": "mèi",
+  "gloss": "younger sister",
+  "level": 2,
+  "radical": "女",
+  "strokeCount": 8
+ },
+ {
+  "char": "宜",
+  "pinyin": "yi",
+  "gloss": "suitable",
+  "level": 2,
+  "radical": "宀",
+  "strokeCount": 8
+ },
+ {
+  "char": "妻",
+  "pinyin": "qī",
+  "gloss": "wife",
+  "level": 2,
+  "radical": "女",
+  "strokeCount": 8
+ },
+ {
+  "char": "事",
+  "pinyin": "shì",
+  "gloss": "matter; affair",
+  "level": 2,
+  "radical": "亅",
+  "strokeCount": 8
+ },
+ {
+  "char": "表",
+  "pinyin": "biǎo",
+  "gloss": "wristwatch",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 8
+ },
+ {
+  "char": "玩",
+  "pinyin": "wán",
+  "gloss": "to play",
+  "level": 2,
+  "radical": "王",
+  "strokeCount": 8
+ },
+ {
+  "char": "往",
+  "pinyin": "wǎng",
+  "gloss": "towards",
+  "level": 2,
+  "radical": "彳",
+  "strokeCount": 8
+ },
+ {
+  "char": "姓",
+  "pinyin": "xìng",
+  "gloss": "surname",
+  "level": 2,
+  "radical": "女",
+  "strokeCount": 8
+ },
+ {
+  "char": "经",
+  "pinyin": "jīng",
+  "gloss": "to pass",
+  "level": 2,
+  "radical": "纟",
+  "strokeCount": 8
+ },
+ {
+  "char": "所",
+  "pinyin": "suǒ",
+  "gloss": "that which",
+  "level": 2,
+  "radical": "户",
+  "strokeCount": 8
+ },
+ {
+  "char": "泳",
+  "pinyin": "yǒng",
+  "gloss": "to swim",
+  "level": 2,
+  "radical": "氵",
+  "strokeCount": 8
+ },
+ {
+  "char": "鱼",
+  "pinyin": "yú",
+  "gloss": "fish",
+  "level": 2,
+  "radical": "鱼",
+  "strokeCount": 8
+ },
+ {
+  "char": "知",
+  "pinyin": "zhī",
+  "gloss": "to know",
+  "level": 2,
+  "radical": "矢",
+  "strokeCount": 8
+ },
+ {
+  "char": "备",
+  "pinyin": "bèi",
+  "gloss": "to prepare",
+  "level": 2,
+  "radical": "夂",
+  "strokeCount": 8
+ },
+ {
+  "char": "帮",
+  "pinyin": "bāng",
+  "gloss": "to help",
+  "level": 2,
+  "radical": "巾",
+  "strokeCount": 9
+ },
+ {
+  "char": "穿",
+  "pinyin": "chuān",
+  "gloss": "to wear",
+  "level": 2,
+  "radical": "穴",
+  "strokeCount": 9
+ },
+ {
+  "char": "给",
+  "pinyin": "gěi",
+  "gloss": "to; for",
+  "level": 2,
+  "radical": "纟",
+  "strokeCount": 9
+ },
+ {
+  "char": "贵",
+  "pinyin": "guì",
+  "gloss": "expensive",
+  "level": 2,
+  "radical": "贝",
+  "strokeCount": 9
+ },
+ {
+  "char": "孩",
+  "pinyin": "hái",
+  "gloss": "child",
+  "level": 2,
+  "radical": "子",
+  "strokeCount": 9
+ },
+ {
+  "char": "室",
+  "pinyin": "shì",
+  "gloss": "classroom",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 9
+ },
+ {
+  "char": "便",
+  "pinyin": "pián",
+  "gloss": "convenient",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 9
+ },
+ {
+  "char": "送",
+  "pinyin": "sòng",
+  "gloss": "to give; to see off",
+  "level": 2,
+  "radical": "辶",
+  "strokeCount": 9
+ },
+ {
+  "char": "虽",
+  "pinyin": "suī",
+  "gloss": "although",
+  "level": 2,
+  "radical": "口",
+  "strokeCount": 9
+ },
+ {
+  "char": "洗",
+  "pinyin": "xǐ",
+  "gloss": "to wash",
+  "level": 2,
+  "radical": "氵",
+  "strokeCount": 9
+ },
+ {
+  "char": "药",
+  "pinyin": "yào",
+  "gloss": "medicine",
+  "level": 2,
+  "radical": "艹",
+  "strokeCount": 9
+ },
+ {
+  "char": "要",
+  "pinyin": "yào",
+  "gloss": "to want",
+  "level": 2,
+  "radical": "覀",
+  "strokeCount": 9
+ },
+ {
+  "char": "思",
+  "pinyin": "si",
+  "gloss": "meaning",
+  "level": 2,
+  "radical": "田",
+  "strokeCount": 9
+ },
+ {
+  "char": "宾",
+  "pinyin": "bīn",
+  "gloss": "hotel; guesthouse",
+  "level": 2,
+  "radical": "宀",
+  "strokeCount": 10
+ },
+ {
+  "char": "哥",
+  "pinyin": "gē",
+  "gloss": "older brother",
+  "level": 2,
+  "radical": "口",
+  "strokeCount": 10
+ },
+ {
+  "char": "站",
+  "pinyin": "zhàn",
+  "gloss": "station",
+  "level": 2,
+  "radical": "立",
+  "strokeCount": 10
+ },
+ {
+  "char": "课",
+  "pinyin": "kè",
+  "gloss": "lesson",
+  "level": 2,
+  "radical": "讠",
+  "strokeCount": 10
+ },
+ {
+  "char": "离",
+  "pinyin": "lí",
+  "gloss": "from",
+  "level": 2,
+  "radical": "亠",
+  "strokeCount": 10
+ },
+ {
+  "char": "旅",
+  "pinyin": "lǚ",
+  "gloss": "to travel; to tour",
+  "level": 2,
+  "radical": "方",
+  "strokeCount": 10
+ },
+ {
+  "char": "旁",
+  "pinyin": "páng",
+  "gloss": "beside; next to",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 10
+ },
+ {
+  "char": "铅",
+  "pinyin": "qiān",
+  "gloss": "pencil",
+  "level": 2,
+  "radical": "钅",
+  "strokeCount": 10
+ },
+ {
+  "char": "笔",
+  "pinyin": "bǐ",
+  "gloss": "pen",
+  "level": 2,
+  "radical": "竹",
+  "strokeCount": 10
+ },
+ {
+  "char": "班",
+  "pinyin": "bān",
+  "gloss": "to go to work",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 10
+ },
+ {
+  "char": "病",
+  "pinyin": "bìng",
+  "gloss": "to get sick",
+  "level": 2,
+  "radical": "疒",
+  "strokeCount": 10
+ },
+ {
+  "char": "笑",
+  "pinyin": "xiào",
+  "gloss": "to laugh",
+  "level": 2,
+  "radical": "竹",
+  "strokeCount": 10
+ },
+ {
+  "char": "息",
+  "pinyin": "xī",
+  "gloss": "to rest",
+  "level": 2,
+  "radical": "心",
+  "strokeCount": 10
+ },
+ {
+  "char": "真",
+  "pinyin": "zhēn",
+  "gloss": "real",
+  "level": 2,
+  "radical": "十",
+  "strokeCount": 10
+ },
+ {
+  "char": "准",
+  "pinyin": "zhǔn",
+  "gloss": "to prepare",
+  "level": 2,
+  "radical": "冫",
+  "strokeCount": 10
+ },
+ {
+  "char": "馆",
+  "pinyin": "guǎn",
+  "gloss": "hall; venue",
+  "level": 2,
+  "radical": "饣",
+  "strokeCount": 11
+ },
+ {
+  "char": "唱",
+  "pinyin": "chàng",
+  "gloss": "to sing",
+  "level": 2,
+  "radical": "口",
+  "strokeCount": 11
+ },
+ {
+  "char": "球",
+  "pinyin": "qiú",
+  "gloss": "ball",
+  "level": 2,
+  "radical": "王",
+  "strokeCount": 11
+ },
+ {
+  "char": "得",
+  "pinyin": "dé",
+  "gloss": "(complement)",
+  "level": 2,
+  "radical": "彳",
+  "strokeCount": 11
+ },
+ {
+  "char": "第",
+  "pinyin": "dì",
+  "gloss": "(ordinal prefix)",
+  "level": 2,
+  "radical": "竹",
+  "strokeCount": 11
+ },
+ {
+  "char": "常",
+  "pinyin": "cháng",
+  "gloss": "very; extremely",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 11
+ },
+ {
+  "char": "蛋",
+  "pinyin": "dàn",
+  "gloss": "egg",
+  "level": 2,
+  "radical": "虫",
+  "strokeCount": 11
+ },
+ {
+  "char": "教",
+  "pinyin": "jiào",
+  "gloss": "classroom",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 11
+ },
+ {
+  "char": "啡",
+  "pinyin": "fēi",
+  "gloss": "coffee",
+  "level": 2,
+  "radical": "口",
+  "strokeCount": 11
+ },
+ {
+  "char": "累",
+  "pinyin": "lèi",
+  "gloss": "tired",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 11
+ },
+ {
+  "char": "您",
+  "pinyin": "nín",
+  "gloss": "you (polite)",
+  "level": 2,
+  "radical": "心",
+  "strokeCount": 11
+ },
+ {
+  "char": "票",
+  "pinyin": "piào",
+  "gloss": "ticket",
+  "level": 2,
+  "radical": "覀",
+  "strokeCount": 11
+ },
+ {
+  "char": "情",
+  "pinyin": "qíng",
+  "gloss": "matter; affair",
+  "level": 2,
+  "radical": "忄",
+  "strokeCount": 11
+ },
+ {
+  "char": "晚",
+  "pinyin": "wǎn",
+  "gloss": "late",
+  "level": 2,
+  "radical": "日",
+  "strokeCount": 11
+ },
+ {
+  "char": "望",
+  "pinyin": "wàng",
+  "gloss": "to gaze; hope",
+  "level": 2,
+  "radical": "月",
+  "strokeCount": 11
+ },
+ {
+  "char": "雪",
+  "pinyin": "xuě",
+  "gloss": "snow",
+  "level": 2,
+  "radical": "雨",
+  "strokeCount": 11
+ },
+ {
+  "char": "眼",
+  "pinyin": "yǎn",
+  "gloss": "eye",
+  "level": 2,
+  "radical": "目",
+  "strokeCount": 11
+ },
+ {
+  "char": "着",
+  "pinyin": "zhe",
+  "gloss": "(durative)",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 11
+ },
+ {
+  "char": "等",
+  "pinyin": "děng",
+  "gloss": "to wait",
+  "level": 2,
+  "radical": "竹",
+  "strokeCount": 12
+ },
+ {
+  "char": "黑",
+  "pinyin": "hēi",
+  "gloss": "black",
+  "level": 2,
+  "radical": "黑",
+  "strokeCount": 12
+ },
+ {
+  "char": "就",
+  "pinyin": "jiù",
+  "gloss": "then; just",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 12
+ },
+ {
+  "char": "游",
+  "pinyin": "yóu",
+  "gloss": "to swim; to travel",
+  "level": 2,
+  "radical": "氵",
+  "strokeCount": 12
+ },
+ {
+  "char": "跑",
+  "pinyin": "pǎo",
+  "gloss": "to run",
+  "level": 2,
+  "radical": "足",
+  "strokeCount": 12
+ },
+ {
+  "char": "晴",
+  "pinyin": "qíng",
+  "gloss": "sunny",
+  "level": 2,
+  "radical": "日",
+  "strokeCount": 12
+ },
+ {
+  "char": "然",
+  "pinyin": "rán",
+  "gloss": "so; -ly",
+  "level": 2,
+  "radical": "灬",
+  "strokeCount": 12
+ },
+ {
+  "char": "道",
+  "pinyin": "dào",
+  "gloss": "way; to say",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 12
+ },
+ {
+  "char": "最",
+  "pinyin": "zuì",
+  "gloss": "most",
+  "level": 2,
+  "radical": "日",
+  "strokeCount": 12
+ },
+ {
+  "char": "错",
+  "pinyin": "cuò",
+  "gloss": "wrong",
+  "level": 2,
+  "radical": "钅",
+  "strokeCount": 13
+ },
+ {
+  "char": "零",
+  "pinyin": "líng",
+  "gloss": "zero",
+  "level": 2,
+  "radical": "雨",
+  "strokeCount": 13
+ },
+ {
+  "char": "路",
+  "pinyin": "lù",
+  "gloss": "road; route",
+  "level": 2,
+  "radical": "足",
+  "strokeCount": 13
+ },
+ {
+  "char": "跳",
+  "pinyin": "tiào",
+  "gloss": "to jump",
+  "level": 2,
+  "radical": "足",
+  "strokeCount": 13
+ },
+ {
+  "char": "新",
+  "pinyin": "xīn",
+  "gloss": "new",
+  "level": 2,
+  "radical": "斤",
+  "strokeCount": 13
+ },
+ {
+  "char": "睛",
+  "pinyin": "jīng",
+  "gloss": "eye",
+  "level": 2,
+  "radical": "目",
+  "strokeCount": 13
+ },
+ {
+  "char": "意",
+  "pinyin": "yì",
+  "gloss": "meaning",
+  "level": 2,
+  "radical": "",
+  "strokeCount": 13
+ },
+ {
+  "char": "歌",
+  "pinyin": "gē",
+  "gloss": "song",
+  "level": 2,
+  "radical": "欠",
+  "strokeCount": 14
+ },
+ {
+  "char": "慢",
+  "pinyin": "màn",
+  "gloss": "slow",
+  "level": 2,
+  "radical": "忄",
+  "strokeCount": 14
+ },
+ {
+  "char": "舞",
+  "pinyin": "wǔ",
+  "gloss": "to dance",
+  "level": 2,
+  "radical": "舛",
+  "strokeCount": 14
+ },
+ {
+  "char": "懂",
+  "pinyin": "dǒng",
+  "gloss": "to understand",
+  "level": 2,
+  "radical": "忄",
+  "strokeCount": 15
+ },
+ {
+  "char": "踢",
+  "pinyin": "tī",
+  "gloss": "to kick",
+  "level": 2,
+  "radical": "足",
+  "strokeCount": 15
+ },
+ {
+  "char": "题",
+  "pinyin": "tí",
+  "gloss": "question",
+  "level": 2,
+  "radical": "页",
+  "strokeCount": 15
+ },
+ {
+  "char": "颜",
+  "pinyin": "yán",
+  "gloss": "color",
+  "level": 2,
+  "radical": "页",
+  "strokeCount": 15
+ },
+ {
+  "char": "篮",
+  "pinyin": "lán",
+  "gloss": "basket",
+  "level": 2,
+  "radical": "竹",
+  "strokeCount": 16
+ }
+]

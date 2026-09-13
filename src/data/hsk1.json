@@ -1,0 +1,902 @@
+[
+ {
+  "word": "爱",
+  "pinyin": "ài",
+  "gloss": "to love",
+  "level": 1
+ },
+ {
+  "word": "八",
+  "pinyin": "bā",
+  "gloss": "eight",
+  "level": 1
+ },
+ {
+  "word": "爸爸",
+  "pinyin": "bàba",
+  "gloss": "dad; father",
+  "level": 1
+ },
+ {
+  "word": "杯子",
+  "pinyin": "bēizi",
+  "gloss": "cup; glass",
+  "level": 1
+ },
+ {
+  "word": "北京",
+  "pinyin": "Běijīng",
+  "gloss": "Beijing",
+  "level": 1
+ },
+ {
+  "word": "本",
+  "pinyin": "běn",
+  "gloss": "measure word for books",
+  "level": 1
+ },
+ {
+  "word": "不",
+  "pinyin": "bù",
+  "gloss": "not; no",
+  "level": 1
+ },
+ {
+  "word": "不客气",
+  "pinyin": "bú kèqi",
+  "gloss": "you're welcome",
+  "level": 1
+ },
+ {
+  "word": "菜",
+  "pinyin": "cài",
+  "gloss": "dish; vegetable",
+  "level": 1
+ },
+ {
+  "word": "茶",
+  "pinyin": "chá",
+  "gloss": "tea",
+  "level": 1
+ },
+ {
+  "word": "吃",
+  "pinyin": "chī",
+  "gloss": "to eat",
+  "level": 1
+ },
+ {
+  "word": "出租车",
+  "pinyin": "chūzūchē",
+  "gloss": "taxi",
+  "level": 1
+ },
+ {
+  "word": "打电话",
+  "pinyin": "dǎ diànhuà",
+  "gloss": "to make a phone call",
+  "level": 1
+ },
+ {
+  "word": "大",
+  "pinyin": "dà",
+  "gloss": "big; large",
+  "level": 1
+ },
+ {
+  "word": "的",
+  "pinyin": "de",
+  "gloss": "possessive particle",
+  "level": 1
+ },
+ {
+  "word": "点",
+  "pinyin": "diǎn",
+  "gloss": "o'clock; point; a little",
+  "level": 1
+ },
+ {
+  "word": "电脑",
+  "pinyin": "diànnǎo",
+  "gloss": "computer",
+  "level": 1
+ },
+ {
+  "word": "电视",
+  "pinyin": "diànshì",
+  "gloss": "television",
+  "level": 1
+ },
+ {
+  "word": "电影",
+  "pinyin": "diànyǐng",
+  "gloss": "movie",
+  "level": 1
+ },
+ {
+  "word": "东西",
+  "pinyin": "dōngxi",
+  "gloss": "thing; stuff",
+  "level": 1
+ },
+ {
+  "word": "都",
+  "pinyin": "dōu",
+  "gloss": "all; both",
+  "level": 1
+ },
+ {
+  "word": "读",
+  "pinyin": "dú",
+  "gloss": "to read",
+  "level": 1
+ },
+ {
+  "word": "对不起",
+  "pinyin": "duìbuqǐ",
+  "gloss": "sorry",
+  "level": 1
+ },
+ {
+  "word": "多",
+  "pinyin": "duō",
+  "gloss": "many; much",
+  "level": 1
+ },
+ {
+  "word": "多少",
+  "pinyin": "duōshao",
+  "gloss": "how much; how many",
+  "level": 1
+ },
+ {
+  "word": "儿子",
+  "pinyin": "érzi",
+  "gloss": "son",
+  "level": 1
+ },
+ {
+  "word": "二",
+  "pinyin": "èr",
+  "gloss": "two",
+  "level": 1
+ },
+ {
+  "word": "饭店",
+  "pinyin": "fàndiàn",
+  "gloss": "restaurant; hotel",
+  "level": 1
+ },
+ {
+  "word": "飞机",
+  "pinyin": "fēijī",
+  "gloss": "airplane",
+  "level": 1
+ },
+ {
+  "word": "分钟",
+  "pinyin": "fēnzhōng",
+  "gloss": "minute",
+  "level": 1
+ },
+ {
+  "word": "高兴",
+  "pinyin": "gāoxìng",
+  "gloss": "happy; glad",
+  "level": 1
+ },
+ {
+  "word": "个",
+  "pinyin": "gè",
+  "gloss": "general measure word",
+  "level": 1
+ },
+ {
+  "word": "工作",
+  "pinyin": "gōngzuò",
+  "gloss": "to work; job",
+  "level": 1
+ },
+ {
+  "word": "狗",
+  "pinyin": "gǒu",
+  "gloss": "dog",
+  "level": 1
+ },
+ {
+  "word": "汉语",
+  "pinyin": "Hànyǔ",
+  "gloss": "Chinese language",
+  "level": 1
+ },
+ {
+  "word": "好",
+  "pinyin": "hǎo",
+  "gloss": "good; well",
+  "level": 1
+ },
+ {
+  "word": "号",
+  "pinyin": "hào",
+  "gloss": "number; day of month",
+  "level": 1
+ },
+ {
+  "word": "喝",
+  "pinyin": "hē",
+  "gloss": "to drink",
+  "level": 1
+ },
+ {
+  "word": "和",
+  "pinyin": "hé",
+  "gloss": "and; with",
+  "level": 1
+ },
+ {
+  "word": "很",
+  "pinyin": "hěn",
+  "gloss": "very",
+  "level": 1
+ },
+ {
+  "word": "后面",
+  "pinyin": "hòumian",
+  "gloss": "behind",
+  "level": 1
+ },
+ {
+  "word": "回",
+  "pinyin": "huí",
+  "gloss": "to return",
+  "level": 1
+ },
+ {
+  "word": "会",
+  "pinyin": "huì",
+  "gloss": "can; will",
+  "level": 1
+ },
+ {
+  "word": "几",
+  "pinyin": "jǐ",
+  "gloss": "how many; a few",
+  "level": 1
+ },
+ {
+  "word": "家",
+  "pinyin": "jiā",
+  "gloss": "home; family",
+  "level": 1
+ },
+ {
+  "word": "叫",
+  "pinyin": "jiào",
+  "gloss": "to be called; to call",
+  "level": 1
+ },
+ {
+  "word": "今天",
+  "pinyin": "jīntiān",
+  "gloss": "today",
+  "level": 1
+ },
+ {
+  "word": "九",
+  "pinyin": "jiǔ",
+  "gloss": "nine",
+  "level": 1
+ },
+ {
+  "word": "开",
+  "pinyin": "kāi",
+  "gloss": "to open; to drive",
+  "level": 1
+ },
+ {
+  "word": "看",
+  "pinyin": "kàn",
+  "gloss": "to look; to watch",
+  "level": 1
+ },
+ {
+  "word": "看见",
+  "pinyin": "kànjiàn",
+  "gloss": "to see",
+  "level": 1
+ },
+ {
+  "word": "块",
+  "pinyin": "kuài",
+  "gloss": "yuan; piece",
+  "level": 1
+ },
+ {
+  "word": "来",
+  "pinyin": "lái",
+  "gloss": "to come",
+  "level": 1
+ },
+ {
+  "word": "老师",
+  "pinyin": "lǎoshī",
+  "gloss": "teacher",
+  "level": 1
+ },
+ {
+  "word": "了",
+  "pinyin": "le",
+  "gloss": "completed-action particle",
+  "level": 1
+ },
+ {
+  "word": "冷",
+  "pinyin": "lěng",
+  "gloss": "cold",
+  "level": 1
+ },
+ {
+  "word": "里",
+  "pinyin": "lǐ",
+  "gloss": "inside",
+  "level": 1
+ },
+ {
+  "word": "六",
+  "pinyin": "liù",
+  "gloss": "six",
+  "level": 1
+ },
+ {
+  "word": "妈妈",
+  "pinyin": "māma",
+  "gloss": "mom; mother",
+  "level": 1
+ },
+ {
+  "word": "吗",
+  "pinyin": "ma",
+  "gloss": "yes-no question particle",
+  "level": 1
+ },
+ {
+  "word": "买",
+  "pinyin": "mǎi",
+  "gloss": "to buy",
+  "level": 1
+ },
+ {
+  "word": "猫",
+  "pinyin": "māo",
+  "gloss": "cat",
+  "level": 1
+ },
+ {
+  "word": "没关系",
+  "pinyin": "méi guānxi",
+  "gloss": "it doesn't matter",
+  "level": 1
+ },
+ {
+  "word": "没有",
+  "pinyin": "méiyǒu",
+  "gloss": "to not have; there is not",
+  "level": 1
+ },
+ {
+  "word": "米饭",
+  "pinyin": "mǐfàn",
+  "gloss": "cooked rice",
+  "level": 1
+ },
+ {
+  "word": "名字",
+  "pinyin": "míngzi",
+  "gloss": "name",
+  "level": 1
+ },
+ {
+  "word": "明天",
+  "pinyin": "míngtiān",
+  "gloss": "tomorrow",
+  "level": 1
+ },
+ {
+  "word": "哪",
+  "pinyin": "nǎ",
+  "gloss": "which",
+  "level": 1
+ },
+ {
+  "word": "哪儿",
+  "pinyin": "nǎr",
+  "gloss": "where",
+  "level": 1
+ },
+ {
+  "word": "那",
+  "pinyin": "nà",
+  "gloss": "that",
+  "level": 1
+ },
+ {
+  "word": "呢",
+  "pinyin": "ne",
+  "gloss": "question particle",
+  "level": 1
+ },
+ {
+  "word": "能",
+  "pinyin": "néng",
+  "gloss": "can; be able to",
+  "level": 1
+ },
+ {
+  "word": "你",
+  "pinyin": "nǐ",
+  "gloss": "you",
+  "level": 1
+ },
+ {
+  "word": "年",
+  "pinyin": "nián",
+  "gloss": "year",
+  "level": 1
+ },
+ {
+  "word": "女儿",
+  "pinyin": "nǚ'ér",
+  "gloss": "daughter",
+  "level": 1
+ },
+ {
+  "word": "朋友",
+  "pinyin": "péngyou",
+  "gloss": "friend",
+  "level": 1
+ },
+ {
+  "word": "漂亮",
+  "pinyin": "piàoliang",
+  "gloss": "pretty; beautiful",
+  "level": 1
+ },
+ {
+  "word": "苹果",
+  "pinyin": "píngguǒ",
+  "gloss": "apple",
+  "level": 1
+ },
+ {
+  "word": "七",
+  "pinyin": "qī",
+  "gloss": "seven",
+  "level": 1
+ },
+ {
+  "word": "前面",
+  "pinyin": "qiánmian",
+  "gloss": "in front",
+  "level": 1
+ },
+ {
+  "word": "钱",
+  "pinyin": "qián",
+  "gloss": "money",
+  "level": 1
+ },
+ {
+  "word": "请",
+  "pinyin": "qǐng",
+  "gloss": "please; to invite",
+  "level": 1
+ },
+ {
+  "word": "去",
+  "pinyin": "qù",
+  "gloss": "to go",
+  "level": 1
+ },
+ {
+  "word": "热",
+  "pinyin": "rè",
+  "gloss": "hot",
+  "level": 1
+ },
+ {
+  "word": "人",
+  "pinyin": "rén",
+  "gloss": "person; people",
+  "level": 1
+ },
+ {
+  "word": "认识",
+  "pinyin": "rènshi",
+  "gloss": "to know (a person)",
+  "level": 1
+ },
+ {
+  "word": "三",
+  "pinyin": "sān",
+  "gloss": "three",
+  "level": 1
+ },
+ {
+  "word": "商店",
+  "pinyin": "shāngdiàn",
+  "gloss": "shop; store",
+  "level": 1
+ },
+ {
+  "word": "上",
+  "pinyin": "shàng",
+  "gloss": "up; on; to go to",
+  "level": 1
+ },
+ {
+  "word": "上午",
+  "pinyin": "shàngwǔ",
+  "gloss": "morning; forenoon",
+  "level": 1
+ },
+ {
+  "word": "少",
+  "pinyin": "shǎo",
+  "gloss": "few; little",
+  "level": 1
+ },
+ {
+  "word": "谁",
+  "pinyin": "shéi",
+  "gloss": "who",
+  "level": 1
+ },
+ {
+  "word": "什么",
+  "pinyin": "shénme",
+  "gloss": "what",
+  "level": 1
+ },
+ {
+  "word": "十",
+  "pinyin": "shí",
+  "gloss": "ten",
+  "level": 1
+ },
+ {
+  "word": "时候",
+  "pinyin": "shíhou",
+  "gloss": "time; moment",
+  "level": 1
+ },
+ {
+  "word": "是",
+  "pinyin": "shì",
+  "gloss": "to be",
+  "level": 1
+ },
+ {
+  "word": "书",
+  "pinyin": "shū",
+  "gloss": "book",
+  "level": 1
+ },
+ {
+  "word": "水",
+  "pinyin": "shuǐ",
+  "gloss": "water",
+  "level": 1
+ },
+ {
+  "word": "水果",
+  "pinyin": "shuǐguǒ",
+  "gloss": "fruit",
+  "level": 1
+ },
+ {
+  "word": "睡觉",
+  "pinyin": "shuìjiào",
+  "gloss": "to sleep",
+  "level": 1
+ },
+ {
+  "word": "说",
+  "pinyin": "shuō",
+  "gloss": "to speak; to say",
+  "level": 1
+ },
+ {
+  "word": "四",
+  "pinyin": "sì",
+  "gloss": "four",
+  "level": 1
+ },
+ {
+  "word": "岁",
+  "pinyin": "suì",
+  "gloss": "years old",
+  "level": 1
+ },
+ {
+  "word": "他",
+  "pinyin": "tā",
+  "gloss": "he; him",
+  "level": 1
+ },
+ {
+  "word": "她",
+  "pinyin": "tā",
+  "gloss": "she; her",
+  "level": 1
+ },
+ {
+  "word": "太",
+  "pinyin": "tài",
+  "gloss": "too; extremely",
+  "level": 1
+ },
+ {
+  "word": "天气",
+  "pinyin": "tiānqì",
+  "gloss": "weather",
+  "level": 1
+ },
+ {
+  "word": "听",
+  "pinyin": "tīng",
+  "gloss": "to listen",
+  "level": 1
+ },
+ {
+  "word": "同学",
+  "pinyin": "tóngxué",
+  "gloss": "classmate",
+  "level": 1
+ },
+ {
+  "word": "喂",
+  "pinyin": "wèi",
+  "gloss": "hello (on the phone)",
+  "level": 1
+ },
+ {
+  "word": "我",
+  "pinyin": "wǒ",
+  "gloss": "I; me",
+  "level": 1
+ },
+ {
+  "word": "我们",
+  "pinyin": "wǒmen",
+  "gloss": "we; us",
+  "level": 1
+ },
+ {
+  "word": "五",
+  "pinyin": "wǔ",
+  "gloss": "five",
+  "level": 1
+ },
+ {
+  "word": "喜欢",
+  "pinyin": "xǐhuan",
+  "gloss": "to like",
+  "level": 1
+ },
+ {
+  "word": "下",
+  "pinyin": "xià",
+  "gloss": "down; below; next",
+  "level": 1
+ },
+ {
+  "word": "下午",
+  "pinyin": "xiàwǔ",
+  "gloss": "afternoon",
+  "level": 1
+ },
+ {
+  "word": "下雨",
+  "pinyin": "xiàyǔ",
+  "gloss": "to rain",
+  "level": 1
+ },
+ {
+  "word": "先生",
+  "pinyin": "xiānsheng",
+  "gloss": "Mr.; sir",
+  "level": 1
+ },
+ {
+  "word": "现在",
+  "pinyin": "xiànzài",
+  "gloss": "now",
+  "level": 1
+ },
+ {
+  "word": "想",
+  "pinyin": "xiǎng",
+  "gloss": "to want; to think",
+  "level": 1
+ },
+ {
+  "word": "小",
+  "pinyin": "xiǎo",
+  "gloss": "small",
+  "level": 1
+ },
+ {
+  "word": "小姐",
+  "pinyin": "xiǎojiě",
+  "gloss": "Miss",
+  "level": 1
+ },
+ {
+  "word": "些",
+  "pinyin": "xiē",
+  "gloss": "some; a few",
+  "level": 1
+ },
+ {
+  "word": "写",
+  "pinyin": "xiě",
+  "gloss": "to write",
+  "level": 1
+ },
+ {
+  "word": "谢谢",
+  "pinyin": "xièxie",
+  "gloss": "thank you",
+  "level": 1
+ },
+ {
+  "word": "星期",
+  "pinyin": "xīngqī",
+  "gloss": "week",
+  "level": 1
+ },
+ {
+  "word": "学生",
+  "pinyin": "xuésheng",
+  "gloss": "student",
+  "level": 1
+ },
+ {
+  "word": "学习",
+  "pinyin": "xuéxí",
+  "gloss": "to study; to learn",
+  "level": 1
+ },
+ {
+  "word": "学校",
+  "pinyin": "xuéxiào",
+  "gloss": "school",
+  "level": 1
+ },
+ {
+  "word": "一",
+  "pinyin": "yī",
+  "gloss": "one",
+  "level": 1
+ },
+ {
+  "word": "一点儿",
+  "pinyin": "yìdiǎnr",
+  "gloss": "a little; a bit",
+  "level": 1
+ },
+ {
+  "word": "衣服",
+  "pinyin": "yīfu",
+  "gloss": "clothes",
+  "level": 1
+ },
+ {
+  "word": "医生",
+  "pinyin": "yīshēng",
+  "gloss": "doctor",
+  "level": 1
+ },
+ {
+  "word": "医院",
+  "pinyin": "yīyuàn",
+  "gloss": "hospital",
+  "level": 1
+ },
+ {
+  "word": "椅子",
+  "pinyin": "yǐzi",
+  "gloss": "chair",
+  "level": 1
+ },
+ {
+  "word": "有",
+  "pinyin": "yǒu",
+  "gloss": "to have; there is",
+  "level": 1
+ },
+ {
+  "word": "月",
+  "pinyin": "yuè",
+  "gloss": "month; moon",
+  "level": 1
+ },
+ {
+  "word": "再见",
+  "pinyin": "zàijiàn",
+  "gloss": "goodbye",
+  "level": 1
+ },
+ {
+  "word": "在",
+  "pinyin": "zài",
+  "gloss": "at; in; to be (located)",
+  "level": 1
+ },
+ {
+  "word": "怎么",
+  "pinyin": "zěnme",
+  "gloss": "how",
+  "level": 1
+ },
+ {
+  "word": "怎么样",
+  "pinyin": "zěnmeyàng",
+  "gloss": "how is it; how about",
+  "level": 1
+ },
+ {
+  "word": "这",
+  "pinyin": "zhè",
+  "gloss": "this",
+  "level": 1
+ },
+ {
+  "word": "中国",
+  "pinyin": "Zhōngguó",
+  "gloss": "China",
+  "level": 1
+ },
+ {
+  "word": "中午",
+  "pinyin": "zhōngwǔ",
+  "gloss": "noon",
+  "level": 1
+ },
+ {
+  "word": "住",
+  "pinyin": "zhù",
+  "gloss": "to live; to stay",
+  "level": 1
+ },
+ {
+  "word": "桌子",
+  "pinyin": "zhuōzi",
+  "gloss": "table; desk",
+  "level": 1
+ },
+ {
+  "word": "字",
+  "pinyin": "zì",
+  "gloss": "character; word",
+  "level": 1
+ },
+ {
+  "word": "昨天",
+  "pinyin": "zuótiān",
+  "gloss": "yesterday",
+  "level": 1
+ },
+ {
+  "word": "做",
+  "pinyin": "zuò",
+  "gloss": "to do; to make",
+  "level": 1
+ },
+ {
+  "word": "坐",
+  "pinyin": "zuò",
+  "gloss": "to sit; to take (transport)",
+  "level": 1
+ }
+]

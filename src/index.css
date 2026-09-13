@@ -1,0 +1,149 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand — "Rice Paper" light theme */
+    --paper: #F6F1E5;
+    --paper-raised: #FDFBF5;
+    --ink: #26221B;
+    --ink-soft: #5C5548;
+    --ink-faint: #9A9182;
+    --vermilion: #C8442C;
+    --vermilion-deep: #A33220;
+    --jade: #3E7C5B;
+    --gold: #C99A3C;
+    --grid-line: #D9CFBB;
+    --error: #B03A2E;
+    --wash-blue: #5B7B8C;
+
+    /* shadcn tokens remapped to brand */
+    --background: 42 37% 93%;
+    --foreground: 33 17% 13%;
+    --card: 45 33% 98%;
+    --card-foreground: 33 17% 13%;
+    --popover: 45 33% 98%;
+    --popover-foreground: 33 17% 13%;
+    --primary: 13 64% 48%;
+    --primary-foreground: 45 33% 98%;
+    --secondary: 40 24% 90%;
+    --secondary-foreground: 33 17% 13%;
+    --muted: 40 24% 90%;
+    --muted-foreground: 35 10% 34%;
+    --accent: 40 24% 90%;
+    --accent-foreground: 33 17% 13%;
+    --destructive: 8 59% 44%;
+    --destructive-foreground: 45 33% 98%;
+    --border: 40 24% 85%;
+    --input: 40 24% 85%;
+    --ring: 13 64% 48%;
+    --radius: 0.625rem;
+    --sidebar-background: 45 33% 98%;
+    --sidebar-foreground: 33 17% 13%;
+    --sidebar-primary: 13 64% 48%;
+    --sidebar-primary-foreground: 45 33% 98%;
+    --sidebar-accent: 40 24% 90%;
+    --sidebar-accent-foreground: 33 17% 13%;
+    --sidebar-border: 40 24% 85%;
+    --sidebar-ring: 13 64% 48%;
+  }
+
+  /* "Ink Night" dark theme */
+  .dark {
+    --paper: #17150F;
+    --paper-raised: #211E17;
+    --ink: #EDE6D6;
+    --ink-soft: #B4AB98;
+    --ink-faint: #6E675A;
+    --vermilion: #D9573F;
+    --vermilion-deep: #C8442C;
+    --jade: #4E9470;
+    --gold: #D4A94E;
+    --grid-line: #3A352A;
+    --error: #C9503F;
+    --wash-blue: #7A97A6;
+
+    --background: 35 20% 7%;
+    --foreground: 40 40% 88%;
+    --card: 38 18% 11%;
+    --card-foreground: 40 40% 88%;
+    --popover: 38 18% 11%;
+    --popover-foreground: 40 40% 88%;
+    --primary: 12 66% 55%;
+    --primary-foreground: 40 40% 92%;
+    --secondary: 38 14% 18%;
+    --secondary-foreground: 40 40% 88%;
+    --muted: 38 14% 18%;
+    --muted-foreground: 38 14% 60%;
+    --accent: 38 14% 18%;
+    --accent-foreground: 40 40% 88%;
+    --destructive: 8 59% 50%;
+    --destructive-foreground: 40 40% 92%;
+    --border: 38 14% 18%;
+    --input: 38 14% 18%;
+    --ring: 12 66% 55%;
+    --sidebar-background: 38 18% 11%;
+    --sidebar-foreground: 40 40% 88%;
+    --sidebar-primary: 12 66% 55%;
+    --sidebar-primary-foreground: 40 40% 92%;
+    --sidebar-accent: 38 14% 18%;
+    --sidebar-accent-foreground: 40 40% 88%;
+    --sidebar-border: 38 14% 18%;
+    --sidebar-ring: 12 66% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    font-feature-settings: "ss01";
+  }
+  /* CJK glyphs always render from the system CJK stack */
+  :lang(zh), .font-cjk {
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  }
+}
+
+@layer utilities {
+  /* iOS safe-area helpers */
+  .pt-safe {
+    padding-top: env(safe-area-inset-top);
+  }
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .h-safe-top {
+    height: env(safe-area-inset-top);
+  }
+  /* Subtle rice-paper grain overlay (asset: /paper-texture.png) */
+  .paper-texture {
+    position: relative;
+  }
+  .paper-texture::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("/paper-texture.png");
+    background-size: 512px 512px;
+    opacity: 0.07;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .dark .paper-texture::before {
+    opacity: 0.05;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

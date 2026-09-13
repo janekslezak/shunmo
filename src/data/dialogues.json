@@ -1,0 +1,372 @@
+[
+ {
+  "id": "greetings",
+  "title": "Greetings",
+  "titleZh": "打招呼",
+  "level": 1,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "你好！你叫什么名字？",
+    "pinyin": "Nǐ hǎo! Nǐ jiào shénme míngzi?",
+    "en": "Hello! What's your name?"
+   },
+   {
+    "speaker": "B",
+    "zh": "你好！我叫王明。你呢？",
+    "pinyin": "Nǐ hǎo! Wǒ jiào Wáng Míng. Nǐ ne?",
+    "en": "Hi! My name is Wang Ming. And you?"
+   },
+   {
+    "speaker": "A",
+    "zh": "我叫李月。认识你很高兴！",
+    "pinyin": "Wǒ jiào Lǐ Yuè. Rènshi nǐ hěn gāoxìng!",
+    "en": "I'm Li Yue. Nice to meet you!"
+   },
+   {
+    "speaker": "B",
+    "zh": "认识你我也很高兴。你是学生吗？",
+    "pinyin": "Rènshi nǐ wǒ yě hěn gāoxìng. Nǐ shì xuésheng ma?",
+    "en": "Nice to meet you too. Are you a student?"
+   },
+   {
+    "speaker": "A",
+    "zh": "是，我是学生。再见！",
+    "pinyin": "Shì, wǒ shì xuésheng. Zàijiàn!",
+    "en": "Yes, I am. Goodbye!"
+   },
+   {
+    "speaker": "B",
+    "zh": "再见！",
+    "pinyin": "Zàijiàn!",
+    "en": "Bye!"
+   }
+  ]
+ },
+ {
+  "id": "introductions",
+  "title": "Introductions",
+  "titleZh": "介绍",
+  "level": 1,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "王老师，您好！",
+    "pinyin": "Wáng lǎoshī, nín hǎo!",
+    "en": "Hello, Teacher Wang!"
+   },
+   {
+    "speaker": "B",
+    "zh": "你好！这位是谁？",
+    "pinyin": "Nǐ hǎo! Zhè wèi shì shéi?",
+    "en": "Hello! Who is this?"
+   },
+   {
+    "speaker": "A",
+    "zh": "我介绍一下，这是我的朋友小张。",
+    "pinyin": "Wǒ jièshào yíxià, zhè shì wǒ de péngyou Xiǎo Zhāng.",
+    "en": "Let me introduce — this is my friend Xiao Zhang."
+   },
+   {
+    "speaker": "B",
+    "zh": "小张，你好！你在哪儿工作？",
+    "pinyin": "Xiǎo Zhāng, nǐ hǎo! Nǐ zài nǎr gōngzuò?",
+    "en": "Hi Xiao Zhang! Where do you work?"
+   },
+   {
+    "speaker": "A",
+    "zh": "我在北京工作，我是医生。",
+    "pinyin": "Wǒ zài Běijīng gōngzuò, wǒ shì yīshēng.",
+    "en": "I work in Beijing. I'm a doctor."
+   },
+   {
+    "speaker": "B",
+    "zh": "哦，医生！太好了。认识你很高兴。",
+    "pinyin": "Ò, yīshēng! Tài hǎo le. Rènshi nǐ hěn gāoxìng.",
+    "en": "Oh, a doctor! Wonderful. Nice to meet you."
+   }
+  ]
+ },
+ {
+  "id": "shopping",
+  "title": "Shopping",
+  "titleZh": "买东西",
+  "level": 2,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "你好！这件衣服多少钱？",
+    "pinyin": "Nǐ hǎo! Zhè jiàn yīfu duōshao qián?",
+    "en": "Hi! How much is this piece of clothing?"
+   },
+   {
+    "speaker": "B",
+    "zh": "两百块。",
+    "pinyin": "Liǎng bǎi kuài.",
+    "en": "Two hundred yuan."
+   },
+   {
+    "speaker": "A",
+    "zh": "太贵了！便宜一点儿，好吗？",
+    "pinyin": "Tài guì le! Piányi yìdiǎnr, hǎo ma?",
+    "en": "Too expensive! Can you make it cheaper?"
+   },
+   {
+    "speaker": "B",
+    "zh": "那……一百八，怎么样？",
+    "pinyin": "Nà... yì bǎi bā, zěnmeyàng?",
+    "en": "Then... one hundred eighty, how about that?"
+   },
+   {
+    "speaker": "A",
+    "zh": "好吧，我买了。",
+    "pinyin": "Hǎo ba, wǒ mǎi le.",
+    "en": "OK, I'll take it."
+   },
+   {
+    "speaker": "B",
+    "zh": "谢谢！欢迎再来。",
+    "pinyin": "Xièxie! Huānyíng zài lái.",
+    "en": "Thank you! Come again."
+   }
+  ]
+ },
+ {
+  "id": "restaurant",
+  "title": "At the Restaurant",
+  "titleZh": "在饭店",
+  "level": 2,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "服务员！我们要点菜。",
+    "pinyin": "Fúwùyuán! Wǒmen yào diǎn cài.",
+    "en": "Waiter! We'd like to order."
+   },
+   {
+    "speaker": "B",
+    "zh": "好的。你们想吃什么？",
+    "pinyin": "Hǎo de. Nǐmen xiǎng chī shénme?",
+    "en": "Sure. What would you like to eat?"
+   },
+   {
+    "speaker": "A",
+    "zh": "我们要一个鱼，一个菜，两碗米饭。",
+    "pinyin": "Wǒmen yào yí ge yú, yí ge cài, liǎng wǎn mǐfàn.",
+    "en": "We'd like a fish, a vegetable dish, and two bowls of rice."
+   },
+   {
+    "speaker": "B",
+    "zh": "喝什么呢？有茶和咖啡。",
+    "pinyin": "Hē shénme ne? Yǒu chá hé kāfēi.",
+    "en": "What to drink? We have tea and coffee."
+   },
+   {
+    "speaker": "A",
+    "zh": "两杯茶，谢谢。这个鱼好吃吗？",
+    "pinyin": "Liǎng bēi chá, xièxie. Zhè ge yú hǎochī ma?",
+    "en": "Two teas, thanks. Is this fish tasty?"
+   },
+   {
+    "speaker": "B",
+    "zh": "非常好吃！请等一下。",
+    "pinyin": "Fēicháng hǎochī! Qǐng děng yíxià.",
+    "en": "Very tasty! Please wait a moment."
+   }
+  ]
+ },
+ {
+  "id": "time-date",
+  "title": "Time & Date",
+  "titleZh": "时间和日期",
+  "level": 1,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "今天几月几号？",
+    "pinyin": "Jīntiān jǐ yuè jǐ hào?",
+    "en": "What's the date today?"
+   },
+   {
+    "speaker": "B",
+    "zh": "今天十月五号。明天六号。",
+    "pinyin": "Jīntiān shí yuè wǔ hào. Míngtiān liù hào.",
+    "en": "Today is October 5th. Tomorrow is the 6th."
+   },
+   {
+    "speaker": "A",
+    "zh": "现在几点？",
+    "pinyin": "Xiànzài jǐ diǎn?",
+    "en": "What time is it now?"
+   },
+   {
+    "speaker": "B",
+    "zh": "现在上午九点半。",
+    "pinyin": "Xiànzài shàngwǔ jiǔ diǎn bàn.",
+    "en": "It's 9:30 in the morning."
+   },
+   {
+    "speaker": "A",
+    "zh": "我们下午两点去看电影，好吗？",
+    "pinyin": "Wǒmen xiàwǔ liǎng diǎn qù kàn diànyǐng, hǎo ma?",
+    "en": "Shall we go see a movie at 2 pm?"
+   },
+   {
+    "speaker": "B",
+    "zh": "好啊！明天见。",
+    "pinyin": "Hǎo a! Míngtiān jiàn.",
+    "en": "Great! See you tomorrow."
+   }
+  ]
+ },
+ {
+  "id": "directions",
+  "title": "Asking Directions",
+  "titleZh": "问路",
+  "level": 2,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "请问，火车站在哪儿？",
+    "pinyin": "Qǐngwèn, huǒchēzhàn zài nǎr?",
+    "en": "Excuse me, where is the train station?"
+   },
+   {
+    "speaker": "B",
+    "zh": "火车站离这儿不远。",
+    "pinyin": "Huǒchēzhàn lí zhèr bù yuǎn.",
+    "en": "The station is not far from here."
+   },
+   {
+    "speaker": "A",
+    "zh": "怎么走？",
+    "pinyin": "Zěnme zǒu?",
+    "en": "How do I get there?"
+   },
+   {
+    "speaker": "B",
+    "zh": "从这儿往前走，到那个路口往左走。",
+    "pinyin": "Cóng zhèr wǎng qián zǒu, dào nà ge lùkǒu wǎng zuǒ zǒu.",
+    "en": "Walk straight from here, then turn left at that crossing."
+   },
+   {
+    "speaker": "A",
+    "zh": "要走多长时间？",
+    "pinyin": "Yào zǒu duō cháng shíjiān?",
+    "en": "How long does it take to walk?"
+   },
+   {
+    "speaker": "B",
+    "zh": "十分钟就到了。",
+    "pinyin": "Shí fēnzhōng jiù dào le.",
+    "en": "You'll be there in ten minutes."
+   },
+   {
+    "speaker": "A",
+    "zh": "太好了，谢谢你！",
+    "pinyin": "Tài hǎo le, xièxie nǐ!",
+    "en": "Great, thank you!"
+   },
+   {
+    "speaker": "B",
+    "zh": "不客气！",
+    "pinyin": "Bú kèqi!",
+    "en": "You're welcome!"
+   }
+  ]
+ },
+ {
+  "id": "family",
+  "title": "Family",
+  "titleZh": "家人",
+  "level": 2,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "你家有几口人？",
+    "pinyin": "Nǐ jiā yǒu jǐ kǒu rén?",
+    "en": "How many people are there in your family?"
+   },
+   {
+    "speaker": "B",
+    "zh": "我家有五口人：爸爸、妈妈、哥哥、妹妹和我。",
+    "pinyin": "Wǒ jiā yǒu wǔ kǒu rén: bàba, māma, gēge, mèimei hé wǒ.",
+    "en": "Five: my dad, mom, older brother, younger sister and me."
+   },
+   {
+    "speaker": "A",
+    "zh": "你哥哥做什么工作？",
+    "pinyin": "Nǐ gēge zuò shénme gōngzuò?",
+    "en": "What does your older brother do?"
+   },
+   {
+    "speaker": "B",
+    "zh": "他是老师，在学校工作。你妹妹呢？",
+    "pinyin": "Tā shì lǎoshī, zài xuéxiào gōngzuò. Nǐ mèimei ne?",
+    "en": "He's a teacher, he works at a school. And your younger sister?"
+   },
+   {
+    "speaker": "A",
+    "zh": "她还是学生。她学习汉语。",
+    "pinyin": "Tā háishì xuésheng. Tā xuéxí Hànyǔ.",
+    "en": "She's still a student. She studies Chinese."
+   },
+   {
+    "speaker": "B",
+    "zh": "真有意思！我们都爱学习。",
+    "pinyin": "Zhēn yǒu yìsi! Wǒmen dōu ài xuéxí.",
+    "en": "How interesting! We all love learning."
+   }
+  ]
+ },
+ {
+  "id": "hobbies",
+  "title": "Hobbies",
+  "titleZh": "爱好",
+  "level": 2,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "你休息的时候喜欢做什么？",
+    "pinyin": "Nǐ xiūxi de shíhou xǐhuan zuò shénme?",
+    "en": "What do you like to do when you rest?"
+   },
+   {
+    "speaker": "B",
+    "zh": "我喜欢运动。我常常跑步、游泳。",
+    "pinyin": "Wǒ xǐhuan yùndòng. Wǒ chángcháng pǎobù, yóuyǒng.",
+    "en": "I like sports. I often run and swim."
+   },
+   {
+    "speaker": "A",
+    "zh": "你会打篮球吗？",
+    "pinyin": "Nǐ huì dǎ lánqiú ma?",
+    "en": "Can you play basketball?"
+   },
+   {
+    "speaker": "B",
+    "zh": "会一点儿，但是踢足球踢得比较好。",
+    "pinyin": "Huì yìdiǎnr, dànshì tī zúqiú tī de bǐjiào hǎo.",
+    "en": "A little, but I play football better."
+   },
+   {
+    "speaker": "A",
+    "zh": "我喜欢唱歌和跳舞。",
+    "pinyin": "Wǒ xǐhuan chàng gē hé tiàowǔ.",
+    "en": "I like singing and dancing."
+   },
+   {
+    "speaker": "B",
+    "zh": "这个星期六我们一起唱歌，怎么样？",
+    "pinyin": "Zhè ge xīngqīliù wǒmen yìqǐ chàng gē, zěnmeyàng?",
+    "en": "How about we sing together this Saturday?"
+   },
+   {
+    "speaker": "A",
+    "zh": "好啊，太好了！",
+    "pinyin": "Hǎo a, tài hǎo le!",
+    "en": "Sure, that's great!"
+   }
+  ]
+ }
+]

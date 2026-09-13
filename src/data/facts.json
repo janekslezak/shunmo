@@ -1,0 +1,723 @@
+[
+ {
+  "char": "人",
+  "origin": "A pictograph of a person seen from the side, with a head, a body and two legs. It is one of the oldest and simplest characters, already clear in oracle-bone script.",
+  "culture": "人 is the root of words like 人们 (people) and 人生 (life). Confucian thought places 人 at the center of the world, and the virtue 仁 (benevolence) combines 人 with 二 — 'person among two', i.e. how we treat others.",
+  "examples": [
+   "人们 rénmen — people",
+   "人生 rénshēng — life"
+  ]
+ },
+ {
+  "char": "口",
+  "origin": "A pictograph of an open mouth. The square shape simply outlines the lips.",
+  "culture": "口 appears in words for entrances and openings (门口, door). Measuring family size as 几口人 — 'how many mouths' — reflects an agrarian society where each mouth had to be fed.",
+  "examples": [
+   "门口 ménkǒu — doorway",
+   "人口 rénkǒu — population"
+  ]
+ },
+ {
+  "char": "手",
+  "origin": "A pictograph of a hand with five fingers; the modern form keeps three 'fingers' and a wrist stroke.",
+  "culture": "As the radical 扌it marks verbs done with the hands: 打 (hit), 找 (find), 拿 (take). 手机, 'hand machine', is the everyday word for mobile phone.",
+  "examples": [
+   "手机 shǒujī — mobile phone",
+   "手表 shǒubiǎo — wristwatch"
+  ]
+ },
+ {
+  "char": "日",
+  "origin": "A pictograph of the sun — a circle with a dot in the middle, squared off over time into today's rectangle with one line.",
+  "culture": "日 means both 'sun' and 'day', so dates use it (五日, the 5th). Together with 月 it forms 明, 'bright'. Japan is 日本, 'sun origin' — the land where the sun rises.",
+  "examples": [
+   "生日 shēngrì — birthday",
+   "星期日 xīngqīrì — Sunday"
+  ]
+ },
+ {
+  "char": "月",
+  "origin": "A pictograph of a crescent moon. Ancient forms drew the moon with two inner strokes, later simplified to the modern shape.",
+  "culture": "月 means both 'moon' and 'month' — the lunar cycle defined the traditional Chinese calendar. The Mid-Autumn Festival celebrates the full moon with mooncakes, and poets have sung to the moon for three thousand years.",
+  "examples": [
+   "一月 yīyuè — January",
+   "月亮 yuèliang — the moon"
+  ]
+ },
+ {
+  "char": "山",
+  "origin": "A pictograph of three mountain peaks rising from a base line.",
+  "culture": "Mountains are sacred in Chinese culture — the Five Great Mountains (五岳) were pilgrimage sites for emperors. 山水画, 'mountain-water painting', is the highest genre of Chinese landscape art.",
+  "examples": [
+   "上山 shàngshān — to go up the mountain"
+  ]
+ },
+ {
+  "char": "水",
+  "origin": "A pictograph of flowing water — a central current with splashes or rivulets on both sides.",
+  "culture": "Water is one of the five elements (五行). Laozi praised water as the highest good: it benefits everything yet contends with nothing. The radical 氵('three drops of water') marks liquid-related characters like 河 and 海.",
+  "examples": [
+   "水果 shuǐguǒ — fruit",
+   "开水 kāishuǐ — boiled water"
+  ]
+ },
+ {
+  "char": "火",
+  "origin": "A pictograph of a rising flame with sparks on either side.",
+  "culture": "Fire is one of the five elements, linked to summer and the south. 火车 'fire cart' is a train, and 火锅 'fire pot' is the beloved hotpot meal shared around a bubbling broth.",
+  "examples": [
+   "火车 huǒchē — train",
+   "上火 shànghuǒ — internal 'heat' (TCM)"
+  ]
+ },
+ {
+  "char": "木",
+  "origin": "A pictograph of a tree: trunk, branches reaching up, roots spreading down.",
+  "culture": "木 doubles for 'wood' and appears doubled as 林 (forest) and tripled as 森 (dense forest). It is one of the five elements, associated with spring and growth.",
+  "examples": [
+   "木头 mùtou — wood"
+  ]
+ },
+ {
+  "char": "女",
+  "origin": "A pictograph of a woman kneeling with arms crossed in front — a posture of grace in ancient times.",
+  "culture": "女 combines with 子 (child) to make 好 'good'. Chinese traditionally says 女儿 'female child' for daughter. The goddess Nüwa (女娲) is said to have created humanity from clay.",
+  "examples": [
+   "女儿 nǚ'ér — daughter",
+   "女人 nǚrén — woman"
+  ]
+ },
+ {
+  "char": "子",
+  "origin": "A pictograph of a baby with a large head, a body and two arms, wrapped so the legs show as one stroke.",
+  "culture": "子 meant 'child' and also became an honorific for masters — 孔子 (Confucius) is 'Master Kong'. Today it is the most common noun suffix: 桌子 (table), 椅子 (chair), 孩子 (child).",
+  "examples": [
+   "孩子 háizi — child",
+   "儿子 érzi — son"
+  ]
+ },
+ {
+  "char": "好",
+  "origin": "An ideograph combining 女 (woman) and 子 (child): a mother with her child was the ancient picture of everything 'good'.",
+  "culture": "好 is probably the first word every learner masters — 你好, 'you good', means hello. Chinese well-wishing revolves around 好: 好运 good luck, 好事 good things, 好人 a good person.",
+  "examples": [
+   "你好 nǐ hǎo — hello",
+   "好吃 hǎochī — delicious"
+  ]
+ },
+ {
+  "char": "明",
+  "origin": "An ideograph of 日 (sun) and 月 (moon) together — the two brightest things in the sky combine to mean 'bright'.",
+  "culture": "明 gives us 明天 'bright day' = tomorrow, and 明白 'bright and clear' = to understand. The Ming dynasty (明朝, 1368–1644) took its name from this shining character.",
+  "examples": [
+   "明天 míngtiān — tomorrow",
+   "明白 míngbai — to understand"
+  ]
+ },
+ {
+  "char": "休",
+  "origin": "An ideograph: 人 (person) leaning against 木 (tree) — a person resting in the shade of a tree means 'to rest'.",
+  "culture": "休息, 'to rest', is a word Chinese people use warmly: 好好休息 'rest well' is standard care-talk to anyone tired or sick. The image of pausing under a tree fits the Daoist ideal of unforced ease.",
+  "examples": [
+   "休息 xiūxi — to rest"
+  ]
+ },
+ {
+  "char": "家",
+  "origin": "An ideograph: 宀 (roof) over 豕 (pig). A house with livestock under the roof was the ancient picture of a household.",
+  "culture": "家 means both 'home' and 'family' — in Chinese the two are one idea. The family is the core unit of society, and 大家 'big family' came to mean 'everybody'. 国家 'country' is literally 'state-family'.",
+  "examples": [
+   "大家 dàjiā — everyone",
+   "回家 huí jiā — to go home"
+  ]
+ },
+ {
+  "char": "安",
+  "origin": "An ideograph: 女 (woman) under 宀 (roof) — a woman at home meant 'peace' and 'safety'.",
+  "culture": "安 is the character of blessings: 平安 'safe and sound' is the most heartfelt wish for travelers. Xi'an (西安) is 'Western Peace'. 晚安 'night peace' is how you say good night.",
+  "examples": [
+   "平安 píng'ān — safe and sound",
+   "晚安 wǎn'ān — good night"
+  ]
+ },
+ {
+  "char": "字",
+  "origin": "An ideograph: 子 (child) under 宀 (roof) — originally 'to raise children at home', extended to the 'children' of spoken words: written characters.",
+  "culture": "Chinese calligraphy treats each 字 as a work of art. Children once learned writing on 字帖 copybooks, and 'a person's writing shows the person' (字如其人) is a common saying.",
+  "examples": [
+   "汉字 Hànzì — Chinese character",
+   "名字 míngzi — name"
+  ]
+ },
+ {
+  "char": "学",
+  "origin": "The traditional form 學 shows two hands arranging 爻 (divination lines) over a 子 (child) under a roof — a child being taught.",
+  "culture": "Learning is the supreme Confucian virtue; the Analects open with 'To learn and practice in due time — is this not a joy?' (学而时习之，不亦说乎). 学习 'study-practice' keeps that pairing.",
+  "examples": [
+   "学习 xuéxí — to study",
+   "学生 xuésheng — student"
+  ]
+ },
+ {
+  "char": "汉",
+  "origin": "A phono-semantic compound: 氵(water) gives the meaning (the Han River), and the right side gives the sound. It named the Han dynasty, then the Han people and their language.",
+  "culture": "Over 90% of Chinese are 汉族 Han Chinese, named after the great Han dynasty (206 BC–220 AD). 汉字 'Han characters' and 汉语 'Han language' carry the dynasty's name to this day.",
+  "examples": [
+   "汉语 Hànyǔ — Chinese language",
+   "汉字 Hànzì — Chinese character"
+  ]
+ },
+ {
+  "char": "语",
+  "origin": "A phono-semantic compound: 讠(speech radical) shows it relates to language, and 吾 gives the sound.",
+  "culture": "The speech radical 讠(言) marks hundreds of language words: 说 speak, 话 talk, 读 read, 谢谢 thank. 语言 'language' and 语法 'grammar' are built on it.",
+  "examples": [
+   "汉语 Hànyǔ — Chinese",
+   "语言 yǔyán — language"
+  ]
+ },
+ {
+  "char": "中",
+  "origin": "A pictograph of a vertical line piercing the center of a rectangle — an arrow hitting the middle of a target, or a flagpole in the middle of a settlement.",
+  "culture": "中国, the 'Middle Kingdom' or 'Central State', reflects the ancient view of China as the center of the civilized world. 中 also means 'to hit the mark', as in 打中.",
+  "examples": [
+   "中国 Zhōngguó — China",
+   "中文 Zhōngwén — Chinese (written/spoken)"
+  ]
+ },
+ {
+  "char": "国",
+  "origin": "The traditional 國 shows 或 (territory) inside 囗 (enclosure/walls). The simplified form puts 玉 (jade) — a treasure — inside the walls.",
+  "culture": "国 pairs with 家 (family) to make 国家 'country' — the state as an extension of the family. 国庆, National Day on October 1st, fills streets with flags and the character 国.",
+  "examples": [
+   "中国 Zhōngguó — China",
+   "国家 guójiā — country"
+  ]
+ },
+ {
+  "char": "茶",
+  "origin": "The character shows 艹 (grass/plant) over 人 and 木 — a person among plants picking leaves. It split off from an older character 荼 in the Tang dynasty.",
+  "culture": "Tea was discovered in China, where legend credits Emperor Shennong around 2737 BC. 喝茶 is a way of life: guests are always offered tea, and 茶馆 teahouses are social living rooms.",
+  "examples": [
+   "喝茶 hē chá — to drink tea",
+   "茶叶 cháyè — tea leaves"
+  ]
+ },
+ {
+  "char": "饭",
+  "origin": "A phono-semantic compound: 饣(food radical) marks it as food, 反 gives the sound. It means cooked rice — and by extension any meal.",
+  "culture": "Rice is so central that 吃饭 'eat rice' simply means 'to eat a meal'. The daily greeting 你吃饭了吗？ 'Have you eaten?' is the Chinese 'How are you?'.",
+  "examples": [
+   "米饭 mǐfàn — cooked rice",
+   "饭店 fàndiàn — restaurant"
+  ]
+ },
+ {
+  "char": "鱼",
+  "origin": "A pictograph of a fish with a head, scaly body and tail — the tail fins became the bottom four dots, simplified to a single line.",
+  "culture": "Fish 鱼 yú sounds exactly like 余 'surplus', so a whole fish is essential at New Year's dinner: 年年有余 'may every year bring surplus'. Fish are never flipped over when eating — fishermen fear a 'capsized boat'.",
+  "examples": [
+   "吃鱼 chī yú — to eat fish",
+   "金鱼 jīnyú — goldfish"
+  ]
+ },
+ {
+  "char": "马",
+  "origin": "A pictograph of a horse with mane, four legs and tail, rotated upright over time.",
+  "culture": "The horse is one of the twelve zodiac animals and a symbol of speed and success: 马上 'on horseback' now just means 'right away'. Horse motifs gallop through Chinese art from Han tomb figures to Xu Beihong's ink paintings.",
+  "examples": [
+   "马上 mǎshàng — immediately",
+   "马路 mǎlù — road"
+  ]
+ },
+ {
+  "char": "牛",
+  "origin": "A pictograph of a cow's head seen from the front: two horns and ears.",
+  "culture": "Oxen plowed China's fields for millennia, so 牛 came to mean 'awesome' in slang. The Ox is the second zodiac animal, standing for diligence, and 牛奶 'cow milk' is everyday vocabulary.",
+  "examples": [
+   "牛奶 niúnǎi — milk",
+   "牛肉 niúròu — beef"
+  ]
+ },
+ {
+  "char": "羊",
+  "origin": "A pictograph of a sheep's head with curving horns, eyes and nose flattened into horizontal lines.",
+  "culture": "Sheep were ancient sacrifices, so 羊 sits inside 美 'beautiful' (big sheep) and 善 'good'. The Goat/Ram is the eighth zodiac sign, associated with gentleness.",
+  "examples": [
+   "羊肉 yángròu — mutton"
+  ]
+ },
+ {
+  "char": "大",
+  "origin": "A pictograph of a person standing with arms stretched wide — 'big' as a person at full span.",
+  "culture": "大 pairs with 小 in one of the first antonym sets learners meet. 大家 'big family' means everyone, and 大学 'big learning' is a university.",
+  "examples": [
+   "大家 dàjiā — everyone",
+   "大小 dàxiǎo — size"
+  ]
+ },
+ {
+  "char": "小",
+  "origin": "A pictograph of three small dots or grains — little things scattered — drawn as a stroke with two side dots.",
+  "culture": "小 is used affectionately before surnames: 小王 'Little Wang' for a younger friend. 小姐 'little elder-sister' means Miss, and 小心 'small heart' means 'be careful'.",
+  "examples": [
+   "小心 xiǎoxīn — be careful",
+   "小时 xiǎoshí — hour"
+  ]
+ },
+ {
+  "char": "上",
+  "origin": "An ideograph: a short stroke above a horizontal baseline — 'above'.",
+  "culture": "上/下 structure countless pairs: 上午/下午 (morning/afternoon), 上面/下面 (top/bottom), 上学 (go to school), 上班 (start work). It also means 'previous', as in 上个星期 last week.",
+  "examples": [
+   "上午 shàngwǔ — morning",
+   "上班 shàngbān — to go to work"
+  ]
+ },
+ {
+  "char": "下",
+  "origin": "An ideograph: a short stroke below a horizontal baseline — 'below'.",
+  "culture": "下 means 'down' but also 'next': 下星期 is next week. 下雨 'the sky sends down rain' is the everyday way to say it rains, and 坐下 'sit down' is the first classroom command learners hear.",
+  "examples": [
+   "下午 xiàwǔ — afternoon",
+   "下雨 xiàyǔ — to rain"
+  ]
+ },
+ {
+  "char": "心",
+  "origin": "A pictograph of the human heart, showing the organ's chambers and vessels.",
+  "culture": "Chinese tradition locates thinking in the heart, not the brain, so the heart radical 忄marks emotion words: 想 think, 快 fast/快乐 happy, 忙 busy (a 'lost' heart), 爱 love.",
+  "examples": [
+   "开心 kāixīn — happy",
+   "小心 xiǎoxīn — careful"
+  ]
+ },
+ {
+  "char": "门",
+  "origin": "A pictograph of a double door with two swinging panels — the simplified form keeps one panel and its hinge.",
+  "culture": "Doors guard Chinese homes: red couplets are pasted on them at New Year, and door gods (门神) protect households. 门口 'door-mouth' is the doorway, and 开门大吉 wishes business success.",
+  "examples": [
+   "门口 ménkǒu — doorway",
+   "开门 kāimén — to open the door"
+  ]
+ },
+ {
+  "char": "车",
+  "origin": "A pictograph of a chariot seen from above: a box with two wheels on an axle, simplified to its modern cross-and-frame.",
+  "culture": "车 heads a family of modern transport words: 火车 train (fire-cart), 汽车 car (steam-cart), 自行车 bicycle (self-moving cart), 出租车 taxi (out-rent cart).",
+  "examples": [
+   "火车 huǒchē — train",
+   "汽车 qìchē — car"
+  ]
+ },
+ {
+  "char": "米",
+  "origin": "A pictograph of grains of rice scattered around a central stalk or threshing frame.",
+  "culture": "Rice shaped Chinese civilization; 米饭 is the heart of a southern meal. 米 also loans its sound to 'meter' (米), and 米酒 rice wine flows at festivals.",
+  "examples": [
+   "米饭 mǐfàn — cooked rice",
+   "大米 dàmǐ — rice (grain)"
+  ]
+ },
+ {
+  "char": "贝",
+  "origin": "A pictograph of a cowrie shell — shells were ancient China's earliest money.",
+  "culture": "Because cowries were currency, the shell radical 贝 marks money words: 贵 expensive, 买/卖 buy/sell (traditional 買/賣), 财 wealth, 账 account. You can read Chinese economic history in its characters.",
+  "examples": [
+   "宝贝 bǎobèi — treasure; darling"
+  ]
+ },
+ {
+  "char": "见",
+  "origin": "A pictograph of an eye 目 on top of a person 儿 — the eye personified means 'to see'.",
+  "culture": "见 lives in goodbyes: 再见 'again-see' is 'see you again', and 明天见 is 'see you tomorrow'. 见面 'see face' means to meet in person.",
+  "examples": [
+   "再见 zàijiàn — goodbye",
+   "看见 kànjiàn — to see"
+  ]
+ },
+ {
+  "char": "老",
+  "origin": "A pictograph of an elderly person with long hair leaning on a cane — 'old'.",
+  "culture": "Respect for elders is a Confucian cornerstone, so 老 is honorific: 老师 'old master' is teacher, 老王 'Old Wang' is a warm way to address a friend, and 老人 are venerated on the Double Ninth Festival.",
+  "examples": [
+   "老师 lǎoshī — teacher",
+   "老人 lǎorén — elderly person"
+  ]
+ },
+ {
+  "char": "朋",
+  "origin": "Two strings of cowrie shells tied together — a unit of money — later read as two moons 月 side by side and borrowed for 'companion'.",
+  "culture": "Confucius celebrated 有朋自远方来 'friends coming from afar'. The character's doubled form suggests companions standing side by side — 朋友 'friend' doubles it again with 友.",
+  "examples": [
+   "朋友 péngyou — friend",
+   "好朋友 hǎo péngyou — good friend"
+  ]
+ },
+ {
+  "char": "友",
+  "origin": "A pictograph of two right hands reaching in the same direction — hands joined in help mean 'friend'.",
+  "culture": "友 appears in 友好 'friendly' and 友谊 'friendship', a word China uses in diplomacy: 友谊商店 'Friendship Stores' once served foreign visitors.",
+  "examples": [
+   "朋友 péngyou — friend",
+   "友好 yǒuhǎo — friendly"
+  ]
+ },
+ {
+  "char": "爱",
+  "origin": "The traditional 愛 shows 心 (heart) in the middle with a hand above and a foot below — the heart moved to act. The simplified form replaces the heart with 友 (friend).",
+  "culture": "爱 covers love of people, food and hobbies alike: 我爱你是 'I love you', 爱吃 is 'love to eat'. The 2008 Beijing Olympics theme 'One World, One Dream' used 同一个世界，同一个梦想 — love as unity.",
+  "examples": [
+   "爱人 àiren — spouse",
+   "可爱 kě'ài — cute"
+  ]
+ },
+ {
+  "char": "福",
+  "origin": "A phono-semantic compound: 礻(altar/spirit radical) plus a right side picturing a full wine jar — offerings at the altar brought 'blessing'.",
+  "culture": "福 is the luckiest character in China. At New Year people paste it upside down (福倒了) because 'upside down' 倒 sounds like 'arrive' 到 — 'fortune has arrived'.",
+  "examples": [
+   "幸福 xìngfú — happiness",
+   "祝福 zhùfú — to wish well"
+  ]
+ },
+ {
+  "char": "龙",
+  "origin": "A pictograph of a horned, whiskered serpent-like creature rearing up — the dragon, simplified from 龍.",
+  "culture": "Unlike Western dragons, the Chinese 龙 is benevolent — ruler of water and rain, symbol of the emperor and of China itself. People proudly call themselves 龙的传人 'descendants of the dragon'.",
+  "examples": [
+   "龙年 lóngnián — Year of the Dragon"
+  ]
+ },
+ {
+  "char": "年",
+  "origin": "A pictograph of a person 人 carrying ripe grain 禾 on their back — the harvest, which came once a year.",
+  "culture": "The New Year monster 年 was scared away by red and firecrackers, the legend says — hence red decorations and fireworks. 过年 'pass the year' is to celebrate Spring Festival.",
+  "examples": [
+   "今年 jīnnián — this year",
+   "去年 qùnián — last year"
+  ]
+ },
+ {
+  "char": "书",
+  "origin": "The traditional 書 shows a hand holding a brush 聿 over 曰 — writing things down. The simplified form keeps the flourish of quick cursive.",
+  "culture": "Books were bamboo slips tied with cords before paper was invented in Han China. Calligraphy 书法 — 'the way of writing' — remains one of the highest arts, practiced with brush, ink, paper and inkstone.",
+  "examples": [
+   "看书 kànshū — to read",
+   "书店 shūdiàn — bookshop"
+  ]
+ },
+ {
+  "char": "店",
+  "origin": "A phono-semantic compound: 广 (shelter/building radical) over 占 which gives the sound — a building where goods are kept.",
+  "culture": "店 pairs with 商 to make 商店 'shop'. Old Chinese inns (客店) hung lanterns with the character 店 outside, and story-tellers set countless wuxia scenes in roadside inns.",
+  "examples": [
+   "商店 shāngdiàn — shop",
+   "饭店 fàndiàn — restaurant"
+  ]
+ },
+ {
+  "char": "钱",
+  "origin": "A phono-semantic compound: 钅(metal radical) marks it as metal/coin, 戋 gives the sound. Early coins were cast bronze 'spades' and 'knives'.",
+  "culture": "Round coins with square holes — 铜钱 — circulated for two thousand years; the square hole let them be strung like beads. 红包 'red envelopes' of gift money are essential at New Year and weddings.",
+  "examples": [
+   "多少钱 duōshao qián — how much",
+   "钱包 qiánbāo — wallet"
+  ]
+ },
+ {
+  "char": "雨",
+  "origin": "A pictograph: the top line is the sky, below it a cloud, and four dots of falling rain.",
+  "culture": "Rain decides harvests, so ancient kings performed rain dances. 下雨 uses 下 'down' — rain 'comes down'. In the solar terms, 雨水 'Rain Water' (mid-February) marks the spring thaw.",
+  "examples": [
+   "下雨 xiàyǔ — to rain",
+   "雨水 yǔshuǐ — rainwater"
+  ]
+ },
+ {
+  "char": "电",
+  "origin": "A pictograph of a lightning bolt branching through a rain field 申 — 'lightning'. Modern inventions recycled it for all things electric.",
+  "culture": "电 became the building block of modern vocabulary: 电话 'electric talk' telephone, 电视 'electric vision' TV, 电脑 'electric brain' computer, 电影 'electric shadows' movies.",
+  "examples": [
+   "电话 diànhuà — telephone",
+   "电脑 diànnǎo — computer"
+  ]
+ },
+ {
+  "char": "气",
+  "origin": "A pictograph of vapor or breath rising in three curling strokes — steam, air, breath.",
+  "culture": "气 qì is a cornerstone concept: the vital energy flowing through body and world, cultivated in qigong 气功 and read by feng shui 风水. 天气 'heaven's qi' is simply the weather.",
+  "examples": [
+   "天气 tiānqì — weather",
+   "空气 kōngqì — air"
+  ]
+ },
+ {
+  "char": "天",
+  "origin": "A pictograph of a person 大 with the head emphasized by a horizontal stroke — the sky above man.",
+  "culture": "天 means 'sky', 'day' and 'heaven' at once. Emperors ruled by the 天命 'Mandate of Heaven', and Beijing's 天坛 Temple of Heaven was where they prayed for harvests.",
+  "examples": [
+   "今天 jīntiān — today",
+   "天气 tiānqì — weather"
+  ]
+ },
+ {
+  "char": "地",
+  "origin": "A phono-semantic compound: 土 (earth radical) gives the meaning, 也 gives the sound — 'ground, earth'.",
+  "culture": "地 pairs with 天 as the cosmic duo 天地 'heaven and earth'. In the classic 三字经 primer, 三才者，天地人 names the 'three powers': heaven, earth and humankind.",
+  "examples": [
+   "地方 dìfang — place",
+   "地址 dìzhǐ — address"
+  ]
+ },
+ {
+  "char": "星",
+  "origin": "A pictograph of several shining dots in the sky, later given 日 (sun) on top and 生 (birth/sound) below — 'stars'.",
+  "culture": "Chinese astronomers mapped the stars into the 28 lunar mansions two millennia ago. The Weaver Girl and Cowherd stars (织女/牛郎) meet once a year on the Qixi festival — Chinese Valentine's Day. 星期 'star period' means week.",
+  "examples": [
+   "星期 xīngqī — week",
+   "明星 míngxīng — celebrity"
+  ]
+ },
+ {
+  "char": "果",
+  "origin": "A pictograph of fruit 田-like shapes growing on a tree 木.",
+  "culture": "果 means 'fruit' and also 'result' — what a tree bears. 水果 'water fruit' is the everyday word for fruit, served after nearly every Chinese meal.",
+  "examples": [
+   "水果 shuǐguǒ — fruit",
+   "苹果 píngguǒ — apple"
+  ]
+ },
+ {
+  "char": "菜",
+  "origin": "A phono-semantic compound: 艹 (plant radical) over 采 (to pick) — 'picked plants', i.e. vegetables or dishes.",
+  "culture": "菜 means both 'vegetable' and a cooked 'dish': 点菜 is to order food. Chinese cuisine divides into Eight Great Cuisines (八大菜系), from spicy Sichuan to delicate Cantonese.",
+  "examples": [
+   "点菜 diǎn cài — to order dishes",
+   "蔬菜 shūcài — vegetables"
+  ]
+ },
+ {
+  "char": "肉",
+  "origin": "A pictograph of a hanging cut of meat with marbling strokes inside.",
+  "culture": "As the radical 月 (the 'meat moon') it hides in body words: 脸 face, 腿 leg, 脑 brain. 羊肉 mutton warms northern winters, and 肉夹馍 is Xi'an's beloved 'Chinese hamburger'.",
+  "examples": [
+   "羊肉 yángròu — mutton",
+   "牛肉 niúròu — beef"
+  ]
+ },
+ {
+  "char": "医",
+  "origin": "The traditional 醫 contains 殳 (a weapon/tool), 酉 (wine jug, i.e. medicine) and 匸 (a box) — arrows removed, wounds treated with spirits.",
+  "culture": "Traditional Chinese medicine (中医) has treated patients for over two thousand years with herbs, acupuncture and pulse reading. 医生 'medicine master' is the modern word for doctor.",
+  "examples": [
+   "医生 yīshēng — doctor",
+   "医院 yīyuàn — hospital"
+  ]
+ },
+ {
+  "char": "师",
+  "origin": "Originally pictured a mound with many people — an army division — then extended to 'master' of a discipline.",
+  "culture": "师 honors teachers: 老师 'teacher', 师傅 'master (of a craft)'. Confucius said 'When three walk together, one can be my teacher' (三人行，必有我师).",
+  "examples": [
+   "老师 lǎoshī — teacher",
+   "师傅 shīfu — master worker"
+  ]
+ },
+ {
+  "char": "猫",
+  "origin": "A phono-semantic compound: 犭(animal radical) marks it as an animal, 苗 gives the sound (and hints at 'meow').",
+  "culture": "Cats guard Chinese grain stores and hearts alike; the waving 招财猫 'fortune cat' beckons customers at shop entrances. China's real superstar cat is the 熊猫 'bear-cat' — the giant panda.",
+  "examples": [
+   "小猫 xiǎo māo — kitten",
+   "熊猫 xióngmāo — panda"
+  ]
+ },
+ {
+  "char": "狗",
+  "origin": "A phono-semantic compound: 犭(animal radical) plus 句 which gives the sound gǒu — 'dog'.",
+  "culture": "The Dog is the eleventh zodiac animal, symbol of loyalty. Dogs guard Chinese villages, and 小狗 'little dog' is a fond word for a puppy — though 走狗 'running dog' is an old insult.",
+  "examples": [
+   "小狗 xiǎogǒu — puppy"
+  ]
+ },
+ {
+  "char": "鸟",
+  "origin": "A pictograph of a bird with beak, eye, wings and tail feathers.",
+  "culture": "The bird radical marks feathered words: 鸡 chicken, 鸭 duck, 鹅 goose. Pet songbirds in bamboo cages are a classic sight in Beijing hutongs, taken for 'walks' to the park each morning.",
+  "examples": [
+   "小鸟 xiǎo niǎo — little bird",
+   "花鸟 huāniǎo — flowers and birds (painting genre)"
+  ]
+ },
+ {
+  "char": "目",
+  "origin": "A pictograph of an eye, rotated ninety degrees: the outline is the eye socket, the inner strokes the pupil.",
+  "culture": "目 is the eye radical in 眼睛 'eyes'. 目标 'eye's mark' means a goal, and 节目 'section-eye' is a TV program. Chinese has 眉开眼笑 'brows raised, eyes laughing' for a beaming face.",
+  "examples": [
+   "目前 mùqián — at present",
+   "节目 jiémù — program"
+  ]
+ },
+ {
+  "char": "耳",
+  "origin": "A pictograph of the outer ear with its inner ridges.",
+  "culture": "The ear radical appears in 听 (traditional 聽, 'to listen with the ear and heart'). Confucius called age sixty 耳顺 'the ear-obeying age' — when one hears truth without offense.",
+  "examples": [
+   "耳朵 ěrduo — ear"
+  ]
+ },
+ {
+  "char": "田",
+  "origin": "A pictograph of a rice paddy divided into plots by paths and irrigation channels.",
+  "culture": "Fields fed the empire, so 田 sits at the heart of the writing grid 田字格 — the 'field character grid' every Chinese child uses to center their first characters, and the motif of this app.",
+  "examples": [
+   "田地 tiándì — farmland",
+   "田字格 tiánzìgé — writing practice grid"
+  ]
+ },
+ {
+  "char": "王",
+  "origin": "Three horizontal lines (heaven, man, earth) joined by one vertical stroke — the king who connects all three realms.",
+  "culture": "王 'king' doubles as the jade radical 王 (really 玉) in characters like 球 ball, 玩 play, 现在's 现. Jade was the stone of kings, prized above gold.",
+  "examples": [
+   "国王 guówáng — king",
+   "王子 wángzǐ — prince"
+  ]
+ },
+ {
+  "char": "文",
+  "origin": "A pictograph of a standing person with a tattooed or painted chest — 'pattern', then 'writing, culture'.",
+  "culture": "文 is culture itself: 文化 'culture', 中文 'Chinese language', 文明 'civilization'. The civil arts 文 were paired with the martial 武 as the twin ideals of the scholar-official.",
+  "examples": [
+   "中文 Zhōngwén — Chinese",
+   "文化 wénhuà — culture"
+  ]
+ },
+ {
+  "char": "走",
+  "origin": "A pictograph of a person with swinging arms 夭 above a foot 止 — 'to walk, run'.",
+  "culture": "走 means both 'walk' and 'leave': 我走了 'I'm off'. 走廊 corridor and 走读 day-student show its range. The 走 radical strides through characters like 起 rise and 越 cross.",
+  "examples": [
+   "走路 zǒulù — to walk",
+   "怎么走 zěnme zǒu — how to get there"
+  ]
+ },
+ {
+  "char": "坐",
+  "origin": "An ideograph: two people 人 facing each other on the ground 土 — 'to sit'.",
+  "culture": "坐 also means 'to take transport': 坐火车 take the train, 坐飞机 fly. Seating order at a Chinese banquet is a fine art — the seat facing the door belongs to the guest of honor.",
+  "examples": [
+   "坐下 zuòxia — sit down",
+   "坐火车 zuò huǒchē — take the train"
+  ]
+ },
+ {
+  "char": "金",
+  "origin": "A pictograph of nuggets in the earth under a shelter: metal ore — 'gold, metal'.",
+  "culture": "金 is one of the five elements and the color of emperors and fortune. The metal radical 钅marks 钱 money, 银 silver, 钢 steel. 金子 gold remains the classic wedding gift.",
+  "examples": [
+   "金色 jīnsè — golden",
+   "金钱 jīnqián — money"
+  ]
+ },
+ {
+  "char": "刀",
+  "origin": "A pictograph of a curved blade with a handle.",
+  "culture": "Early Chinese money was cast in knife shapes (刀币). The knife radical 刂cuts through words like 到 arrive and 别 separate. Chinese chefs famously do everything with one cleaver, 菜刀.",
+  "examples": [
+   "刀子 dāozi — knife",
+   "菜刀 càidāo — kitchen cleaver"
+  ]
+ },
+ {
+  "char": "力",
+  "origin": "A pictograph of a plow — or of a flexed arm with a bulging muscle — 'strength'.",
+  "culture": "力 combines into 努力 'to strive' and 力气 'physical strength'. The saying 功夫不负有心人 — 'effort never fails the one with heart' — is every student's motto.",
+  "examples": [
+   "努力 nǔlì — to work hard",
+   "力气 lìqi — strength"
+  ]
+ },
+ {
+  "char": "衣",
+  "origin": "A pictograph of a robe with a collar, lapels and sleeves.",
+  "culture": "The clothing radical 衤marks 衬衫 shirt and 裤子 pants. Han Chinese traditional dress 汉服 has revived among young people, worn proudly in parks and photo shoots.",
+  "examples": [
+   "衣服 yīfu — clothes",
+   "大衣 dàyī — overcoat"
+  ]
+ },
+ {
+  "char": "食",
+  "origin": "A pictograph of a covered food vessel piled high with grain — 'food, to eat'.",
+  "culture": "The food radical 饣seasons everyday words: 饭 rice, 饮料 drink, 饱 full. 食物 'food', 食堂 'canteen' and the proverb 民以食为天 'the people regard food as heaven' show its weight.",
+  "examples": [
+   "食物 shíwù — food",
+   "食堂 shítáng — dining hall"
+  ]
+ },
+ {
+  "char": "住",
+  "origin": "A phono-semantic compound: 亻(person radical) plus 主 which gives the sound — 'where a person stays'.",
+  "culture": "住 anchors daily talk: 你住在哪儿？ 'Where do you live?'. Beijing's courtyard homes 四合院 and Fujian's earthen roundhouses 土楼 show how 住 shapes regional culture.",
+  "examples": [
+   "住在 zhùzài — to live at",
+   "住房 zhùfáng — housing"
+  ]
+ },
+ {
+  "char": "看",
+  "origin": "An ideograph: a hand 手 held above an eye 目 — shading the eyes to look into the distance.",
+  "culture": "看 extends to 看见 'see', 看书 'read' (look at a book) and 看病 'see a doctor' (have one's illness looked at). Tone changes the word: kān 看门 means to guard a door.",
+  "examples": [
+   "看见 kànjiàn — to see",
+   "看电影 kàn diànyǐng — watch a movie"
+  ]
+ },
+ {
+  "char": "听",
+  "origin": "The traditional 聽 is a rich ideograph: ear 耳, and components of 'ten eyes one heart' — to listen is to attend with ear, eyes and heart.",
+  "culture": "Listening 听 is the first skill of Chinese etiquette. 听说 'hear-say' means 'I hear that...' and 听话 'obey' (literally 'listen to words') is what every parent asks of children.",
+  "examples": [
+   "听说 tīngshuō — to hear of",
+   "听音乐 tīng yīnyuè — listen to music"
+  ]
+ },
+ {
+  "char": "笑",
+  "origin": "A bamboo 竹 radical over 夭 (a person swaying) — some say bamboo bending in the wind like a laughing body.",
+  "culture": "笑 is the laugh of 笑话 jokes and 微笑 smiles. Chinese poetry praises the smile that 笑口常开 'keeps the mouth ever open' — a recipe for long life and good fortune.",
+  "examples": [
+   "微笑 wēixiào — to smile",
+   "笑话 xiàohua — joke"
+  ]
+ },
+ {
+  "char": "请",
+  "origin": "A phono-semantic compound: 讠(speech radical) marks it as words, 青 gives the sound — polite speech, 'please, to invite'.",
+  "culture": "请 oils every polite exchange: 请问 'may I ask', 请坐 'please sit', 请喝茶 'please have tea'. Removing 请 from a sentence in China is like dropping 'please' in English — instantly brusque.",
+  "examples": [
+   "请问 qǐngwèn — may I ask",
+   "请客 qǐngkè — to treat guests"
+  ]
+ },
+ {
+  "char": "谢",
+  "origin": "A phono-semantic compound: 讠(speech) plus 射 which gives the sound — words of gratitude, 'to thank'.",
+  "culture": "谢谢 doubled is China's most-used courtesy. Flowers and gratitude share the character family: 谢 also means 'to wither' — classical poets thanked fallen petals. 谢谢 is answered with 不客气 'don't be a guest'.",
+  "examples": [
+   "谢谢 xièxie — thank you",
+   "感谢 gǎnxiè — gratitude"
+  ]
+ },
+ {
+  "char": "雪",
+  "origin": "A pictograph-composite: 雨 (rain) over 彗 (a broom, giving sound) — rain that can be swept: snow.",
+  "culture": "Snow is a poet's muse: 雪中送炭 'sending charcoal in snowy weather' means timely help. Beijing's first snow fills social media with photos of the vermilion-walled Forbidden City under white.",
+  "examples": [
+   "下雪 xiàxuě — to snow",
+   "雪人 xuěrén — snowman"
+  ]
+ }
+]
