@@ -6,6 +6,7 @@ import Dialogues from './pages/Dialogues'
 import DialogueDetail from './pages/DialogueDetail'
 import Words from './pages/Words'
 import WordDetail from './pages/WordDetail'
+import Review from './pages/Review'
 import Settings from './pages/Settings'
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="dialogues/:id" element={<DialogueDetail />} />
         <Route path="words" element={<Words />} />
         <Route path="words/:char" element={<WordDetail />} />
+        <Route path="review" element={<Review />} />
         <Route path="settings" element={<Settings />} />
         <Route path="*" element={<Home />} />
       </Route>

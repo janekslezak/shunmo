@@ -1,15 +1,16 @@
 import { NavLink } from "react-router";
 import { motion } from "framer-motion";
-import { Home, Brush, MessagesSquare, BookOpen } from "lucide-react";
+import { Home, Brush, Layers, MessagesSquare, BookOpen } from "lucide-react";
 
 const TABS = [
   { to: "/", label: "Home", icon: Home, end: true },
   { to: "/practice", label: "Practice", icon: Brush, end: false },
+  { to: "/review", label: "Review", icon: Layers, end: false },
   { to: "/dialogues", label: "Dialogues", icon: MessagesSquare, end: false },
   { to: "/words", label: "Words", icon: BookOpen, end: false },
 ];
 
-/** BOTTOM TAB BAR — 64px + safe-area-bottom, 4 tabs, active vermilion with sliding indicator. */
+/** BOTTOM TAB BAR — 64px + safe-area-bottom, 5 tabs, active vermilion with sliding indicator. */
 export default function Footer() {
   return (
     <nav className="fixed inset-x-0 bottom-0 z-50 border-t border-grid-line/50 bg-paper/90 pb-safe backdrop-blur-md">
@@ -24,12 +25,12 @@ export default function Footer() {
             {({ isActive }) => (
               <>
                 <Icon
-                  size={24}
+                  size={22}
                   strokeWidth={isActive ? 2.2 : 1.8}
                   className={isActive ? "text-vermilion" : "text-ink-faint"}
                 />
                 <span
-                  className={`text-[11px] font-bold ${isActive ? "text-vermilion" : "text-ink-faint"}`}
+                  className={`text-[10px] font-bold ${isActive ? "text-vermilion" : "text-ink-faint"}`}
                 >
                   {label}
                 </span>

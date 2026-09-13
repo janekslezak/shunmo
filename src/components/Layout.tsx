@@ -4,7 +4,7 @@ import { Github } from "lucide-react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-const TAB_ORDER = ["/", "/practice", "/dialogues", "/words"];
+const TAB_ORDER = ["/", "/practice", "/review", "/dialogues", "/words"];
 
 function tabIndex(pathname: string): number {
   const i = TAB_ORDER.findIndex((t) => (t === "/" ? pathname === "/" : pathname.startsWith(t)));

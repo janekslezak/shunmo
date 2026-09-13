@@ -2,13 +2,14 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { motion, AnimatePresence, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import HanziWriter from "hanzi-writer";
-import { Brush, Shuffle, MessagesSquare, BookOpen, ChevronRight, Play, ArrowRight, X } from "lucide-react";
-import { characters, facts, getCharacter } from "@/data";
+import { Brush, Shuffle, Layers, MessagesSquare, BookOpen, ChevronRight, Play, ArrowRight, X } from "lucide-react";
+import { characters, facts, getCharacter, words } from "@/data";
 import type { Character, Fact } from "@/data";
 import ProgressRing from "@/components/ProgressRing";
 import TianGrid from "@/components/TianGrid";
 import { useProgress } from "@/hooks/useProgress";
 import { usePinyin } from "@/hooks/usePinyin";
+import { deckStats } from "@/components/review/srs";
 
 const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number];
 
@@ -182,6 +183,9 @@ export default function Home() {
   // continue strip
   const [continueState, setContinueState] = useState<ContinueState | null>(readContinue);
 
+  // flashcard review due count (localStorage snapshot on mount)
+  const [dueReviewCount] = useState(() => deckStats(words.length).due);
+
   // hero parallax
   const heroRef = useRef<HTMLDivElement>(null);
   const { scrollY } = useScroll();
@@ -327,6 +331,22 @@ export default function Home() {
 
       {/* ── Section 5: Quick actions ── */}
       <section className="mt-10">
+        {dueReviewCount > 0 && (
+          <motion.div
+            initial={{ y: 16, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.35, delay: 0.08, ease: EASE }}
+          >
+            <Link
+              to="/review"
+              className="mb-3 flex items-center justify-center gap-2 rounded-full border border-gold/30 bg-gold/10 px-4 py-2.5 text-[13px] font-extrabold text-gold"
+            >
+              <Layers size={15} />
+              {dueReviewCount} {dueReviewCount === 1 ? "card" : "cards"} due for review
+              <ChevronRight size={15} />
+            </Link>
+          </motion.div>
+        )}
         <div className="grid grid-cols-2 gap-3">
           {QUICK_ACTIONS.map(({ to, label, icon: Icon, tint, bg }, i) => (
             <motion.div

@@ -8,6 +8,7 @@ import { useAppSettings, updateSettings } from "@/components/settings/settings";
 
 const TITLES: Array<[RegExp, string]> = [
   [/^\/practice/, "Practice"],
+  [/^\/review/, "Review"],
   [/^\/dialogues\/[^/]+/, "Dialogue"],
   [/^\/dialogues/, "Dialogues"],
   [/^\/words\/[^/]+/, "Character"],
