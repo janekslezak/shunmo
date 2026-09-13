@@ -1,18 +1,27 @@
 import type { Dialogue } from "@/data";
 
-export type Topic = "Greetings" | "Food" | "Travel" | "Shopping";
+export type Topic = "Greetings" | "Daily life" | "Food" | "Travel" | "Shopping";
 
-export const TOPICS: Topic[] = ["Greetings", "Food", "Travel", "Shopping"];
+export const TOPICS: Topic[] = ["Greetings", "Daily life", "Food", "Travel", "Shopping"];
 
 /** Topic tag per dialogue id (data ships no topic field). */
 const TOPIC_BY_ID: Record<string, Topic> = {
   greetings: "Greetings",
   introductions: "Greetings",
   family: "Greetings",
+  hobbies: "Daily life",
+  weather: "Daily life",
+  "making-plans": "Daily life",
+  "seeing-a-doctor": "Daily life",
+  "phone-call": "Daily life",
+  birthday: "Daily life",
   restaurant: "Food",
+  "at-the-cafe": "Food",
   shopping: "Shopping",
+  "at-the-market": "Shopping",
   directions: "Travel",
   "time-date": "Travel",
+  transport: "Travel",
 };
 
 export function topicOf(d: Dialogue): Topic | null {
@@ -23,6 +32,7 @@ export type TopicTone = "vermilion" | "jade" | "gold" | "wash";
 
 const TONE_BY_TOPIC: Record<Topic, TopicTone> = {
   Greetings: "vermilion",
+  "Daily life": "gold",
   Food: "jade",
   Shopping: "gold",
   Travel: "wash",

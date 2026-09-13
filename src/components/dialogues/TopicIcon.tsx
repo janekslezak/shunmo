@@ -129,6 +129,14 @@ const ICONS: Record<string, (p: P) => ReactElement> = {
   directions: Signpost,
   family: FamilyHome,
   hobbies: Kite,
+  weather: Kite,
+  "making-plans": AlarmClock,
+  "at-the-cafe": NoodleBowl,
+  transport: Signpost,
+  "seeing-a-doctor": FamilyHome,
+  "phone-call": ChatBubbles,
+  "at-the-market": PriceTag,
+  birthday: Kite,
 };
 
 interface TopicIconProps extends P {

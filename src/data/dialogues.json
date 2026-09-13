@@ -368,5 +368,447 @@
     "en": "Sure, that's great!"
    }
   ]
+ },
+ {
+  "id": "weather",
+  "title": "Talking About the Weather",
+  "titleZh": "谈天气",
+  "level": 2,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "今天的天气怎么样？",
+    "pinyin": "Jīntiān de tiānqì zěnmeyàng?",
+    "en": "How's the weather today?"
+   },
+   {
+    "speaker": "B",
+    "zh": "很冷，下雨了。",
+    "pinyin": "Hěn lěng, xià yǔ le.",
+    "en": "It's cold, and it's raining."
+   },
+   {
+    "speaker": "A",
+    "zh": "昨天很热，今天很冷。",
+    "pinyin": "Zuótiān hěn rè, jīntiān hěn lěng.",
+    "en": "Yesterday was hot, today is cold."
+   },
+   {
+    "speaker": "B",
+    "zh": "听说明天可能下雪。",
+    "pinyin": "Tīngshuō míngtiān kěnéng xià xuě.",
+    "en": "I heard it might snow tomorrow."
+   },
+   {
+    "speaker": "A",
+    "zh": "真的吗？我不喜欢冷天。",
+    "pinyin": "Zhēn de ma? Wǒ bù xǐhuan lěng tiān.",
+    "en": "Really? I don't like cold days."
+   },
+   {
+    "speaker": "B",
+    "zh": "我喜欢。冷天可以在家喝茶。",
+    "pinyin": "Wǒ xǐhuan. Lěng tiān kěyǐ zài jiā hē chá.",
+    "en": "I do. On cold days you can drink tea at home."
+   },
+   {
+    "speaker": "A",
+    "zh": "好，今天就去你家喝茶吧！",
+    "pinyin": "Hǎo, jīntiān jiù qù nǐ jiā hē chá ba!",
+    "en": "OK, let's go to your place for tea today!"
+   }
+  ]
+ },
+ {
+  "id": "making-plans",
+  "title": "Making Plans",
+  "titleZh": "安排时间",
+  "level": 2,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "这个星期六你有时间吗？",
+    "pinyin": "Zhège xīngqīliù nǐ yǒu shíjiān ma?",
+    "en": "Are you free this Saturday?"
+   },
+   {
+    "speaker": "B",
+    "zh": "有时间，怎么了？",
+    "pinyin": "Yǒu shíjiān, zěnme le?",
+    "en": "I am — what's up?"
+   },
+   {
+    "speaker": "A",
+    "zh": "我们一起去看电影，怎么样？",
+    "pinyin": "Wǒmen yìqǐ qù kàn diànyǐng, zěnmeyàng?",
+    "en": "Shall we go see a movie together?"
+   },
+   {
+    "speaker": "B",
+    "zh": "好！几点去？",
+    "pinyin": "Hǎo! Jǐ diǎn qù?",
+    "en": "Sure! What time?"
+   },
+   {
+    "speaker": "A",
+    "zh": "下午三点，可以吗？",
+    "pinyin": "Xiàwǔ sān diǎn, kěyǐ ma?",
+    "en": "Three in the afternoon — does that work?"
+   },
+   {
+    "speaker": "B",
+    "zh": "可以。我们在哪儿见面？",
+    "pinyin": "Kěyǐ. Wǒmen zài nǎr jiànmiàn?",
+    "en": "It works. Where shall we meet?"
+   },
+   {
+    "speaker": "A",
+    "zh": "在学校前面吧。",
+    "pinyin": "Zài xuéxiào qiánmiàn ba.",
+    "en": "Let's meet in front of the school."
+   },
+   {
+    "speaker": "B",
+    "zh": "好，星期六见！",
+    "pinyin": "Hǎo, xīngqīliù jiàn!",
+    "en": "OK, see you Saturday!"
+   }
+  ]
+ },
+ {
+  "id": "at-the-cafe",
+  "title": "At the Café",
+  "titleZh": "喝咖啡",
+  "level": 2,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "服务员，请给我一杯咖啡。",
+    "pinyin": "Fúwùyuán, qǐng gěi wǒ yì bēi kāfēi.",
+    "en": "Waiter, one coffee please."
+   },
+   {
+    "speaker": "B",
+    "zh": "好的，请坐。",
+    "pinyin": "Hǎo de, qǐng zuò.",
+    "en": "Sure, please have a seat."
+   },
+   {
+    "speaker": "B",
+    "zh": "你的咖啡。",
+    "pinyin": "Nǐ de kāfēi.",
+    "en": "Your coffee."
+   },
+   {
+    "speaker": "A",
+    "zh": "谢谢。请再给我一杯茶。",
+    "pinyin": "Xièxie. Qǐng zài gěi wǒ yì bēi chá.",
+    "en": "Thanks. A cup of tea as well, please."
+   },
+   {
+    "speaker": "B",
+    "zh": "好的。",
+    "pinyin": "Hǎo de.",
+    "en": "Coming right up."
+   },
+   {
+    "speaker": "A",
+    "zh": "一共多少钱？",
+    "pinyin": "Yígòng duōshao qián?",
+    "en": "How much is it altogether?"
+   },
+   {
+    "speaker": "B",
+    "zh": "咖啡二十块，茶十五块，一共三十五块。",
+    "pinyin": "Kāfēi èrshí kuài, chá shíwǔ kuài, yígòng sānshíwǔ kuài.",
+    "en": "The coffee is 20, the tea is 15 — 35 altogether."
+   },
+   {
+    "speaker": "A",
+    "zh": "给你。谢谢！",
+    "pinyin": "Gěi nǐ. Xièxie!",
+    "en": "Here you are. Thanks!"
+   }
+  ]
+ },
+ {
+  "id": "transport",
+  "title": "Getting Around",
+  "titleZh": "坐车",
+  "level": 2,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "请问，去机场怎么走？",
+    "pinyin": "Qǐngwèn, qù jīchǎng zěnme zǒu?",
+    "en": "Excuse me, how do I get to the airport?"
+   },
+   {
+    "speaker": "B",
+    "zh": "机场很远，坐出租车去吧。",
+    "pinyin": "Jīchǎng hěn yuǎn, zuò chūzūchē qù ba.",
+    "en": "The airport is far — take a taxi."
+   },
+   {
+    "speaker": "A",
+    "zh": "坐出租车多少钱？",
+    "pinyin": "Zuò chūzūchē duōshao qián?",
+    "en": "How much is a taxi?"
+   },
+   {
+    "speaker": "B",
+    "zh": "可能要一百块。",
+    "pinyin": "Kěnéng yào yì bǎi kuài.",
+    "en": "Maybe about a hundred kuai."
+   },
+   {
+    "speaker": "A",
+    "zh": "太贵了。有公共汽车吗？",
+    "pinyin": "Tài guì le. Yǒu gōnggòng qìchē ma?",
+    "en": "That's too expensive. Is there a bus?"
+   },
+   {
+    "speaker": "B",
+    "zh": "有，但是很慢。",
+    "pinyin": "Yǒu, dànshì hěn màn.",
+    "en": "There is, but it's very slow."
+   },
+   {
+    "speaker": "A",
+    "zh": "没关系，我今天不忙。",
+    "pinyin": "Méi guānxi, wǒ jīntiān bù máng.",
+    "en": "That's fine, I'm not busy today."
+   },
+   {
+    "speaker": "B",
+    "zh": "公共汽车站在火车站前面。",
+    "pinyin": "Gōnggòng qìchē zhàn zài huǒchēzhàn qiánmiàn.",
+    "en": "The bus stop is in front of the train station."
+   }
+  ]
+ },
+ {
+  "id": "seeing-a-doctor",
+  "title": "Seeing a Doctor",
+  "titleZh": "看医生",
+  "level": 2,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "医生，我生病了。",
+    "pinyin": "Yīshēng, wǒ shēngbìng le.",
+    "en": "Doctor, I'm sick."
+   },
+   {
+    "speaker": "B",
+    "zh": "你怎么了？",
+    "pinyin": "Nǐ zěnme le?",
+    "en": "What's the matter?"
+   },
+   {
+    "speaker": "A",
+    "zh": "我很累，也不想吃饭。",
+    "pinyin": "Wǒ hěn lèi, yě bù xiǎng chīfàn.",
+    "en": "I'm very tired, and I don't feel like eating."
+   },
+   {
+    "speaker": "B",
+    "zh": "什么时候开始的？",
+    "pinyin": "Shénme shíhou kāishǐ de?",
+    "en": "When did it start?"
+   },
+   {
+    "speaker": "A",
+    "zh": "昨天开始的。",
+    "pinyin": "Zuótiān kāishǐ de.",
+    "en": "It started yesterday."
+   },
+   {
+    "speaker": "B",
+    "zh": "没关系。吃点儿药，多休息。",
+    "pinyin": "Méi guānxi. Chī diǎnr yào, duō xiūxi.",
+    "en": "Nothing serious. Take some medicine and rest a lot."
+   },
+   {
+    "speaker": "A",
+    "zh": "要多喝水吗？",
+    "pinyin": "Yào duō hē shuǐ ma?",
+    "en": "Should I drink more water?"
+   },
+   {
+    "speaker": "B",
+    "zh": "对，多喝水，多睡觉。",
+    "pinyin": "Duì, duō hē shuǐ, duō shuìjiào.",
+    "en": "Yes — drink more water and sleep more."
+   }
+  ]
+ },
+ {
+  "id": "phone-call",
+  "title": "A Phone Call",
+  "titleZh": "打电话",
+  "level": 1,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "喂，是小王吗？",
+    "pinyin": "Wéi, shì Xiǎo Wáng ma?",
+    "en": "Hello, is that Xiao Wang?"
+   },
+   {
+    "speaker": "B",
+    "zh": "不是，他不在。我是他弟弟。",
+    "pinyin": "Bú shì, tā bù zài. Wǒ shì tā dìdi.",
+    "en": "No, he's not in. I'm his younger brother."
+   },
+   {
+    "speaker": "A",
+    "zh": "他去哪儿了？",
+    "pinyin": "Tā qù nǎr le?",
+    "en": "Where did he go?"
+   },
+   {
+    "speaker": "B",
+    "zh": "他去学校了。你有事吗？",
+    "pinyin": "Tā qù xuéxiào le. Nǐ yǒu shì ma?",
+    "en": "He went to school. Is there something I can pass on?"
+   },
+   {
+    "speaker": "A",
+    "zh": "请告诉他，明天给我打电话。",
+    "pinyin": "Qǐng gàosù tā, míngtiān gěi wǒ dǎ diànhuà.",
+    "en": "Please tell him to give me a call tomorrow."
+   },
+   {
+    "speaker": "B",
+    "zh": "好的。你叫什么名字？",
+    "pinyin": "Hǎo de. Nǐ jiào shénme míngzi?",
+    "en": "Sure. What's your name?"
+   },
+   {
+    "speaker": "A",
+    "zh": "我叫李明。谢谢！",
+    "pinyin": "Wǒ jiào Lǐ Míng. Xièxie!",
+    "en": "I'm Li Ming. Thanks!"
+   },
+   {
+    "speaker": "B",
+    "zh": "不客气，再见！",
+    "pinyin": "Bú kèqi, zàijiàn!",
+    "en": "You're welcome, goodbye!"
+   }
+  ]
+ },
+ {
+  "id": "at-the-market",
+  "title": "At the Market",
+  "titleZh": "买水果",
+  "level": 2,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "苹果多少钱？",
+    "pinyin": "Píngguǒ duōshao qián?",
+    "en": "How much are the apples?"
+   },
+   {
+    "speaker": "B",
+    "zh": "五块钱一个。",
+    "pinyin": "Wǔ kuài qián yí gè.",
+    "en": "Five kuai each."
+   },
+   {
+    "speaker": "A",
+    "zh": "太贵了！便宜一点儿，可以吗？",
+    "pinyin": "Tài guì le! Piányi yìdiǎnr, kěyǐ ma?",
+    "en": "Too expensive! Can you make it a little cheaper?"
+   },
+   {
+    "speaker": "B",
+    "zh": "好吧，四块钱一个。",
+    "pinyin": "Hǎo ba, sì kuài qián yí gè.",
+    "en": "Alright, four kuai each."
+   },
+   {
+    "speaker": "A",
+    "zh": "好，我买三个。有西瓜吗？",
+    "pinyin": "Hǎo, wǒ mǎi sān gè. Yǒu xīguā ma?",
+    "en": "OK, I'll take three. Do you have watermelons?"
+   },
+   {
+    "speaker": "B",
+    "zh": "有，西瓜很大，很好吃。",
+    "pinyin": "Yǒu, xīguā hěn dà, hěn hǎochī.",
+    "en": "Yes — the watermelons are big and tasty."
+   },
+   {
+    "speaker": "A",
+    "zh": "那我买一个西瓜。",
+    "pinyin": "Nà wǒ mǎi yí gè xīguā.",
+    "en": "Then I'll take one watermelon."
+   },
+   {
+    "speaker": "B",
+    "zh": "苹果十二块，西瓜二十块，一共三十二块。",
+    "pinyin": "Píngguǒ shí'èr kuài, xīguā èrshí kuài, yígòng sānshí'èr kuài.",
+    "en": "Apples are 12, the watermelon is 20 — 32 altogether."
+   }
+  ]
+ },
+ {
+  "id": "birthday",
+  "title": "Happy Birthday",
+  "titleZh": "过生日",
+  "level": 2,
+  "lines": [
+   {
+    "speaker": "A",
+    "zh": "小李，生日快乐！",
+    "pinyin": "Xiǎo Lǐ, shēngrì kuàilè!",
+    "en": "Xiao Li, happy birthday!"
+   },
+   {
+    "speaker": "B",
+    "zh": "谢谢你们！你们来了，我很高兴。",
+    "pinyin": "Xièxie nǐmen! Nǐmen lái le, wǒ hěn gāoxìng.",
+    "en": "Thank you! I'm so happy you came."
+   },
+   {
+    "speaker": "A",
+    "zh": "你今天几岁了？",
+    "pinyin": "Nǐ jīntiān jǐ suì le?",
+    "en": "How old are you today?"
+   },
+   {
+    "speaker": "B",
+    "zh": "我二十岁了。",
+    "pinyin": "Wǒ èrshí suì le.",
+    "en": "I'm twenty now."
+   },
+   {
+    "speaker": "A",
+    "zh": "我们一起去吃饭吧。",
+    "pinyin": "Wǒmen yìqǐ qù chīfàn ba.",
+    "en": "Let's go eat together."
+   },
+   {
+    "speaker": "B",
+    "zh": "好！生日要吃面条。",
+    "pinyin": "Hǎo! Shēngrì yào chī miàntiáo.",
+    "en": "Great! You have to eat noodles on your birthday."
+   },
+   {
+    "speaker": "A",
+    "zh": "为什么？",
+    "pinyin": "Wèishénme?",
+    "en": "Why is that?"
+   },
+   {
+    "speaker": "B",
+    "zh": "不知道，但是我喜欢面条！",
+    "pinyin": "Bù zhīdào, dànshì wǒ xǐhuan miàntiáo!",
+    "en": "I don't know — but I love noodles!"
+   }
+  ]
  }
 ]

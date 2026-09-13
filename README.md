@@ -9,7 +9,8 @@ Shunmo is a mobile-first **Progressive Web App** for learning and practicing Chi
 - **Stroke-order studio** — animated stroke order for all 346 HSK-1/2 characters (real vector stroke data, not fonts), stroke-by-stroke step mode, and a graded **quiz mode** where you draw each stroke with finger/stylus/mouse.
 - **Advanced practice** — hide the character outline and the 田字格 grid for true recall. A character only counts as *mastered* when the quiz is completed with both outline and grid hidden.
 - **Dialogue drills** — every dialogue offers a guided series of up to 12 of its characters, quiz-only with outline + grid forced off; finishing the series marks them mastered.
-- **Read-aloud dialogues** — 8 beginner dialogues (greetings, introductions, shopping, restaurant, time, directions, family, hobbies) with per-line text-to-speech, play-all mode, speed control, and tap-a-word gloss popovers.
+- **Read-aloud dialogues** — 16 beginner dialogues (greetings, introductions, shopping, restaurant, time, directions, family, hobbies, weather, plans, café, transport, doctor, phone call, market, birthday) with per-line text-to-speech, play-all mode, speed control, and tap-a-word gloss popovers.
+- **Flashcard review** — a spaced-repetition deck (SM-2-lite) covering all 300 HSK-1/2 words: flip cards with pinyin/gloss/dialogue context, Again/Hard/Good/Easy grading with interval previews, "study ahead" for new words, and a due-cards pill on the home dashboard.
 - **Global pinyin toggle** — one tap in the top bar shows/hides pinyin everywhere.
 - **Word origins & cultural facts** — 81 curated etymology/culture cards woven through the practice page, word details, and the home dashboard.
 - **Vocabulary browser** — all 300 HSK-1/2 words with search, level/status filters, and per-character breakdowns.
@@ -77,12 +78,14 @@ To install as an app: Android — use the browser's "Install app" prompt; iOS �
     │   ├── DialogueDetail.tsx  #   /dialogues/:id  read-aloud player
     │   ├── Words.tsx           #   /words       300-word browser (search/filter/sort)
     │   ├── WordDetail.tsx      #   /words/:char word breakdown + stroke mini-player + facts
+    │   ├── Review.tsx          #   /review      flashcard deck: SRS session flow, 3D flip
+    │   │                       #                cards, grading, completion stats
     │   └── Settings.tsx        #   /settings    pinyin, voice, theme, install, reset
     │
     ├── components/
     │   ├── Layout.tsx          # App shell: content column + credit footer strip
     │   ├── Navbar.tsx          # Top app bar: title, theme toggle, pinyin 拼 chip, streak
-    │   ├── Footer.tsx          # Bottom tab bar (Home/Practice/Dialogues/Words)
+    │   ├── Footer.tsx          # Bottom tab bar (Home/Practice/Review/Dialogues/Words)
     │   ├── SealLogo.tsx        # The 墨 vermilion seal logo (inline SVG)
     │   ├── TianGrid.tsx        # Reusable 田字格 practice-grid SVG
     │   ├── StrokeCanvas.tsx    # Shared Hanzi Writer wrapper (animate/quiz/reveal modes)
@@ -98,6 +101,8 @@ To install as an app: Android — use the browser's "Install app" prompt; iOS �
     │   ├── dialogues/          # Player engine (useDialoguePlayer), bubbles, segmentation,
     │   │                       #   completion card, stats
     │   ├── drills/             # Dialogue-drill logic: char selection + completion card
+    │   ├── review/             # Flashcard SRS (srs.ts): SM-2-lite scheduler, due/study-ahead
+    │   │                       #   pools, deck stats — localStorage key `hanziflow:review`
     │   ├── words/              # Word row, swipe actions, search/status helpers
     │   ├── settings/           # Settings store (theme, voice, rate), control primitives
     │   └── ui/                 # shadcn/ui component library (buttons, cards, sheets…)
@@ -112,7 +117,7 @@ To install as an app: Android — use the browser's "Install app" prompt; iOS �
         ├── hsk1.json           # 150 HSK-1 words: hanzi, pinyin (tone marks), gloss
         ├── hsk2.json           # 150 HSK-2 words
         ├── characters.json     # 346 unique characters: pinyin, gloss, radical, strokeCount
-        ├── dialogues.json      # 8 dialogues × per-line zh/pinyin/en
+        ├── dialogues.json      # 16 dialogues × per-line zh/pinyin/en
         ├── facts.json          # 81 etymology & culture entries
         └── index.ts            # TypeScript interfaces + typed lookup helpers
 ```
