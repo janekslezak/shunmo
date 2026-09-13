@@ -19,7 +19,7 @@ export default function Layout() {
   const { pathname } = useLocation();
 
   return (
-    <div className="paper-texture min-h-[100dvh] bg-paper">
+    <div className="paper-texture min-h-[100dvh] overflow-x-clip bg-paper">
       {/* desktop side panels (decorative, ≥1024px) */}
       <div
         aria-hidden="true"
