@@ -151,6 +151,29 @@ export function deckStats(poolSize: number, now = Date.now()): DeckStats {
   };
 }
 
+/** Ids due at `now`, restricted to the given pool, soonest first. */
+export function dueWordsIn(ids: string[], now = Date.now()): string[] {
+  const deck = readDeck();
+  return ids
+    .filter((id) => deck[id] && deck[id].due <= now)
+    .sort((a, b) => deck[a].due - deck[b].due);
+}
+
+/** Stats restricted to a given id pool (level-filtered views). */
+export function deckStatsFor(ids: string[], now = Date.now()): DeckStats {
+  const deck = readDeck();
+  const states = ids.map((id) => deck[id]).filter((s): s is CardState => s !== undefined);
+  const dues = states.map((s) => s.due).filter((d) => d > now);
+  return {
+    learned: states.length,
+    fresh: Math.max(0, ids.length - states.length),
+    due: states.filter((s) => s.due <= now).length,
+    nextDue: dues.length > 0 ? Math.min(...dues) : null,
+    totalReps: states.reduce((n, s) => n + s.reps, 0),
+    totalLapses: states.reduce((n, s) => n + s.lapses, 0),
+  };
+}
+
 /**
  * "Study ahead" pool: fresh words (no SRS state) ordered HSK-1 → HSK-2,
  * prioritizing words whose characters the user has practiced/mastered.

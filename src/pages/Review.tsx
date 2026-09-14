@@ -4,14 +4,16 @@ import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { Brush, Check, ChevronRight, Home as HomeIcon, Layers, Sparkles, Volume2 } from "lucide-react";
 import { words, dialogues } from "@/data";
 import type { Word } from "@/data";
+import { Chip } from "@/components/Chip";
+import type { LevelFilter } from "@/components/Chip";
 import TianGrid from "@/components/TianGrid";
 import RadicalConfetti from "@/components/practice/RadicalConfetti";
 import { useProgress } from "@/hooks/useProgress";
 import { useSpeech } from "@/hooks/useSpeech";
 import { useAppSettings } from "@/components/settings/settings";
 import {
-  deckStats,
-  dueWords,
+  deckStatsFor,
+  dueWordsIn,
   gradeWord,
   getCardState,
   intervalLabel,
@@ -77,31 +79,34 @@ export default function Review() {
 
   // bump to re-read localStorage-backed deck after each grade
   const [version, setVersion] = useState(0);
+  const [level, setLevel] = useState<LevelFilter>("all");
   const [session, setSession] = useState<string[] | null>(null);
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [counts, setCounts] = useState<Record<Grade, number>>({ again: 0, hard: 0, good: 0, easy: 0 });
 
-  const stats = useMemo(() => deckStats(words.length), [version]);
-  const due = useMemo(() => dueWords(), [version]);
+  const poolWords = useMemo(() => words.filter((w) => level === "all" || w.level === level), [level]);
+  const poolIds = useMemo(() => poolWords.map((w) => w.word), [poolWords]);
+  const stats = useMemo(() => deckStatsFor(poolIds), [version, poolIds]);
+  const due = useMemo(() => dueWordsIn(poolIds), [version, poolIds]);
 
   const startDueSession = useCallback(() => {
-    const ids = dueWords().slice(0, SESSION_SIZE);
+    const ids = dueWordsIn(poolIds).slice(0, SESSION_SIZE);
     if (ids.length === 0) return;
     setSession(ids);
     setIndex(0);
     setFlipped(false);
     setCounts({ again: 0, hard: 0, good: 0, easy: 0 });
-  }, []);
+  }, [poolIds]);
 
   const startAheadSession = useCallback(() => {
-    const ids = studyAheadPool(words, mastered).slice(0, SESSION_SIZE);
+    const ids = studyAheadPool(poolWords, mastered).slice(0, SESSION_SIZE);
     if (ids.length === 0) return;
     setSession(ids);
     setIndex(0);
     setFlipped(false);
     setCounts({ again: 0, hard: 0, good: 0, easy: 0 });
-  }, [mastered]);
+  }, [poolWords, mastered]);
 
   const current: Word | null =
     session && index < session.length ? (wordById.get(session[index]) ?? null) : null;
@@ -119,7 +124,7 @@ export default function Review() {
   /* ------------------------------ completion ----------------------------- */
   if (session && index >= session.length) {
     const gradedTotal = counts.again + counts.hard + counts.good + counts.easy;
-    const s = deckStats(words.length);
+    const s = deckStatsFor(poolIds);
     const freshCount = s.fresh;
     return (
       <div className="pt-8">
@@ -205,6 +210,11 @@ export default function Review() {
             <h2 className="mt-4 font-display text-[24px] font-semibold text-ink">
               Flashcard review
             </h2>
+            <div className="mt-3 flex items-center justify-center gap-2">
+              <Chip label="Both levels" selected={level === "all"} onClick={() => setLevel("all")} />
+              <Chip label="HSK-1" tone="jade" selected={level === 1} onClick={() => setLevel(1)} />
+              <Chip label="HSK-2" tone="gold" selected={level === 2} onClick={() => setLevel(2)} />
+            </div>
 
             {!nothingDue ? (
               <>
@@ -225,7 +235,8 @@ export default function Review() {
               <>
                 <p className="mt-2 font-brush text-[22px] text-jade">全部学完了！</p>
                 <p className="mt-1 text-[15px] text-ink-soft">
-                  All {words.length} words are in your deck and nothing is due right now.
+                  All {poolIds.length} words{level === "all" ? "" : ` in HSK-${level}`} are in
+                  your deck and nothing is due right now.
                   {stats.nextDue !== null
                     ? ` Next card ${formatNextDue(stats.nextDue, Date.now())}.`
                     : ""}
