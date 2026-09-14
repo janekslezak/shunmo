@@ -38,7 +38,7 @@ export default function DialogueLine({ line, active = false, rate = 0.85, onPlay
       />
       <div className="min-w-0 flex-1">
         <motion.div
-          animate={{ maxHeight: showPinyin ? 24 : 0, opacity: showPinyin ? 1 : 0 }}
+          animate={{ maxHeight: showPinyin ? 72 : 0, opacity: showPinyin ? 1 : 0 }}
           transition={{ duration: 0.25 }}
           className="overflow-hidden"
         >

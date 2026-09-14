@@ -166,11 +166,11 @@ export default function PlayerLine({
           } ${isB ? "rounded-tr-md" : "rounded-tl-md"}`}
         >
           <motion.div
-            animate={{ maxHeight: showPinyin ? 24 : 0, opacity: showPinyin ? 1 : 0 }}
+            animate={{ maxHeight: showPinyin ? 72 : 0, opacity: showPinyin ? 1 : 0 }}
             transition={{ duration: 0.25 }}
             className="overflow-hidden"
           >
-            <span className="block text-[14px] font-semibold italic leading-6 text-wash-blue">
+            <span className={`block text-[14px] font-semibold italic leading-6 text-wash-blue ${isB ? "text-right" : ""}`}>
               {line.pinyin}
             </span>
           </motion.div>
