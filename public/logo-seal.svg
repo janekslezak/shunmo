@@ -12,9 +12,9 @@
     <rect x="56" y="56" width="400" height="400" rx="84" fill="none" stroke="#FDFBF5" stroke-opacity="0.55" stroke-width="10"/>
     <text x="256" y="178" text-anchor="middle" dominant-baseline="central"
           font-family="'Ma Shan Zheng','Noto Serif CJK SC','Songti SC',serif"
-          font-size="168" fill="#FDFBF5" transform="rotate(-2 256 256)">顺</text>
+          font-size="168" fill="#FDFBF5">顺</text>
     <text x="256" y="342" text-anchor="middle" dominant-baseline="central"
           font-family="'Ma Shan Zheng','Noto Serif CJK SC','Songti SC',serif"
-          font-size="168" fill="#FDFBF5" transform="rotate(-2 256 256)">墨</text>
+          font-size="168" fill="#FDFBF5">墨</text>
   </g>
 </svg>

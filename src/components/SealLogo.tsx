@@ -3,12 +3,12 @@ interface SealLogoProps {
   className?: string;
 }
 
-/** Vermilion rounded-square seal stamp with white carved 顺墨 (Shunmo) glyphs, stacked vertically, slight -3° rotation. */
+/** Vermilion rounded-square seal stamp with white carved 顺墨 (Shunmo) glyphs, stacked vertically. */
 export default function SealLogo({ size = 34, className = "" }: SealLogoProps) {
   return (
     <div
       className={`relative flex items-center justify-center rounded-[22%] bg-vermilion shadow-soft ${className}`}
-      style={{ width: size, height: size, transform: "rotate(-3deg)" }}
+      style={{ width: size, height: size }}
       aria-label="Shunmo 顺墨 seal logo"
       role="img"
     >
